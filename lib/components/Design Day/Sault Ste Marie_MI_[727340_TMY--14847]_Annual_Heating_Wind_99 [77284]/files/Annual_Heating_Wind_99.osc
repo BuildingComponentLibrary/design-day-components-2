@@ -1,0 +1,36 @@
+
+OS:Version,
+  {35acfb1b-900b-4afb-be39-7aa85c637731}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {815aa1f4-adab-4b2c-993c-b3e3ca58fbd9}, ! Handle
+  Sault Ste Marie Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -6.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98698,                                  ! Barometric Pressure {Pa}
+  10.2,                                   ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e57e2336-bb20-43a6-a0fd-252a051c53c8}, ! Handle
+  Component Data 1,                       ! Name
+  {6de0f723-f0bb-47b5-b031-9e74cb570e36}, ! UUID
+  {c2ef0536-1bd4-470c-aec5-5a20f19cd54e}, ! Version UUID
+  1366308100,                             ! Creation Timestamp
+  1366308100,                             ! Version Timestamp
+  {815aa1f4-adab-4b2c-993c-b3e3ca58fbd9}; ! Name of Object 1
+

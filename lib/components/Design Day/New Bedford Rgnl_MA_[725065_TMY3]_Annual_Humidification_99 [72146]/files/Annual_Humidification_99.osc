@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bfa4d2d5-d164-465a-90c8-1c5dcfbfabf7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f990aad9-e9d6-49cb-b795-b7b804355fa9}, ! Handle
+  New Bedford Rgnl Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -8.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101025,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {500a1ad5-600a-426f-be64-1277e5ae7483}, ! Handle
+  Component Data 1,                       ! Name
+  {9de80aa8-d7e0-4e16-8eeb-fd989db3936c}, ! UUID
+  {a7a2fcf7-70e5-454c-82a9-00efbb8c3184}, ! Version UUID
+  1366307805,                             ! Creation Timestamp
+  1366307805,                             ! Version Timestamp
+  {f990aad9-e9d6-49cb-b795-b7b804355fa9}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {22f83275-7a16-4720-b2a5-821af085c6c5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ac720348-fb8e-4462-8bec-c7d733b35442}, ! Handle
+  Snohomish Co Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  2.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99075,                                  ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  110,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6544baa5-1c70-46dd-a001-791789c307d8}, ! Handle
+  Component Data 1,                       ! Name
+  {7f94cb4a-7498-4397-bc41-8e5a0ca49ac6}, ! UUID
+  {1d7839d6-b8b3-46f1-b82a-c8bd0579a6ad}, ! Version UUID
+  1366311370,                             ! Creation Timestamp
+  1366311370,                             ! Version Timestamp
+  {ac720348-fb8e-4462-8bec-c7d733b35442}; ! Name of Object 1
+

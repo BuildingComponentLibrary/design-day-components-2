@@ -1,0 +1,36 @@
+
+OS:Version,
+  {75fa9283-3800-4546-a414-dc6eac77d0ae}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d38fa6ce-c74e-484c-8968-a246bf379a20}, ! Handle
+  Wiscasset Ann Htg 99% Condns DB,        ! Name
+  -17.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {516adeaa-c811-417d-b5f1-c1045b3ad309}, ! Handle
+  Component Data 1,                       ! Name
+  {19135b23-773c-438c-aeb9-279f0e5845a9}, ! UUID
+  {1202511f-2463-4009-a190-2ee934e2de3d}, ! Version UUID
+  1366307933,                             ! Creation Timestamp
+  1366307933,                             ! Version Timestamp
+  {d38fa6ce-c74e-484c-8968-a246bf379a20}; ! Name of Object 1
+

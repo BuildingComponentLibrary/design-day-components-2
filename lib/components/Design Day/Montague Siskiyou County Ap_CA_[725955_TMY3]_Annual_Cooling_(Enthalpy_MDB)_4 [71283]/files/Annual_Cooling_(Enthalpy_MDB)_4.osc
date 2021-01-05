@@ -1,0 +1,40 @@
+
+OS:Version,
+  {15cf18c0-0e5a-4ad9-b45e-9c54292a7492}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f41878f5-adcc-41c9-9ff0-82439b2bcf88}, ! Handle
+  Montague Siskiyou County Ap Ann Clg .4% Condns Enth=>MDB, ! Name
+  33.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  19.4,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  56500,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92043,                                  ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  190,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.349,                                  ! ASHRAE Taub {dimensionless}
+  2.55;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {e75c725e-e745-4486-ba86-5d5c3a28c250}, ! Handle
+  Component Data 1,                       ! Name
+  {9d7fdab7-2774-4211-b0c4-eff1be46e7e5}, ! UUID
+  {0f71d1a6-0d7e-4a97-97cd-6a9954c9f7e7}, ! Version UUID
+  1366306496,                             ! Creation Timestamp
+  1366306496,                             ! Version Timestamp
+  {f41878f5-adcc-41c9-9ff0-82439b2bcf88}; ! Name of Object 1
+

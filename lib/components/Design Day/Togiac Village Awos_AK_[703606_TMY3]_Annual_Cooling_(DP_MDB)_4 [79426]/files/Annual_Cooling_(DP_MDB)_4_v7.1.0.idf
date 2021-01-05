@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Togiac Village Awos_AK_USA Annual Cooling (DP=>MDB) .4%, MDB=16.2°C DP=13.2°C HR=0.0094
+ SizingPeriod:DesignDay,
+  Togiac Village Awos Ann Clg .4% Condns DP=>MDB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       16.2,      !- Maximum Dry-Bulb Temperature {C}
+        6.1,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Dewpoint,     !- Humidity Condition Type
+       13.2,      !- Dewpoint at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+    101253.,      !- Barometric Pressure {Pa}
+        5.4,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        320,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.388,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.239;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

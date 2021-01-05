@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b523b939-ab65-4c66-b74b-8566034aa02a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {357689f8-61aa-4552-a0a0-078cef11b09a}, ! Handle
+  Wichita Mid Continent Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  2.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96588,                                  ! Barometric Pressure {Pa}
+  12.3,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7c653813-8090-4e13-8e4a-d6fffb0cde83}, ! Handle
+  Component Data 1,                       ! Name
+  {f62687d6-9d04-45fe-b337-b7d40b73787d}, ! UUID
+  {722435a1-6bef-41cd-ad55-393edc8ce23f}, ! Version UUID
+  1366307602,                             ! Creation Timestamp
+  1366307602,                             ! Version Timestamp
+  {357689f8-61aa-4552-a0a0-078cef11b09a}; ! Name of Object 1
+

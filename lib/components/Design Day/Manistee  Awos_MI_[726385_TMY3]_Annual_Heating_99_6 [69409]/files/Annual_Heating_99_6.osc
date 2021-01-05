@@ -1,0 +1,36 @@
+
+OS:Version,
+  {50555f00-0c73-4cc7-8730-76f84e7bd0c8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {01be1c7f-c365-40d0-a0c6-3ac1b1ba7f27}, ! Handle
+  Manistee  Awos Ann Htg 99.6% Condns DB, ! Name
+  -16.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99075,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c34e6052-cceb-4d5f-a23b-4a936b487bbd}, ! Handle
+  Component Data 1,                       ! Name
+  {8726cae7-3423-414f-9219-ada2224c1414}, ! UUID
+  {edda1a5f-cf6a-4467-a5c1-46cd3c407ca0}, ! Version UUID
+  1366308059,                             ! Creation Timestamp
+  1366308059,                             ! Version Timestamp
+  {01be1c7f-c365-40d0-a0c6-3ac1b1ba7f27}; ! Name of Object 1
+

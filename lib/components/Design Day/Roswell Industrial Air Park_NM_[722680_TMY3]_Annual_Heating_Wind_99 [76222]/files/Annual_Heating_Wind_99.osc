@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b7469c54-c433-45a6-894f-73325418c837}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {872f3a73-8782-43fe-80fb-dd9fa4a9702d}, ! Handle
+  Roswell Industrial Air Park Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  14.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  14.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88660,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6eba9afd-0cd2-421a-b7c4-04e6120daf53}, ! Handle
+  Component Data 1,                       ! Name
+  {02033396-b955-4933-8e75-4b5372abd33f}, ! UUID
+  {48a01e38-4661-4960-95f4-88c667949495}, ! Version UUID
+  1366309427,                             ! Creation Timestamp
+  1366309427,                             ! Version Timestamp
+  {872f3a73-8782-43fe-80fb-dd9fa4a9702d}; ! Name of Object 1
+

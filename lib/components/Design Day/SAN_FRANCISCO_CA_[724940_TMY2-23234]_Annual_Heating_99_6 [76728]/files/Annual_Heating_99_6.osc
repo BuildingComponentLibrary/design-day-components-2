@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7bdae481-36b1-425b-9b77-3163c071451c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {02563afa-838f-47e8-ac6b-3e723e6a09d5}, ! Handle
+  SAN_FRANCISCO Ann Htg 99.6% Condns DB,  ! Name
+  3.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {06051d10-1ef8-4043-9e53-15a6df07c7a7}, ! Handle
+  Component Data 1,                       ! Name
+  {0608ff11-ca10-4f79-b5c3-3305e183ad0b}, ! UUID
+  {03c3bb91-77ba-4c4e-a79e-a74f3cc9b491}, ! Version UUID
+  1366306589,                             ! Creation Timestamp
+  1366306589,                             ! Version Timestamp
+  {02563afa-838f-47e8-ac6b-3e723e6a09d5}; ! Name of Object 1
+

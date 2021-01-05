@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8518b3b1-82c6-4c9e-a669-347c7b2b082c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1603d459-2435-4d98-a8cb-e655aa596493}, ! Handle
+  Mountain View/Moffet N Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  10.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101181,                                 ! Barometric Pressure {Pa}
+  0.5,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2cdb6dbe-f1fb-4764-848b-bf2b04ad08f4}, ! Handle
+  Component Data 1,                       ! Name
+  {980a6589-6106-4511-967e-6523e0155741}, ! UUID
+  {7ffe6991-7033-44cb-949c-bf0087888847}, ! Version UUID
+  1366306505,                             ! Creation Timestamp
+  1366306505,                             ! Version Timestamp
+  {1603d459-2435-4d98-a8cb-e655aa596493}; ! Name of Object 1
+

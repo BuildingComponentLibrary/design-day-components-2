@@ -1,0 +1,36 @@
+
+OS:Version,
+  {60079594-4736-4fd7-bd06-55c9192c59a5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fc83bdaf-6deb-4009-87b9-d37ce2faa643}, ! Handle
+  San Angelo Mathis Field Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  0.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94503,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {01d0183c-7d41-464a-bf9e-beca5a5e1257}, ! Handle
+  Component Data 1,                       ! Name
+  {0415c411-24c9-4d24-b661-43cc767f650d}, ! UUID
+  {aa92274f-5554-4ae0-b303-6e9030c2c3a0}, ! Version UUID
+  1366310872,                             ! Creation Timestamp
+  1366310872,                             ! Version Timestamp
+  {fc83bdaf-6deb-4009-87b9-d37ce2faa643}; ! Name of Object 1
+

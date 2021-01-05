@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7cea822a-e8e1-4a95-9a52-2f90ebc249b7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {38987dec-b4cf-42a7-8817-2fd28a800c92}, ! Handle
+  San Diego Montgomer Ann Htg 99.6% Condns DB, ! Name
+  4.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99785,                                  ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5ea09785-a16f-4472-8575-6620a4bda61b}, ! Handle
+  Component Data 1,                       ! Name
+  {bd6d5746-db83-49c8-8953-17de0f435918}, ! UUID
+  {04361896-7461-4ed6-8cca-ca5aff613154}, ! Version UUID
+  1366306579,                             ! Creation Timestamp
+  1366306579,                             ! Version Timestamp
+  {38987dec-b4cf-42a7-8817-2fd28a800c92}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {52fa7834-d3a3-411c-b830-0a54b3923207}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {285e1d67-3e37-4803-8963-3f6a50808be5}, ! Handle
+  Pitt Greenville Arp Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  0.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101229,                                 ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5cff95d9-b301-4f53-aec1-72f262750736}, ! Handle
+  Component Data 1,                       ! Name
+  {f653fa62-5c45-47a0-94b0-6701f7129f24}, ! UUID
+  {6154b5a4-7d39-4862-b386-d8266ac33503}, ! Version UUID
+  1366308960,                             ! Creation Timestamp
+  1366308960,                             ! Version Timestamp
+  {285e1d67-3e37-4803-8963-3f6a50808be5}; ! Name of Object 1
+

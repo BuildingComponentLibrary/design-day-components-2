@@ -1,0 +1,36 @@
+
+OS:Version,
+  {79450573-8eb9-4ec4-9b0c-fc0477080a86}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {bd184b02-d5ed-463d-84fd-81108d7ccef3}, ! Handle
+  NORFOLK Ann Htg 99% Condns DB,          ! Name
+  -19.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95793,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f97e204e-1531-469d-a99e-de2ccc71262d}, ! Handle
+  Component Data 1,                       ! Name
+  {846af81c-c3b1-43cd-aca6-73fc094cb2e8}, ! UUID
+  {797103ff-fb1f-4e03-926d-1d7c5e063dc5}, ! Version UUID
+  1366309152,                             ! Creation Timestamp
+  1366309152,                             ! Version Timestamp
+  {bd184b02-d5ed-463d-84fd-81108d7ccef3}; ! Name of Object 1
+

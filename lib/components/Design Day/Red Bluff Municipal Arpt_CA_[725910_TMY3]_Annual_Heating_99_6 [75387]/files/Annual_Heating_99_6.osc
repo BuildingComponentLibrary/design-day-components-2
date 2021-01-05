@@ -1,0 +1,36 @@
+
+OS:Version,
+  {90efc1f3-da74-4d53-afca-1bde2e65fac9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dc24520c-34d8-4a7c-b311-3a25f7e8fa49}, ! Handle
+  Red Bluff Municipal Arpt Ann Htg 99.6% Condns DB, ! Name
+  -1.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100058,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ce0841c5-249e-4d19-8e75-2b2f01b4fcd1}, ! Handle
+  Component Data 1,                       ! Name
+  {5598be90-8c55-499c-9eab-71079dded250}, ! UUID
+  {2206618d-5888-4e6f-bd90-f3b0d5e51ccc}, ! Version UUID
+  1366306545,                             ! Creation Timestamp
+  1366306545,                             ! Version Timestamp
+  {dc24520c-34d8-4a7c-b311-3a25f7e8fa49}; ! Name of Object 1
+

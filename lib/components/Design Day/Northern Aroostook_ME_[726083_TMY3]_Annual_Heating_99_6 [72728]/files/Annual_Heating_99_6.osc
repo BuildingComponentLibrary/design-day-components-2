@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e455f850-ea18-4578-83af-4a8cfed3948c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {aa7f2cc8-55ef-4745-af06-e7a0e56754df}, ! Handle
+  Northern Aroostook Ann Htg 99.6% Condns DB, ! Name
+  -25.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97668,                                  ! Barometric Pressure {Pa}
+  5.1,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ffc72f56-11e6-4a36-9672-189c5b6a635c}, ! Handle
+  Component Data 1,                       ! Name
+  {f7f0ff28-7be5-472d-b583-b72d7217bff2}, ! UUID
+  {4cd2e9c9-038b-48e6-b50e-9448c7620995}, ! Version UUID
+  1366307897,                             ! Creation Timestamp
+  1366307897,                             ! Version Timestamp
+  {aa7f2cc8-55ef-4745-af06-e7a0e56754df}; ! Name of Object 1
+

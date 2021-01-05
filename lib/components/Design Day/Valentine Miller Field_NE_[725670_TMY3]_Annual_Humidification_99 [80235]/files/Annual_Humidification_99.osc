@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d2d84d1f-6072-4a94-afc0-8f207bb16fd6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {398d04fc-bde9-4df7-8767-a78c42219902}, ! Handle
+  Valentine Miller Field Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -20.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92199,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2bfa5d70-26a6-4766-a093-6fbc0fe091e8}, ! Handle
+  Component Data 1,                       ! Name
+  {9541009d-1cf3-430a-ab7b-c9620e65ba93}, ! UUID
+  {d7f9cdd8-90ca-4d92-8ccd-323f3001699b}, ! Version UUID
+  1366309210,                             ! Creation Timestamp
+  1366309210,                             ! Version Timestamp
+  {398d04fc-bde9-4df7-8767-a78c42219902}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d49b5892-d64a-4278-b30e-c87c9628fb31}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a164690f-f880-4bac-aaf5-92cbda1666a5}, ! Handle
+  YAKUTAT Ann Htg 99% Condns DB,          ! Name
+  -14.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101217,                                 ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {71f66231-308a-4cc2-97cb-fa402be38f78}, ! Handle
+  Component Data 1,                       ! Name
+  {09f08993-613a-4010-8d22-70efdfd626e7}, ! UUID
+  {93b528ab-59b8-4dfe-9b53-c9c89504cfd7}, ! Version UUID
+  1366305620,                             ! Creation Timestamp
+  1366305620,                             ! Version Timestamp
+  {a164690f-f880-4bac-aaf5-92cbda1666a5}; ! Name of Object 1
+

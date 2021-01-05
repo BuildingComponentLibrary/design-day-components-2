@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1d7de49b-4a98-4bf6-bb72-b1941a01939b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ad8f0470-e6d4-4abd-8bf2-1da993232de1}, ! Handle
+  Wise Lonesome Pine Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91888,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {295bc25b-ec30-4c96-949d-c921e548bed2}, ! Handle
+  Component Data 1,                       ! Name
+  {75cb9912-f22f-4372-b02a-6230cd349889}, ! UUID
+  {8562e0fb-6313-41a7-8cab-1657f692e538}, ! Version UUID
+  1366311229,                             ! Creation Timestamp
+  1366311229,                             ! Version Timestamp
+  {ad8f0470-e6d4-4abd-8bf2-1da993232de1}; ! Name of Object 1
+

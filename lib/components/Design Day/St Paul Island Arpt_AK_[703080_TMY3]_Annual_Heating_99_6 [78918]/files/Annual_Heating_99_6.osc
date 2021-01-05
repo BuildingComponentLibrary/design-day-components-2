@@ -1,0 +1,36 @@
+
+OS:Version,
+  {55849499-0702-4b68-a063-9fc7ed7b782e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {647d7908-260e-42c4-86b5-a27794655b8f}, ! Handle
+  St Paul Island Arpt Ann Htg 99.6% Condns DB, ! Name
+  -16.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  8.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7527fc55-e828-445d-9f49-bfda11c38b0a}, ! Handle
+  Component Data 1,                       ! Name
+  {a8a290a5-a0b7-46ef-8045-0f4ec7565c1e}, ! UUID
+  {2e3adfa4-0016-4366-960e-64e3addabc9c}, ! Version UUID
+  1366305575,                             ! Creation Timestamp
+  1366305575,                             ! Version Timestamp
+  {647d7908-260e-42c4-86b5-a27794655b8f}; ! Name of Object 1
+

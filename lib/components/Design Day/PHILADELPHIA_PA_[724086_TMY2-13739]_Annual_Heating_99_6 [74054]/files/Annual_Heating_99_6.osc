@@ -1,0 +1,36 @@
+
+OS:Version,
+  {257c6601-81c5-4ec7-9816-8cb626687665}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0d427d1e-52f4-4c1e-b366-7e2715e1a749}, ! Handle
+  PHILADELPHIA Ann Htg 99.6% Condns DB,   ! Name
+  -12.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101217,                                 ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cb88f15b-6e1f-4254-9815-3d4a5781a2ae}, ! Handle
+  Component Data 1,                       ! Name
+  {a4dcaf06-03e0-472d-8069-a9a14f89754a}, ! UUID
+  {91d6aee8-058f-4283-9740-5e4e7f462ad1}, ! Version UUID
+  1366310212,                             ! Creation Timestamp
+  1366310212,                             ! Version Timestamp
+  {0d427d1e-52f4-4c1e-b366-7e2715e1a749}; ! Name of Object 1
+

@@ -1,0 +1,40 @@
+
+OS:Version,
+  {d7d71723-4a6f-4647-af36-9d617ec7e092}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e6ef845d-c9f2-466f-89db-c1dd200c6655}, ! Handle
+  Walla Walla City County Ap Ann Clg 1% Condns WB=>MDB, ! Name
+  32.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  15.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  19.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97132,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.389,                                  ! ASHRAE Taub {dimensionless}
+  2.256;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {03135ae1-6255-48c2-9bd4-3d2cefdd83bf}, ! Handle
+  Component Data 1,                       ! Name
+  {26ba96e6-1b7d-4e06-9552-138a8f59317c}, ! UUID
+  {87693733-1a4d-473e-b236-c05f42a9b1e3}, ! Version UUID
+  1366311421,                             ! Creation Timestamp
+  1366311421,                             ! Version Timestamp
+  {e6ef845d-c9f2-466f-89db-c1dd200c6655}; ! Name of Object 1
+

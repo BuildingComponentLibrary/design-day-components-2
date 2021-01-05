@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8345d6b9-7bc8-4df5-b792-97716ccd82c6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {612d2206-53ca-4570-b463-5b7fff5743c1}, ! Handle
+  Walla Walla City County Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97132,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3c54109e-e395-4f73-9514-b1fc5d401f77}, ! Handle
+  Component Data 1,                       ! Name
+  {3a495a68-03e5-475c-a234-f7c04d081673}, ! UUID
+  {379ecebe-fff2-4998-8f5e-48acf444fd49}, ! Version UUID
+  1366311420,                             ! Creation Timestamp
+  1366311420,                             ! Version Timestamp
+  {612d2206-53ca-4570-b463-5b7fff5743c1}; ! Name of Object 1
+

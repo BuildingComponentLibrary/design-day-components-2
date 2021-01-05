@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7b70399a-f36e-4a95-a1f9-cd1408bbd4cb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d25eaaca-7d98-4a9b-b299-216ca28541d2}, ! Handle
+  Rutland State Ann Htg 99% Condns DB,    ! Name
+  -18.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98404,                                  ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9aff7f2f-3ce8-440c-ad39-b79cee0151f1}, ! Handle
+  Component Data 1,                       ! Name
+  {e158c918-82e7-48d5-ac3f-cf9bcad6da31}, ! UUID
+  {374ee9f7-42da-40d6-ae66-41d3a7ff9228}, ! Version UUID
+  1366311255,                             ! Creation Timestamp
+  1366311255,                             ! Version Timestamp
+  {d25eaaca-7d98-4a9b-b299-216ca28541d2}; ! Name of Object 1
+

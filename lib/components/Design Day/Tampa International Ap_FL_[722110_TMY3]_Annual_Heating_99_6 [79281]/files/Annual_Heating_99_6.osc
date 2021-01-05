@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c189b978-8e0e-42a5-bccc-c541a3f5637c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a3ef96cc-7a91-452f-b5b2-d07f88b8ef01}, ! Handle
+  Tampa International Ap Ann Htg 99.6% Condns DB, ! Name
+  3.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {aa503124-3cf8-49f8-987a-39f841ae3e73}, ! Handle
+  Component Data 1,                       ! Name
+  {0b2cd383-b502-4ebc-bb40-f0ef34711da3}, ! UUID
+  {def7d9e8-4446-4f18-9d7c-5473c2d028ec}, ! Version UUID
+  1366306935,                             ! Creation Timestamp
+  1366306935,                             ! Version Timestamp
+  {a3ef96cc-7a91-452f-b5b2-d07f88b8ef01}; ! Name of Object 1
+

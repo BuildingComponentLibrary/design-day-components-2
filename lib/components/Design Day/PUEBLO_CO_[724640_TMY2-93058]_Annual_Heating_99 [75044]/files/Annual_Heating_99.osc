@@ -1,0 +1,36 @@
+
+OS:Version,
+  {71b51b17-e60e-4fc2-b954-a3dad097e71f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b6ee3156-0fdd-4acb-a86d-3341607e98e3}, ! Handle
+  PUEBLO Ann Htg 99% Condns DB,           ! Name
+  -14.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85191,                                  ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0751cc26-438d-4bc7-b0ba-8e86f1e6a9c1}, ! Handle
+  Component Data 1,                       ! Name
+  {99f360a4-1bf3-4f1b-a303-39e357526f02}, ! UUID
+  {92e9e7dd-1906-4c3d-8f3a-41999b19c679}, ! Version UUID
+  1366306726,                             ! Creation Timestamp
+  1366306726,                             ! Version Timestamp
+  {b6ee3156-0fdd-4acb-a86d-3341607e98e3}; ! Name of Object 1
+

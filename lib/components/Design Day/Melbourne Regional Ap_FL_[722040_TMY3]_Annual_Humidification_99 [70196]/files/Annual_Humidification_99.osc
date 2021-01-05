@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2b17187e-2d08-4e82-8912-68dfddebae2a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f45f85f3-4151-4298-b6fd-3ae19d1a1067}, ! Handle
+  Melbourne Regional Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  9.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101193,                                 ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1a16f189-4e8a-465a-a330-d53ad9d8bf85}, ! Handle
+  Component Data 1,                       ! Name
+  {1683a993-71b5-42ba-86fb-a86ffdd1e8da}, ! UUID
+  {0edfc2c3-ea0e-45c1-b4d4-0c0d27275cae}, ! Version UUID
+  1366306853,                             ! Creation Timestamp
+  1366306853,                             ! Version Timestamp
+  {f45f85f3-4151-4298-b6fd-3ae19d1a1067}; ! Name of Object 1
+

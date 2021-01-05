@@ -1,0 +1,36 @@
+
+OS:Version,
+  {611cb0e4-e37f-4ff0-a297-4569e8be4fcb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d5d321e9-98ab-419b-8ba3-e87774ca294f}, ! Handle
+  Napa Co  Airport Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  8.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  8.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  10.4,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {823363be-8d52-41a2-b62d-d1a3cd935d4b}, ! Handle
+  Component Data 1,                       ! Name
+  {85252b50-71f5-4ef8-bc11-87d79a18eb6f}, ! UUID
+  {99324dbf-d109-4d9b-8e37-207941677981}, ! Version UUID
+  1366306516,                             ! Creation Timestamp
+  1366306516,                             ! Version Timestamp
+  {d5d321e9-98ab-419b-8ba3-e87774ca294f}; ! Name of Object 1
+

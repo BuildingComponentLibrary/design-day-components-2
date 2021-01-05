@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f2860385-81c0-4bc5-90e7-03bfd7b25876}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5992156d-7108-47f3-b3da-56f12fcf119f}, ! Handle
+  Monticello Awos Ann Htg 99.6% Condns DB, ! Name
+  -18,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96288,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e1993977-479f-4d8f-9da3-fae6c21729fe}, ! Handle
+  Component Data 1,                       ! Name
+  {40f193b7-e428-4368-90a0-b1678fa5f4f5}, ! UUID
+  {ccd3fa64-e475-4e56-b04c-e8f8c16782df}, ! Version UUID
+  1366309658,                             ! Creation Timestamp
+  1366309658,                             ! Version Timestamp
+  {5992156d-7108-47f3-b3da-56f12fcf119f}; ! Name of Object 1
+

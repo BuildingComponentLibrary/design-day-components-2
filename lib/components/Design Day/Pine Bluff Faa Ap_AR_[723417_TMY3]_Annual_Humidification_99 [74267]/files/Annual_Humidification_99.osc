@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3090f6c3-8ce8-4f64-b434-31ed642510d7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {44c4ff04-35c4-45fd-b67a-076cb8188b33}, ! Handle
+  Pine Bluff Faa Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -1.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100570,                                 ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {48dd4ce3-c020-4d3c-9bc3-209b92ffb032}, ! Handle
+  Component Data 1,                       ! Name
+  {d9a1fc73-844f-4d81-af17-6835f4cc66c1}, ! UUID
+  {66781259-c619-4ff6-be8c-125ea98631bf}, ! Version UUID
+  1366306240,                             ! Creation Timestamp
+  1366306240,                             ! Version Timestamp
+  {44c4ff04-35c4-45fd-b67a-076cb8188b33}; ! Name of Object 1
+

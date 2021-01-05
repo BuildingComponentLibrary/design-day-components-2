@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e6b9785f-021a-49ee-8081-b1791589607d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {707ff5d4-b1a3-4cf4-a8bd-eabf13ca7167}, ! Handle
+  Petersburg Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -10,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100929,                                 ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {57a2b92f-6e51-409f-bbf6-e09250ed234f}, ! Handle
+  Component Data 1,                       ! Name
+  {4627f323-31da-4459-b73e-603ebd77efa4}, ! UUID
+  {503af5f6-1e80-4343-818b-97f1d5497474}, ! Version UUID
+  1366305481,                             ! Creation Timestamp
+  1366305481,                             ! Version Timestamp
+  {707ff5d4-b1a3-4cf4-a8bd-eabf13ca7167}; ! Name of Object 1
+

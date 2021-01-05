@@ -1,0 +1,36 @@
+
+OS:Version,
+  {599af386-6c8c-4b6e-8df9-7c986dcc6019}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {54cc0d20-e704-4916-af12-98941735d0b8}, ! Handle
+  Mora Muni  Awos Ann Htg 99% Condns DB,  ! Name
+  -24,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97668,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {15d88138-cfb8-4082-9508-6f262b70ef4a}, ! Handle
+  Component Data 1,                       ! Name
+  {7d6b5478-a680-47da-829f-8aaaae5f5c1a}, ! UUID
+  {e0ba6a01-7113-499f-9ad9-84a7bd5f6253}, ! Version UUID
+  1366308329,                             ! Creation Timestamp
+  1366308329,                             ! Version Timestamp
+  {54cc0d20-e704-4916-af12-98941735d0b8}; ! Name of Object 1
+

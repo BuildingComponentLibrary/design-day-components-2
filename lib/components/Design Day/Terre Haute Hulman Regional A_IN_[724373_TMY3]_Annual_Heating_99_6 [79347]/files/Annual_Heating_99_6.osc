@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d4e80bb7-e68c-4cfc-bc08-d15b4633d24b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {88ab2ca6-c804-4ba7-997b-de08d5000722}, ! Handle
+  Terre Haute Hulman Regional A Ann Htg 99.6% Condns DB, ! Name
+  -17.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99240,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {08c4f859-a1c5-43e8-b2d1-5a55a8aed636}, ! Handle
+  Component Data 1,                       ! Name
+  {83dfbf14-594e-44d7-924f-61aa26117ece}, ! UUID
+  {00973761-83ec-463e-a7e5-62d285a9c996}, ! Version UUID
+  1366307491,                             ! Creation Timestamp
+  1366307491,                             ! Version Timestamp
+  {88ab2ca6-c804-4ba7-997b-de08d5000722}; ! Name of Object 1
+

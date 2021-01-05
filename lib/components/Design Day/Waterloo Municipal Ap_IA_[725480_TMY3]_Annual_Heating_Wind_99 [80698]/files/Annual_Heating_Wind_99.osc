@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e6759ff6-eec9-4b40-abd7-6a36343fe121}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a19d2d72-0430-49df-908d-9a835241e8de}, ! Handle
+  Waterloo Municipal Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -9.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98193,                                  ! Barometric Pressure {Pa}
+  12.7,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fb032bcf-5eee-44b5-be2e-8272596ccf13}, ! Handle
+  Component Data 1,                       ! Name
+  {f32b0f9e-a872-40a2-96b0-0b77dda392ab}, ! UUID
+  {f329833a-dfff-4040-ae34-d3b43379d7c7}, ! Version UUID
+  1366307254,                             ! Creation Timestamp
+  1366307254,                             ! Version Timestamp
+  {a19d2d72-0430-49df-908d-9a835241e8de}; ! Name of Object 1
+

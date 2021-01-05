@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9a4828f1-0a48-4e6f-8af4-da017126dea4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b27b3fa9-fc20-482c-96ac-7bcda76e45cb}, ! Handle
+  Port Heiden Ann Htg 99% Condns DB,      ! Name
+  -18.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100977,                                 ! Barometric Pressure {Pa}
+  6.8,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f9e35d2f-a3d3-4e80-a015-7ebcda007193}, ! Handle
+  Component Data 1,                       ! Name
+  {601331f0-198b-4880-8148-16b0becc1114}, ! UUID
+  {1ab21634-bd07-4567-8bf0-9e7e67e15ff6}, ! Version UUID
+  1366305497,                             ! Creation Timestamp
+  1366305497,                             ! Version Timestamp
+  {b27b3fa9-fc20-482c-96ac-7bcda76e45cb}; ! Name of Object 1
+

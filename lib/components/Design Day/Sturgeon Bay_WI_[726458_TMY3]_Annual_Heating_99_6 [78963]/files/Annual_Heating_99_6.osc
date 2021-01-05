@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d58d43a4-bac1-4266-b314-3d2d4544099d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7c7c3550-8b75-4fb1-a23c-dcd2be491632}, ! Handle
+  Sturgeon Bay Ann Htg 99.6% Condns DB,   ! Name
+  -20.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98698,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {02f63e15-710d-460d-a328-825c5e461b93}, ! Handle
+  Component Data 1,                       ! Name
+  {06e64666-9e97-4fec-9c2c-33fa4756a9c6}, ! UUID
+  {26d905c9-7545-43dc-9901-539e0e4f1273}, ! Version UUID
+  1366311585,                             ! Creation Timestamp
+  1366311585,                             ! Version Timestamp
+  {7c7c3550-8b75-4fb1-a23c-dcd2be491632}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0d739d1c-999d-4e66-ba74-57679c55718f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f768e578-5c69-4245-beb0-3fb2a33811ab}, ! Handle
+  Pittsburgh Allegheny Co Ap Ann Htg 99% Condns DB, ! Name
+  -12.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96842,                                  ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {448c4cdf-0a34-4982-8147-9d69acae6ea5}, ! Handle
+  Component Data 1,                       ! Name
+  {e8661263-1e0b-46a7-b424-22287ca3654d}, ! UUID
+  {5f70699d-a054-4d97-8a05-b6f0491080b7}, ! Version UUID
+  1366310226,                             ! Creation Timestamp
+  1366310226,                             ! Version Timestamp
+  {f768e578-5c69-4245-beb0-3fb2a33811ab}; ! Name of Object 1
+

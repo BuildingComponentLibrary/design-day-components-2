@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6baa0b80-003c-4022-8d86-1279252122d8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a39d6ae6-ecaa-41d2-acbf-f44718944385}, ! Handle
+  Stewart Field Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -4.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99217,                                  ! Barometric Pressure {Pa}
+  11.9,                                   ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {261574ba-49e3-4932-b3a4-7b9761628cfe}, ! Handle
+  Component Data 1,                       ! Name
+  {70c4349f-ddc3-46d5-9c6e-5ed4179122b0}, ! UUID
+  {255c5502-4039-457b-b787-afa027a86765}, ! Version UUID
+  1366309694,                             ! Creation Timestamp
+  1366309694,                             ! Version Timestamp
+  {a39d6ae6-ecaa-41d2-acbf-f44718944385}; ! Name of Object 1
+

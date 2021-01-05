@@ -1,0 +1,36 @@
+
+OS:Version,
+  {cd6bdda1-d6f7-4c30-ae1b-dd5e8277c95c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8019d633-31f0-4912-9a6e-ade69fab2db4}, ! Handle
+  Washington  Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -13.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97063,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8bba6fdf-717c-446f-8933-ad36bd9ecd86}, ! Handle
+  Component Data 1,                       ! Name
+  {704f7109-6c2a-40a0-9709-dfdebbb465f0}, ! UUID
+  {23432802-d9e2-4855-9b97-aec08eaa233b}, ! Version UUID
+  1366310256,                             ! Creation Timestamp
+  1366310256,                             ! Version Timestamp
+  {8019d633-31f0-4912-9a6e-ade69fab2db4}; ! Name of Object 1
+

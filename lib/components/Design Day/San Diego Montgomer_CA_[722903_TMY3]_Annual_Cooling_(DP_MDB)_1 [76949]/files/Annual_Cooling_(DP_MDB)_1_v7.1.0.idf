@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! San Diego Montgomer_CA_USA Annual Cooling (DP=>MDB) 1%, MDB=23.6°C DP=19.2°C HR=0.0142
+ SizingPeriod:DesignDay,
+  San Diego Montgomer Ann Clg 1% Condns DP=>MDB,     !- Name
+          8,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       23.6,      !- Maximum Dry-Bulb Temperature {C}
+        7.8,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Dewpoint,     !- Humidity Condition Type
+       19.2,      !- Dewpoint at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     99785.,      !- Barometric Pressure {Pa}
+          4,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        300,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.417,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.236;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

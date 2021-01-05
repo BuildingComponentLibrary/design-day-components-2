@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3417e1b3-5d59-4da0-9228-39013f594b36}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {661cbaf2-8638-410e-ad34-21a819721774}, ! Handle
+  Mountain Home Afb Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90838,                                  ! Barometric Pressure {Pa}
+  11.1,                                   ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9725a183-ec0a-4af1-b47a-7fd3a71e3e0e}, ! Handle
+  Component Data 1,                       ! Name
+  {116261d1-8ff2-42f0-b28b-32b92ab63415}, ! UUID
+  {9675d912-035c-40db-bcf5-22513be63125}, ! Version UUID
+  1366307295,                             ! Creation Timestamp
+  1366307295,                             ! Version Timestamp
+  {661cbaf2-8638-410e-ad34-21a819721774}; ! Name of Object 1
+

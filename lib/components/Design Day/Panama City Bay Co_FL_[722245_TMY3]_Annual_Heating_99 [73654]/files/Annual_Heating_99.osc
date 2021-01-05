@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4c294e42-90da-4a57-b553-b70301698a88}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {54b7794e-c068-4eb2-b2d1-9f64546f9d3c}, ! Handle
+  Panama City Bay Co Ann Htg 99% Condns DB, ! Name
+  2.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e340c643-1884-40fc-a6ec-8d39e8da4bd8}, ! Handle
+  Component Data 1,                       ! Name
+  {6cf84aed-ab3e-49ea-b2de-cbd5c57ef762}, ! UUID
+  {eaa75e5b-a3e4-482b-aa6b-777d54710a79}, ! Version UUID
+  1366306898,                             ! Creation Timestamp
+  1366306898,                             ! Version Timestamp
+  {54b7794e-c068-4eb2-b2d1-9f64546f9d3c}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {10f08f6e-5116-427a-903e-8f9951324ad2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6bf59011-22c5-4363-a2d6-d089e403abe6}, ! Handle
+  TUCSON Ann Htg 99% Condns DB,           ! Name
+  1.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92310,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dbfb5d4e-c7f4-406f-b792-ed4e471212b9}, ! Handle
+  Component Data 1,                       ! Name
+  {8d2af3eb-10dc-4175-b9d8-40f6d38f8e85}, ! UUID
+  {53d53d39-b2e0-4ba0-8d21-6b7b00035d9d}, ! Version UUID
+  1366306316,                             ! Creation Timestamp
+  1366306316,                             ! Version Timestamp
+  {6bf59011-22c5-4363-a2d6-d089e403abe6}; ! Name of Object 1
+

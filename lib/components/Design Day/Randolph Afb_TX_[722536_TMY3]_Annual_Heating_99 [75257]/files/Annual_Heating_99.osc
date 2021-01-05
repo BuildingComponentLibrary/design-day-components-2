@@ -1,0 +1,36 @@
+
+OS:Version,
+  {300032f8-3a31-410e-b2aa-9a352bdd5235}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b1d65355-199e-43ef-a988-6c9d377c1c26}, ! Handle
+  Randolph Afb Ann Htg 99% Condns DB,     ! Name
+  -0.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98569,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fb3dac7a-2a92-437e-bcf5-c22a02cc19c2}, ! Handle
+  Component Data 1,                       ! Name
+  {fee60046-7c6c-4c76-8730-36fc186df246}, ! UUID
+  {b1e7ca04-04cc-40a2-8c9d-b73acc72e7a9}, ! Version UUID
+  1366310859,                             ! Creation Timestamp
+  1366310859,                             ! Version Timestamp
+  {b1d65355-199e-43ef-a988-6c9d377c1c26}; ! Name of Object 1
+

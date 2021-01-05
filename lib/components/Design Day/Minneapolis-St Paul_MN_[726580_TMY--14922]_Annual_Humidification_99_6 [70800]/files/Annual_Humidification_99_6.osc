@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ca0da5d9-4b08-43ed-9b4b-9b8fbc560fcd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {57f6d175-b4ea-472b-a796-3d79817dcf8c}, ! Handle
+  Minneapolis-St Paul Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -24.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -30.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98299,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7aa87ae3-97cc-4a20-958f-a3375b191aa8}, ! Handle
+  Component Data 1,                       ! Name
+  {788b2590-cbc1-4944-af08-c923829df898}, ! UUID
+  {0681c05b-437f-4dc1-933f-48698fb1b9bc}, ! Version UUID
+  1366308317,                             ! Creation Timestamp
+  1366308317,                             ! Version Timestamp
+  {57f6d175-b4ea-472b-a796-3d79817dcf8c}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bf78db55-3bf3-4618-8222-5792da591cd1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1d71d0e1-0703-463d-92d5-ae53469f48b6}, ! Handle
+  Trinidad Las Animas County Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  6.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  6.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  81984,                                  ! Barometric Pressure {Pa}
+  11.6,                                   ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b7b40453-b088-4436-a8f9-731e3a147ae0}, ! Handle
+  Component Data 1,                       ! Name
+  {489ab3cf-49b0-462c-8082-297470fda593}, ! UUID
+  {00f7b90d-6086-481c-b636-d59015e48bad}, ! Version UUID
+  1366306743,                             ! Creation Timestamp
+  1366306743,                             ! Version Timestamp
+  {1d71d0e1-0703-463d-92d5-ae53469f48b6}; ! Name of Object 1
+

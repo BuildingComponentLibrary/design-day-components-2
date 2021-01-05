@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e72ec8bc-47a8-4b1f-8dea-569bf5462b78}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d2b239f4-18b3-4960-967d-606061c915e5}, ! Handle
+  Middleton Island Aut Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  3,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101157,                                 ! Barometric Pressure {Pa}
+  19.1,                                   ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2fa3426e-a716-4ada-8bbe-308276771879}, ! Handle
+  Component Data 1,                       ! Name
+  {3d5ff851-4a09-474b-8948-fafdff6866bd}, ! UUID
+  {084178de-0bbd-49ea-be3c-36a05ae5d230}, ! Version UUID
+  1366305428,                             ! Creation Timestamp
+  1366305428,                             ! Version Timestamp
+  {d2b239f4-18b3-4960-967d-606061c915e5}; ! Name of Object 1
+

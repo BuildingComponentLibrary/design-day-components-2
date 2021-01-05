@@ -1,0 +1,36 @@
+
+OS:Version,
+  {633225ad-4c08-4264-b5c0-0df6b45d1f8f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {04e2faae-9bf2-49f1-96c1-c22c2252bcdc}, ! Handle
+  Mansfield Lahm Municipal Arpt Ann Htg 99% Condns DB, ! Name
+  -14.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96669,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5b8527ca-466c-4448-b24c-41130c9903d9}, ! Handle
+  Component Data 1,                       ! Name
+  {8968a4bc-e656-4914-983f-98bee571d078}, ! UUID
+  {4109ce5a-a4bb-4039-9965-3c152b5575fa}, ! Version UUID
+  1366309830,                             ! Creation Timestamp
+  1366309830,                             ! Version Timestamp
+  {04e2faae-9bf2-49f1-96c1-c22c2252bcdc}; ! Name of Object 1
+

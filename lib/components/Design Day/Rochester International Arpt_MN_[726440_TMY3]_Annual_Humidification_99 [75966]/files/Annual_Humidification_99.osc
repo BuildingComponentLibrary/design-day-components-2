@@ -1,0 +1,36 @@
+
+OS:Version,
+  {eb572c10-2193-4def-bb49-7e3d13e37e0e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {39dbd018-2b68-4e7e-964c-c04b524f0ad8}, ! Handle
+  Rochester International Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -22.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96634,                                  ! Barometric Pressure {Pa}
+  5.7,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9efa88f2-7c7a-473b-aa0c-a664fecd7637}, ! Handle
+  Component Data 1,                       ! Name
+  {d230d52a-6830-4277-9589-a89f234f663a}, ! UUID
+  {119b9bc2-8559-4a72-a6de-837eb121af92}, ! Version UUID
+  1366308397,                             ! Creation Timestamp
+  1366308397,                             ! Version Timestamp
+  {39dbd018-2b68-4e7e-964c-c04b524f0ad8}; ! Name of Object 1
+

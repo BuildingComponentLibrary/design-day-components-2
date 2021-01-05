@@ -1,0 +1,36 @@
+
+OS:Version,
+  {61cc828f-feef-48b7-b51f-1cb074da07cd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9bbf8240-60c5-4c17-8784-8092527b6d3c}, ! Handle
+  Wenatchee Pangborn Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -9.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96854,                                  ! Barometric Pressure {Pa}
+  1.4,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {59200c26-1024-4267-bba3-25893dc28779}, ! Handle
+  Component Data 1,                       ! Name
+  {1e9e6daa-cba9-4abd-b407-48e06b641a3f}, ! UUID
+  {09971214-63e1-4aea-9951-4135a068416e}, ! Version UUID
+  1366311426,                             ! Creation Timestamp
+  1366311426,                             ! Version Timestamp
+  {9bbf8240-60c5-4c17-8784-8092527b6d3c}; ! Name of Object 1
+

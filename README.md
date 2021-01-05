@@ -1,2 +1,3 @@
-# design-day-components-2
-design day components with names M-Z
+# Design Day Components - 2
+
+Design Day components with names starting with M-Z

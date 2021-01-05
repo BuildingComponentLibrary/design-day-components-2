@@ -1,0 +1,40 @@
+
+OS:Version,
+  {b9e5d927-3203-462a-9543-2a0adc4c47af}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {30b2f9bb-90f5-4463-8da9-47b3476b4340}, ! Handle
+  Rockford Greater Rockford Ap Ann Clg .4% Condns Enth=>MDB, ! Name
+  31.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  11,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  80300,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98675,                                  ! Barometric Pressure {Pa}
+  5.3,                                    ! Wind Speed {m/s}
+  210,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.445,                                  ! ASHRAE Taub {dimensionless}
+  2.082;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {8b919b61-9bc6-42a5-aa43-f32aff1170cb}, ! Handle
+  Component Data 1,                       ! Name
+  {761bdde3-0ab9-4070-a1e6-933c219045df}, ! UUID
+  {cab400ae-e0a8-4076-a05f-61d2c3bd108e}, ! Version UUID
+  1366307393,                             ! Creation Timestamp
+  1366307393,                             ! Version Timestamp
+  {30b2f9bb-90f5-4463-8da9-47b3476b4340}; ! Name of Object 1
+

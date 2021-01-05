@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c13ac2b1-e8aa-42bc-8488-048b04ba7949}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1365ec0d-b370-4d94-a5b3-60f96f0f7aae}, ! Handle
+  Montrose Co  Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  81943,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2ea88fc9-4f62-4df1-8038-93964b601585}, ! Handle
+  Component Data 1,                       ! Name
+  {e295a7b9-9413-4e9a-869a-f99e271b7e41}, ! UUID
+  {455d6192-5fd6-427f-922c-a9bf2f1c60ba}, ! Version UUID
+  1366306723,                             ! Creation Timestamp
+  1366306723,                             ! Version Timestamp
+  {1365ec0d-b370-4d94-a5b3-60f96f0f7aae}; ! Name of Object 1
+

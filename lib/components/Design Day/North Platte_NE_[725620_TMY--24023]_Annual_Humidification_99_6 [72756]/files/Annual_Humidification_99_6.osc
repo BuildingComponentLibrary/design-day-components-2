@@ -1,0 +1,36 @@
+
+OS:Version,
+  {77d6c85b-bdc9-4ae1-9dc8-74cde5cf879f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7db7a9cb-0ebc-4f00-8e77-670777f11a49}, ! Handle
+  North Platte Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -21.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91533,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fe1b3aad-12da-4aef-a95d-7c0ec8234d1f}, ! Handle
+  Component Data 1,                       ! Name
+  {171e766f-b19b-4cf2-89c7-5dddfcdb6f9a}, ! UUID
+  {6526ba54-8c06-492f-958f-c6ad89a9e9b5}, ! Version UUID
+  1366309161,                             ! Creation Timestamp
+  1366309161,                             ! Version Timestamp
+  {7db7a9cb-0ebc-4f00-8e77-670777f11a49}; ! Name of Object 1
+

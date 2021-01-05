@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8c659cd5-bab5-4ecb-a9d7-6e8c1ad5d170}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {687806f6-ca62-4a76-b262-d0313d4ca2d9}, ! Handle
+  Oakland Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  11.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  11.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101313,                                 ! Barometric Pressure {Pa}
+  11.4,                                   ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {856af6fe-b913-4650-aa18-84b598458c5f}, ! Handle
+  Component Data 1,                       ! Name
+  {345b4321-e53e-4e1a-8df2-bfa78f0f43d2}, ! UUID
+  {45cfe997-ca8e-4953-96a8-95a63309b977}, ! Version UUID
+  1366306520,                             ! Creation Timestamp
+  1366306520,                             ! Version Timestamp
+  {687806f6-ca62-4a76-b262-d0313d4ca2d9}; ! Name of Object 1
+

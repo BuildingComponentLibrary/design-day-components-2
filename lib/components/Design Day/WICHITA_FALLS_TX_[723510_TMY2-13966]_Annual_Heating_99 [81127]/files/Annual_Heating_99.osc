@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c98105f9-aed2-4ec3-827b-4d11463a3aac}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1bd0c368-4285-4f10-9672-a3726731e81c}, ! Handle
+  WICHITA_FALLS Ann Htg 99% Condns DB,    ! Name
+  -6,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97609,                                  ! Barometric Pressure {Pa}
+  5.7,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ced53cf8-d172-4fd4-a073-ac295ae9aa0d}, ! Handle
+  Component Data 1,                       ! Name
+  {7d1c1ba2-8867-4703-a7a7-b78675fb1e50}, ! UUID
+  {9aba09c3-e9c3-4534-9708-ca678a861e8c}, ! Version UUID
+  1366310927,                             ! Creation Timestamp
+  1366310927,                             ! Version Timestamp
+  {1bd0c368-4285-4f10-9672-a3726731e81c}; ! Name of Object 1
+

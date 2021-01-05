@@ -1,0 +1,36 @@
+
+OS:Version,
+  {599077d3-7e94-40dd-acb2-77aef2094bfd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ebf2e85f-5c9c-493e-81cb-53b2f2498d6b}, ! Handle
+  Niagara Falls Af Ann Htg 99% Condns DB, ! Name
+  -14.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99181,                                  ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a970e128-a836-46be-b506-88454854b3c3}, ! Handle
+  Component Data 1,                       ! Name
+  {22c86f1b-1979-473c-98da-2120ea52bcd0}, ! UUID
+  {eeb19d22-190c-45ea-b195-b48481359024}, ! Version UUID
+  1366309698,                             ! Creation Timestamp
+  1366309698,                             ! Version Timestamp
+  {ebf2e85f-5c9c-493e-81cb-53b2f2498d6b}; ! Name of Object 1
+

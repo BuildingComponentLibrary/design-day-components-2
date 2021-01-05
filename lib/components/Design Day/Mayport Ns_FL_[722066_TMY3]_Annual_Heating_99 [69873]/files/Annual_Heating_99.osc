@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a8a66e8e-a6d5-43a4-bb53-8e604c545089}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e3d234b6-1a91-4c16-9324-d2410ff0bd08}, ! Handle
+  Mayport Ns Ann Htg 99% Condns DB,       ! Name
+  3.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.7,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0c135edb-834b-4587-b7ff-658d3f5ab026}, ! Handle
+  Component Data 1,                       ! Name
+  {8bdf05c2-87ff-4536-8bbd-46ccfdeb3222}, ! UUID
+  {70568811-cdd5-42d3-b50d-9016f2866bb3}, ! Version UUID
+  1366306849,                             ! Creation Timestamp
+  1366306849,                             ! Version Timestamp
+  {e3d234b6-1a91-4c16-9324-d2410ff0bd08}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {13a0f5ff-14e4-42b2-ad8f-0e7bbc1f58e5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4111b629-56e2-4a66-b4ad-e63ef714d695}, ! Handle
+  Pasco Ann Htg 99% Condns DB,            ! Name
+  -9.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99702,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6d3e3fea-0bf5-4662-ba52-6c047669ee90}, ! Handle
+  Component Data 1,                       ! Name
+  {55be1674-5857-4dad-aba6-65075a8c2be2}, ! UUID
+  {9b054e29-bcf1-4f25-b524-2a203fd57f5d}, ! Version UUID
+  1366311318,                             ! Creation Timestamp
+  1366311318,                             ! Version Timestamp
+  {4111b629-56e2-4a66-b4ad-e63ef714d695}; ! Name of Object 1
+

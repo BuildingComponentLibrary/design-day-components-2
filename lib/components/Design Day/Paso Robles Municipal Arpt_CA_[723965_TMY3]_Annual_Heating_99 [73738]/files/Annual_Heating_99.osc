@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6ab493f9-d86e-452b-b327-9ee5684635ef}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5b0074bb-1d54-4050-94bb-c91b332d227d}, ! Handle
+  Paso Robles Municipal Arpt Ann Htg 99% Condns DB, ! Name
+  -1.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98428,                                  ! Barometric Pressure {Pa}
+  1,                                      ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1f0a6412-be6f-4039-ad2c-e69f7f20f939}, ! Handle
+  Component Data 1,                       ! Name
+  {da318115-7b3d-4175-9b42-0d5d241fae94}, ! UUID
+  {c82477d6-7ac2-4a60-93b0-051270d249d2}, ! Version UUID
+  1366306533,                             ! Creation Timestamp
+  1366306533,                             ! Version Timestamp
+  {5b0074bb-1d54-4050-94bb-c91b332d227d}; ! Name of Object 1
+

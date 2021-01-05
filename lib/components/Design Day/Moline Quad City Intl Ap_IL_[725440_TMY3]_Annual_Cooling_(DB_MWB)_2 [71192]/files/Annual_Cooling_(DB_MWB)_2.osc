@@ -1,0 +1,40 @@
+
+OS:Version,
+  {8eb05e81-68dc-417b-8ffc-2f4409a19ace}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3639c7a5-cc51-4ea0-a228-4b939cc5c9b3}, ! Handle
+  Moline Quad City Intl Ap Ann Clg 2% Condns DB=>MWB, ! Name
+  31,                                     ! Maximum Dry-Bulb Temperature {C}
+  11.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  23,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99181,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  210,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.449,                                  ! ASHRAE Taub {dimensionless}
+  2.068;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {d81dc5df-b628-42e5-a2a4-d7eae461e893}, ! Handle
+  Component Data 1,                       ! Name
+  {b84cbb7b-074b-42df-9d40-1102b0663e10}, ! UUID
+  {fded6072-d6c2-469f-9e5b-06bda1a3ce83}, ! Version UUID
+  1366307368,                             ! Creation Timestamp
+  1366307368,                             ! Version Timestamp
+  {3639c7a5-cc51-4ea0-a228-4b939cc5c9b3}; ! Name of Object 1
+

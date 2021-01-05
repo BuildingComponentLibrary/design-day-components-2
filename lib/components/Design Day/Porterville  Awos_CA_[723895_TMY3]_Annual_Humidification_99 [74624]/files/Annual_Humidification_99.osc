@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e43720dc-a502-4906-bd84-9a33150a46ef}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {62477426-4907-4b8f-8409-af9a1c30a40a}, ! Handle
+  Porterville  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99714,                                  ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c5a8d52f-7746-445a-9596-fe681befb888}, ! Handle
+  Component Data 1,                       ! Name
+  {813edef6-be25-4a06-aa04-735608a0edb4}, ! UUID
+  {a63b0b4d-e577-43ea-9203-9e46bbff721a}, ! Version UUID
+  1366306541,                             ! Creation Timestamp
+  1366306541,                             ! Version Timestamp
+  {62477426-4907-4b8f-8409-af9a1c30a40a}; ! Name of Object 1
+

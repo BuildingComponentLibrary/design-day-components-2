@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b2b6f201-815a-47c6-9696-330e15060288}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {754fa2b3-3140-45fc-a2bc-8366aaf4e794}, ! Handle
+  Manhattan Rgnl Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -11.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97423,                                  ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {60b918ce-fcfb-44f1-a14f-1008b22680bc}, ! Handle
+  Component Data 1,                       ! Name
+  {15b0a03e-0710-4d0b-a29b-d8231db1fdcf}, ! UUID
+  {f010a671-1e7e-4a66-920f-47cc4944de04}, ! Version UUID
+  1366307558,                             ! Creation Timestamp
+  1366307558,                             ! Version Timestamp
+  {754fa2b3-3140-45fc-a2bc-8366aaf4e794}; ! Name of Object 1
+

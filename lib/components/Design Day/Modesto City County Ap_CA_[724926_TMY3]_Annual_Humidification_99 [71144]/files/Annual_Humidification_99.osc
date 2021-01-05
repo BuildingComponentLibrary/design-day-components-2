@@ -1,0 +1,36 @@
+
+OS:Version,
+  {13293d57-499f-41a5-b8ae-9464ea1f2d50}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7c6ec8d9-414e-45dc-ab7c-eded9cd1de6a}, ! Handle
+  Modesto City County Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  9.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100965,                                 ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cc182db0-caee-4635-874d-445be15cacb8}, ! Handle
+  Component Data 1,                       ! Name
+  {be415ee6-0f98-4f76-a583-833bfed59dfc}, ! UUID
+  {5f7ab678-4511-40c7-ad47-9645613e937b}, ! Version UUID
+  1366306490,                             ! Creation Timestamp
+  1366306490,                             ! Version Timestamp
+  {7c6ec8d9-414e-45dc-ab7c-eded9cd1de6a}; ! Name of Object 1
+

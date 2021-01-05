@@ -1,0 +1,36 @@
+
+OS:Version,
+  {37f7d20e-a29f-4c66-b379-b4deefb521bb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {648da223-9545-4de8-8e8e-d64c73dd0e12}, ! Handle
+  SIOUX_CITY Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -9.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97353,                                  ! Barometric Pressure {Pa}
+  14.7,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {abddf978-cb2f-42f1-b5ae-93d4546d71d0}, ! Handle
+  Component Data 1,                       ! Name
+  {75e38839-14fa-4898-9ae1-135908b85351}, ! UUID
+  {af45b5c8-d395-441b-ac26-88eba1306cfb}, ! Version UUID
+  1366307238,                             ! Creation Timestamp
+  1366307238,                             ! Version Timestamp
+  {648da223-9545-4de8-8e8e-d64c73dd0e12}; ! Name of Object 1
+

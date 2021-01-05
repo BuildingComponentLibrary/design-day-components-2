@@ -1,0 +1,36 @@
+
+OS:Version,
+  {484fc794-b9cb-4d31-aabd-73fddeddc1ba}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0bfa2cc9-3471-4116-a44a-2eb18243bd03}, ! Handle
+  Staunton Shenandoah Ann Htg 99.6% Condns DB, ! Name
+  -11,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97005,                                  ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {377de47d-ecba-465b-a4cc-39cf8b597d8a}, ! Handle
+  Component Data 1,                       ! Name
+  {c1911eef-eef6-42eb-9c90-102df8d0a7a6}, ! UUID
+  {e9e7cd19-14d9-4728-be5a-b5fb525bfb95}, ! Version UUID
+  1366311195,                             ! Creation Timestamp
+  1366311195,                             ! Version Timestamp
+  {0bfa2cc9-3471-4116-a44a-2eb18243bd03}; ! Name of Object 1
+

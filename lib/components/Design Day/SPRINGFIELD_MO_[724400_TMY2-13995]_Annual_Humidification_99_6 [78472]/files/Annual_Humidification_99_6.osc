@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4e5eedee-2228-4fea-b88b-6c73bdc3e4ac}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {11d760ba-4122-4e38-8795-daff4ae41a5c}, ! Handle
+  SPRINGFIELD Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -14.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96761,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d6255928-3887-4385-941f-1e7e87b42749}, ! Handle
+  Component Data 1,                       ! Name
+  {ce9b9d0c-8d23-41ff-88ce-9da9b8d5cd05}, ! UUID
+  {692f55be-5009-4393-b17c-7ec1214beacf}, ! Version UUID
+  1366308559,                             ! Creation Timestamp
+  1366308559,                             ! Version Timestamp
+  {11d760ba-4122-4e38-8795-daff4ae41a5c}; ! Name of Object 1
+

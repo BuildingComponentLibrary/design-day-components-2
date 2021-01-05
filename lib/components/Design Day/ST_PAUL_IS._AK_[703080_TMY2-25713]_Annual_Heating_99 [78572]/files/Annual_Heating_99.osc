@@ -1,0 +1,36 @@
+
+OS:Version,
+  {fed8e69b-93e7-4892-93e7-268b4b58058d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {61532f40-dbe6-42db-b786-446b71c3909c}, ! Handle
+  ST_PAUL Ann Htg 99% Condns DB,          ! Name
+  -14,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  8.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6514a120-6671-4d5f-9172-0ed47311d064}, ! Handle
+  Component Data 1,                       ! Name
+  {4fc6c199-4b5d-4099-b140-5a069098e484}, ! UUID
+  {91ce0714-0ab6-49a6-812a-1486747203f4}, ! Version UUID
+  1366305571,                             ! Creation Timestamp
+  1366305571,                             ! Version Timestamp
+  {61532f40-dbe6-42db-b786-446b71c3909c}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c9640625-900a-4e84-8461-bc8c61bff79e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0d86a1c0-d982-43e1-b0d0-2ba7ba7ba513}, ! Handle
+  Nellis Afb Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  8,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94628,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f679a3d1-e927-492a-8f61-24e449836fc8}, ! Handle
+  Component Data 1,                       ! Name
+  {8119a24b-cd85-40be-ab6b-00e4a8e33f41}, ! UUID
+  {6d6bff37-49d9-4e53-87b5-91549b9cdc33}, ! Version UUID
+  1366309526,                             ! Creation Timestamp
+  1366309526,                             ! Version Timestamp
+  {0d86a1c0-d982-43e1-b0d0-2ba7ba7ba513}; ! Name of Object 1
+

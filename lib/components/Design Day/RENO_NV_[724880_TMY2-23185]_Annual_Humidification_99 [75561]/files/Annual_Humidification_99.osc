@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a88370e4-ec16-4473-a3cd-a1fca3ab4358}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d5762423-14d3-4438-b420-7023b2ba9dc0}, ! Handle
+  RENO Ann Hum_n 99% Condns DP=>MCDB,     ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86219,                                  ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7eba8aae-9966-4149-8395-c422c8eb2ed1}, ! Handle
+  Component Data 1,                       ! Name
+  {0eb3e8a3-fac0-44f9-946c-b04fa3639b2c}, ! UUID
+  {46d9d898-8670-4c1b-9e68-d6c467e4c4b1}, ! Version UUID
+  1366309540,                             ! Creation Timestamp
+  1366309540,                             ! Version Timestamp
+  {d5762423-14d3-4438-b420-7023b2ba9dc0}; ! Name of Object 1
+

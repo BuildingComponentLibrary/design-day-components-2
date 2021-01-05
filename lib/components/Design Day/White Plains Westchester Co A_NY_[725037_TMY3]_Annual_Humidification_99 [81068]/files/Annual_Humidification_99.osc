@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1c070c51-a419-4572-9e0f-ad1c24d101f4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ae2d2e2e-9785-45c1-99fd-0c87e4e6c523}, ! Handle
+  White Plains Westchester Co A Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -9.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99868,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3b5009b3-090a-40d2-9c26-3a21891c2142}, ! Handle
+  Component Data 1,                       ! Name
+  {87c14e75-4a8d-469c-a497-b1e7f92a1ea9}, ! UUID
+  {a9285031-4730-4125-a178-20fbb44a1d01}, ! Version UUID
+  1366309755,                             ! Creation Timestamp
+  1366309755,                             ! Version Timestamp
+  {ae2d2e2e-9785-45c1-99fd-0c87e4e6c523}; ! Name of Object 1
+

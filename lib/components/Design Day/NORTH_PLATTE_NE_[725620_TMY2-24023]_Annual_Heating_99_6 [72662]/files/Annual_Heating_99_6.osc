@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ccd79c70-6c08-4e96-ae2f-adfd0a379730}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b4f1b3e7-b9d0-4712-b9c3-50f4ab1d48e5}, ! Handle
+  NORTH_PLATTE Ann Htg 99.6% Condns DB,   ! Name
+  -22.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91533,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8453e174-6f03-49d7-86b1-974f4cc10204}, ! Handle
+  Component Data 1,                       ! Name
+  {bb22700d-de8c-4fa9-a5ad-f8f82c7998f1}, ! UUID
+  {437b18b3-0823-493e-9a9c-0a3fdb28ba20}, ! Version UUID
+  1366309156,                             ! Creation Timestamp
+  1366309156,                             ! Version Timestamp
+  {b4f1b3e7-b9d0-4712-b9c3-50f4ab1d48e5}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d98b5b02-b287-4e44-8a7b-0e5cc0ced382}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {de65f3c2-6832-4bb6-9003-46d537778ab1}, ! Handle
+  SYRACUSE Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -15.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99844,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {62427037-7042-4d5d-bed7-3d9fe000fb7c}, ! Handle
+  Component Data 1,                       ! Name
+  {21221e5a-c310-4281-832a-fe7d33a4d708}, ! UUID
+  {3f51429e-91e0-4347-a088-3a398cbc0ebd}, ! Version UUID
+  1366309739,                             ! Creation Timestamp
+  1366309739,                             ! Version Timestamp
+  {de65f3c2-6832-4bb6-9003-46d537778ab1}; ! Name of Object 1
+

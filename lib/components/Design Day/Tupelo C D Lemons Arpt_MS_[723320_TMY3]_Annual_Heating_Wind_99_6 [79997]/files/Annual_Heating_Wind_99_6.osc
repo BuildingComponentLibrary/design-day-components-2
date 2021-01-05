@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e6c26bda-f766-446f-8763-1e7a098c048b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f4d81c85-0137-4601-b3e5-a7be62dcf660}, ! Handle
+  Tupelo C D Lemons Arpt Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  10.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  10.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100011,                                 ! Barometric Pressure {Pa}
+  9.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e32f3e0f-7f49-4f39-b80b-bc87ff7140da}, ! Handle
+  Component Data 1,                       ! Name
+  {4697ba5e-311c-416e-966b-617b60168121}, ! UUID
+  {809df1ba-1dc6-455b-8c5a-c65a109bb55e}, ! Version UUID
+  1366308689,                             ! Creation Timestamp
+  1366308689,                             ! Version Timestamp
+  {f4d81c85-0137-4601-b3e5-a7be62dcf660}; ! Name of Object 1
+

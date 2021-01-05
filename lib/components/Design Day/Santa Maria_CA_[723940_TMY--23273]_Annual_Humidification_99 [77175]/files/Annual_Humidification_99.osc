@@ -1,0 +1,36 @@
+
+OS:Version,
+  {508e39d5-5b47-4f5b-9d29-737cccc9616c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {10723152-a384-4168-9b9c-c2a13604eff2}, ! Handle
+  Santa Maria Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  9.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100451,                                 ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e440bb12-5d40-4092-b2e9-e6fc501708b3}, ! Handle
+  Component Data 1,                       ! Name
+  {6347b29d-6002-4891-84f7-7aa0b1b99bde}, ! UUID
+  {7a208802-6c26-48d9-9c6b-6e9025de88ac}, ! Version UUID
+  1366306612,                             ! Creation Timestamp
+  1366306612,                             ! Version Timestamp
+  {10723152-a384-4168-9b9c-c2a13604eff2}; ! Name of Object 1
+

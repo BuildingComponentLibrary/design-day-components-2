@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2264f7c1-3879-4e89-ba4d-77d39b642c11}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {249907d5-64dd-4952-977a-b851021737a3}, ! Handle
+  St Paul Downtown Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -11.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98710,                                  ! Barometric Pressure {Pa}
+  10.5,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {22a4e47b-1ba2-48f6-aab9-0c58fff79f08}, ! Handle
+  Component Data 1,                       ! Name
+  {71132cac-dfa7-47fc-8857-3e866796b16e}, ! UUID
+  {f6bbb7ff-779e-4127-b06e-aa3b217aa93f}, ! Version UUID
+  1366308433,                             ! Creation Timestamp
+  1366308433,                             ! Version Timestamp
+  {249907d5-64dd-4952-977a-b851021737a3}; ! Name of Object 1
+

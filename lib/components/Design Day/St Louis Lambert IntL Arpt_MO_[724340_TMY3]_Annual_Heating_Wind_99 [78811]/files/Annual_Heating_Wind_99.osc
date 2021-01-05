@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8ca4bee2-b6be-4671-a913-089959993274}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {aa663cd9-2ac0-49b4-b223-f74dd2b61565}, ! Handle
+  St Louis Lambert IntL Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -2,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99264,                                  ! Barometric Pressure {Pa}
+  11.6,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6f7e9fac-a771-41b2-a39e-3e8011f20f54}, ! Handle
+  Component Data 1,                       ! Name
+  {04adf21f-538e-4559-9f66-3ed50d1d840e}, ! UUID
+  {feba6d3c-3e1a-45a8-a0e9-1ef4b4c67a7f}, ! Version UUID
+  1366308583,                             ! Creation Timestamp
+  1366308583,                             ! Version Timestamp
+  {aa663cd9-2ac0-49b4-b223-f74dd2b61565}; ! Name of Object 1
+

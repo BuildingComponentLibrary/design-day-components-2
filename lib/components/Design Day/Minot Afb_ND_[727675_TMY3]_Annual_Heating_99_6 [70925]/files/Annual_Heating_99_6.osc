@@ -1,0 +1,36 @@
+
+OS:Version,
+  {55b10900-0257-4bcd-9312-08dfbec4c447}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ed80cc14-395f-4d8f-99e6-ff182df3731c}, ! Handle
+  Minot Afb Ann Htg 99.6% Condns DB,      ! Name
+  -30.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -30.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95495,                                  ! Barometric Pressure {Pa}
+  5.1,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0dd23d7b-2548-4d49-a4a4-4351b23d91a9}, ! Handle
+  Component Data 1,                       ! Name
+  {1afbdc36-a897-4b7a-941c-e915e3040f5f}, ! UUID
+  {a98a125d-f794-4340-a2b3-fe50d44f484f}, ! Version UUID
+  1366309058,                             ! Creation Timestamp
+  1366309058,                             ! Version Timestamp
+  {ed80cc14-395f-4d8f-99e6-ff182df3731c}; ! Name of Object 1
+

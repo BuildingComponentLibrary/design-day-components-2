@@ -1,0 +1,36 @@
+
+OS:Version,
+  {16af520b-e4bc-486f-8960-00d36c668bad}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6df0d300-c8a0-4eb6-ab5e-f36d06a7d9a9}, ! Handle
+  South Bend Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -14.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98522,                                  ! Barometric Pressure {Pa}
+  5.1,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {544cc31f-bf1a-4169-ae18-74533873f302}, ! Handle
+  Component Data 1,                       ! Name
+  {167161a9-5259-4bc7-8afa-5a8272966e50}, ! UUID
+  {1c1ccdff-212b-4052-a317-f5469b47d59e}, ! Version UUID
+  1366307479,                             ! Creation Timestamp
+  1366307479,                             ! Version Timestamp
+  {6df0d300-c8a0-4eb6-ab5e-f36d06a7d9a9}; ! Name of Object 1
+

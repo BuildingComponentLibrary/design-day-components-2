@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9308b1ba-84db-4dae-a617-1075b3f62169}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6764c2f6-448e-4649-9d66-5dda286ff164}, ! Handle
+  New York Laguardia Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -6.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  7.5,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4a74d83a-c9f0-4408-8d55-555cfeb5886f}, ! Handle
+  Component Data 1,                       ! Name
+  {97135a11-b072-4f09-bf00-83b3c60372be}, ! UUID
+  {c5994076-90f0-4e6e-89bc-19bf2c77f681}, ! Version UUID
+  1366309674,                             ! Creation Timestamp
+  1366309674,                             ! Version Timestamp
+  {6764c2f6-448e-4649-9d66-5dda286ff164}; ! Name of Object 1
+

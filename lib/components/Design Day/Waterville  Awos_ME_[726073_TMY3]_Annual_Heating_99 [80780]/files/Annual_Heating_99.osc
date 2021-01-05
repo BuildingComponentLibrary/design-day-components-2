@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dbe80e34-d564-42ab-89d8-7f83c979d70f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fcaa065a-9e2e-4738-940e-221d0dc8675d}, ! Handle
+  Waterville  Awos Ann Htg 99% Condns DB, ! Name
+  -18.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100118,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cb6b3bf5-c2f0-482b-8fa9-a1039236867c}, ! Handle
+  Component Data 1,                       ! Name
+  {11e7806d-ac61-4e58-8630-66004fc67f02}, ! UUID
+  {01db8f24-3d78-426f-beb4-c6981a310a6d}, ! Version UUID
+  1366307929,                             ! Creation Timestamp
+  1366307929,                             ! Version Timestamp
+  {fcaa065a-9e2e-4738-940e-221d0dc8675d}; ! Name of Object 1
+

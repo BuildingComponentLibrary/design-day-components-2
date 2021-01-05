@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b36e585d-18a9-49bc-995d-0e7930cfd0ec}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {aa015fc3-0bf3-4e3b-93d9-99e0228f2428}, ! Handle
+  Siloam Spring Awos Ann Htg 99.6% Condns DB, ! Name
+  -12.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97028,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {757e8be8-a201-4dbb-9bb4-90da564d05d5}, ! Handle
+  Component Data 1,                       ! Name
+  {d920ef5f-f019-4723-a177-1bd61aa622a8}, ! UUID
+  {e6ca93ea-8f23-4b73-bc40-a749da224a94}, ! Version UUID
+  1366306245,                             ! Creation Timestamp
+  1366306245,                             ! Version Timestamp
+  {aa015fc3-0bf3-4e3b-93d9-99e0228f2428}; ! Name of Object 1
+

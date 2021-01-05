@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2024e05c-518a-4cdd-9f08-9403b97c7794}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {872b489d-8dc4-454d-b7ca-246b05db1227}, ! Handle
+  San Luis Co Rgnl Ann Htg 99% Condns DB, ! Name
+  2.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100535,                                 ! Barometric Pressure {Pa}
+  0.7,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dfb3e36a-1310-46a1-95f5-a643b3c29d73}, ! Handle
+  Component Data 1,                       ! Name
+  {b3ffb697-ffde-4d99-89fb-4a0009591cb7}, ! UUID
+  {961a1ab8-1b60-47f4-b05d-083ed312623a}, ! Version UUID
+  1366306600,                             ! Creation Timestamp
+  1366306600,                             ! Version Timestamp
+  {872b489d-8dc4-454d-b7ca-246b05db1227}; ! Name of Object 1
+

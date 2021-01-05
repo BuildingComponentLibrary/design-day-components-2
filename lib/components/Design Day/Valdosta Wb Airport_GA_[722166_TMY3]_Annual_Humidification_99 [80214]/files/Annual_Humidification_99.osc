@@ -1,0 +1,36 @@
+
+OS:Version,
+  {cd00c59b-4de4-4eaf-845e-cad57eb1ab26}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b0e06e6e-2196-4993-aae0-d0b35dd6ef9d}, ! Handle
+  Valdosta Wb Airport Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100594,                                 ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7116147e-dd1d-43a1-891e-53ba056fe0c7}, ! Handle
+  Component Data 1,                       ! Name
+  {9194ee40-d066-43ce-bbb7-3da6966b1100}, ! UUID
+  {3f21646d-473d-492f-9064-414f0919bebb}, ! Version UUID
+  1366307063,                             ! Creation Timestamp
+  1366307063,                             ! Version Timestamp
+  {b0e06e6e-2196-4993-aae0-d0b35dd6ef9d}; ! Name of Object 1
+

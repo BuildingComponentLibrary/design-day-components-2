@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3b789fef-7fc7-4ddf-9837-29b810023fc2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {17d6cd3e-89a4-4491-8ea5-08de4d9262b3}, ! Handle
+  WILKES-BARRE Ann Htg 99.6% Condns DB,   ! Name
+  -15.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97901,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8765159b-9b84-4444-af77-087d50c4283a}, ! Handle
+  Component Data 1,                       ! Name
+  {58d5178e-e7f6-4bef-9ebd-abb23bb0be9a}, ! UUID
+  {0102f4f2-fc7d-4f65-9385-181fc6b902d9}, ! Version UUID
+  1366310269,                             ! Creation Timestamp
+  1366310269,                             ! Version Timestamp
+  {17d6cd3e-89a4-4491-8ea5-08de4d9262b3}; ! Name of Object 1
+

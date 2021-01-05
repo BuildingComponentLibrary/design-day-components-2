@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4d07665e-f274-4801-90cb-63c43bd93dc6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fddcc069-d1d1-4f1f-b8e7-617fb711dacc}, ! Handle
+  Salem Mcnary Field Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  10.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  10.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100606,                                 ! Barometric Pressure {Pa}
+  11.4,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e15f9bfc-8bd2-4e53-983e-17f680bb0f22}, ! Handle
+  Component Data 1,                       ! Name
+  {19bcf347-bc4b-44ad-ad71-2398fd2240dd}, ! UUID
+  {743e5543-2816-4c95-bf64-50b4fa4b41b1}, ! Version UUID
+  1366310112,                             ! Creation Timestamp
+  1366310112,                             ! Version Timestamp
+  {fddcc069-d1d1-4f1f-b8e7-617fb711dacc}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8ea5f08b-6477-45cc-896f-9d41da153b78}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f56a1a17-7931-4502-bdd5-61c1de5778ca}, ! Handle
+  Nasa Shuttle Fclty Ann Htg 99.6% Condns DB, ! Name
+  3.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6e6313eb-4427-4711-a3ed-a849f231406a}, ! Handle
+  Component Data 1,                       ! Name
+  {264c3d2e-4897-43d9-a2c4-38509c3188b9}, ! UUID
+  {1a4414bc-6cc5-4e42-bd9b-d99ed787580a}, ! Version UUID
+  1366306872,                             ! Creation Timestamp
+  1366306872,                             ! Version Timestamp
+  {f56a1a17-7931-4502-bdd5-61c1de5778ca}; ! Name of Object 1
+

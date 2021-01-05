@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ad64b308-1741-4732-973d-015efe4b9ca6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7e19b7aa-d637-4778-9475-be64729c2719}, ! Handle
+  Rock Springs Arpt  Green Rive Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -3.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  89875,                                  ! Barometric Pressure {Pa}
+  14.8,                                   ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7893ea39-5a41-42cf-a294-591d8a7088c4}, ! Handle
+  Component Data 1,                       ! Name
+  {5fc62778-7d86-4968-9bf5-bf46c8d1013d}, ! UUID
+  {1a906ef9-5086-4359-9798-0a0a52a2ce43}, ! Version UUID
+  1366311737,                             ! Creation Timestamp
+  1366311737,                             ! Version Timestamp
+  {7e19b7aa-d637-4778-9475-be64729c2719}; ! Name of Object 1
+

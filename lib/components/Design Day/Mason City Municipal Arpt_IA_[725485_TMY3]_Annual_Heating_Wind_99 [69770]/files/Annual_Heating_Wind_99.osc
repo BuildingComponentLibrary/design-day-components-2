@@ -1,0 +1,36 @@
+
+OS:Version,
+  {500273b9-c9f1-4efe-9864-d509792e30e4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4309ac71-72ad-4860-a52b-ae8b988e9d31}, ! Handle
+  Mason City Municipal Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -10.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97028,                                  ! Barometric Pressure {Pa}
+  13.9,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {71837ce3-dde5-4a99-8eaf-792104441924}, ! Handle
+  Component Data 1,                       ! Name
+  {f36c99c9-6846-4f2c-85cc-c8aa0ea726ec}, ! UUID
+  {6839ff0f-9de4-449c-8fca-64758d652a45}, ! Version UUID
+  1366307216,                             ! Creation Timestamp
+  1366307216,                             ! Version Timestamp
+  {4309ac71-72ad-4860-a52b-ae8b988e9d31}; ! Name of Object 1
+

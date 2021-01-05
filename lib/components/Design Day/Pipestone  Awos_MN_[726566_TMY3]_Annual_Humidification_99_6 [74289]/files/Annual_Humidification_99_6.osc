@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d5991afd-d20d-4009-ac5a-529eaf662bdb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3ab43d3a-58f3-4907-9580-5789379477f4}, ! Handle
+  Pipestone  Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -23.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95129,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {41741688-bd83-421d-85f8-af07ef6d4a5f}, ! Handle
+  Component Data 1,                       ! Name
+  {148ac41b-f5ef-4c4e-8fb8-78a30b9cb71c}, ! UUID
+  {2261d0b3-61a4-4643-b157-3c21f4005ef3}, ! Version UUID
+  1366308364,                             ! Creation Timestamp
+  1366308364,                             ! Version Timestamp
+  {3ab43d3a-58f3-4907-9580-5789379477f4}; ! Name of Object 1
+

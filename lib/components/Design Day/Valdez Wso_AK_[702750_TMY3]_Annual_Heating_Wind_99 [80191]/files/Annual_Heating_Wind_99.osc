@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a0acddca-8753-4551-802d-f6aa87d22bc4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {796d79df-b087-4227-ac31-12f465325edd}, ! Handle
+  Valdez Wso Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -8.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  12.8,                                   ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b210de0c-59f6-4602-ba42-79633c4770ce}, ! Handle
+  Component Data 1,                       ! Name
+  {4cb065b9-b80f-4f64-bb59-86ea6778278d}, ! UUID
+  {1770bd00-7c47-4f1c-8335-a72a0f894dd6}, ! Version UUID
+  1366305607,                             ! Creation Timestamp
+  1366305607,                             ! Version Timestamp
+  {796d79df-b087-4227-ac31-12f465325edd}; ! Name of Object 1
+

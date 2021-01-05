@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f42495ee-2455-4f49-b40e-cd8c17de6da2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b45fd8a2-ed62-4dc1-932a-93d1bca2f061}, ! Handle
+  Mcguire Afb Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -9.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f9b4f34b-8531-42d9-b9bf-1fa245f55a1d}, ! Handle
+  Component Data 1,                       ! Name
+  {6ab8db91-c815-4665-8c46-5db5c4325a70}, ! UUID
+  {b6ff0871-2883-4b62-8856-9bf9f2e655b4}, ! Version UUID
+  1366309312,                             ! Creation Timestamp
+  1366309312,                             ! Version Timestamp
+  {b45fd8a2-ed62-4dc1-932a-93d1bca2f061}; ! Name of Object 1
+

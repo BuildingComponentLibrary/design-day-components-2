@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5506d9ba-3ecd-48af-81d7-840eb89c03b4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {180c29d3-833f-4fd3-b520-d8482efee6ed}, ! Handle
+  Norfolk Karl Stefan Mem Arpt Ann Htg 99% Condns DB, ! Name
+  -19.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95782,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {08009be9-3741-424d-8452-e6bbf3993bef}, ! Handle
+  Component Data 1,                       ! Name
+  {7bc5b5cc-5bdb-4169-a3a5-1cfed78ff80a}, ! UUID
+  {123487b5-d1d1-494d-9d8e-02953e993630}, ! Version UUID
+  1366309148,                             ! Creation Timestamp
+  1366309148,                             ! Version Timestamp
+  {180c29d3-833f-4fd3-b520-d8482efee6ed}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2037d8b8-77ab-431e-a5a8-709c4b08b57e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {81c47859-9676-409c-af50-96081e8597ec}, ! Handle
+  Sexton Summit Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  2.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88058,                                  ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ecef0548-2f93-498d-bde2-12b91b3d2448}, ! Handle
+  Component Data 1,                       ! Name
+  {35e561f7-322e-427c-bfd6-f2b212f39071}, ! UUID
+  {c8991e7e-2937-4b28-b329-249cd15a8e7f}, ! Version UUID
+  1366310121,                             ! Creation Timestamp
+  1366310121,                             ! Version Timestamp
+  {81c47859-9676-409c-af50-96081e8597ec}; ! Name of Object 1
+

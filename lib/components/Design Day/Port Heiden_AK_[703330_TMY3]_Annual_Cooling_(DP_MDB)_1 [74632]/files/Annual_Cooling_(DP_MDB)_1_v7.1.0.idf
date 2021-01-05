@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Port Heiden_AK_USA Annual Cooling (DP=>MDB) 1%, MDB=14.3°C DP=11.3°C HR=0.0083
+ SizingPeriod:DesignDay,
+  Port Heiden Ann Clg 1% Condns DP=>MDB,     !- Name
+          8,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       14.3,      !- Maximum Dry-Bulb Temperature {C}
+        5.4,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Dewpoint,     !- Humidity Condition Type
+       11.3,      !- Dewpoint at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+    100977.,      !- Barometric Pressure {Pa}
+        7.3,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        150,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.375,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.300;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {87bec95c-de05-45f3-a477-12a7fc4511d1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {de8eb21c-e7e2-42fd-acef-496d407e31f9}, ! Handle
+  OKLAHOMA_CITY Ann Htg 99.6% Condns DB,  ! Name
+  -11.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96646,                                  ! Barometric Pressure {Pa}
+  6.1,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {12ff2dc7-d43f-409b-a619-87bdcf187931}, ! Handle
+  Component Data 1,                       ! Name
+  {8be2ea28-5100-4e1d-a694-ce7eb16f850c}, ! UUID
+  {6473c6df-00bb-466f-b736-60b334358ce7}, ! Version UUID
+  1366309930,                             ! Creation Timestamp
+  1366309930,                             ! Version Timestamp
+  {de8eb21c-e7e2-42fd-acef-496d407e31f9}; ! Name of Object 1
+

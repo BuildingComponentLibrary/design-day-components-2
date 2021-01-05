@@ -1,0 +1,36 @@
+
+OS:Version,
+  {48bb5b49-554e-408a-815b-c24455ad174c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7bc74a6c-0f46-41a0-b4be-ceb3f9976cd7}, ! Handle
+  Muskegon County Arpt Ann Htg 99% Condns DB, ! Name
+  -13,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99063,                                  ! Barometric Pressure {Pa}
+  4.5,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ed01b0b0-d1e0-44dc-9657-4e316716f09b}, ! Handle
+  Component Data 1,                       ! Name
+  {01f93814-cd61-4939-a266-c623305f1ea2}, ! UUID
+  {07a74a0d-a31a-498d-be1d-3de9bf2a6295}, ! Version UUID
+  1366308075,                             ! Creation Timestamp
+  1366308075,                             ! Version Timestamp
+  {7bc74a6c-0f46-41a0-b4be-ceb3f9976cd7}; ! Name of Object 1
+

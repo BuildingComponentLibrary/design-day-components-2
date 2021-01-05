@@ -1,0 +1,40 @@
+
+OS:Version,
+  {deb27b7a-359d-4236-b762-a5a6112b53fb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {50cd33f9-9ae5-40ac-8ff5-44ba5b8f1fe7}, ! Handle
+  White Plains Westchester Co A Ann Clg 2% Condns WB=>MDB, ! Name
+  26.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  9.6,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  23.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99868,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.506,                                  ! ASHRAE Taub {dimensionless}
+  1.88;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {e19d15bf-eadb-41d6-80a4-f53eae1d6a86}, ! Handle
+  Component Data 1,                       ! Name
+  {28b15253-cf55-4637-986f-f78f3c21fe47}, ! UUID
+  {6a480518-90a3-43fc-9f1c-24e4fb784780}, ! Version UUID
+  1366309756,                             ! Creation Timestamp
+  1366309756,                             ! Version Timestamp
+  {50cd33f9-9ae5-40ac-8ff5-44ba5b8f1fe7}; ! Name of Object 1
+

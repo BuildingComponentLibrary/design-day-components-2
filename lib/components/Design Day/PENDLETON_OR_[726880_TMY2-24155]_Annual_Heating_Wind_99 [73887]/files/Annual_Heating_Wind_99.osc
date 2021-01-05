@@ -1,0 +1,36 @@
+
+OS:Version,
+  {665e81f9-b571-40d4-aacf-cd23c894cbeb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f0cdd5be-18a2-41bf-9177-e0735db526ba}, ! Handle
+  PENDLETON Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  7.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7.7,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95966,                                  ! Barometric Pressure {Pa}
+  12.5,                                   ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4b3479d6-373a-43a8-bce7-1f11bd6f91af}, ! Handle
+  Component Data 1,                       ! Name
+  {bc27e5e4-2d3e-479c-8108-c84118023067}, ! UUID
+  {db92ca03-9d24-43ba-a892-e70418123240}, ! Version UUID
+  1366310062,                             ! Creation Timestamp
+  1366310062,                             ! Version Timestamp
+  {f0cdd5be-18a2-41bf-9177-e0735db526ba}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2fbef28f-db8d-430b-9b76-2282269d9d04}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2f044233-7be3-4a37-85f8-dd7a2a950f07}, ! Handle
+  New Orleans Alvin Callender F Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  3,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  2,                                      ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ae91ed22-c4fa-4bd2-b166-51c0ffb41513}, ! Handle
+  Component Data 1,                       ! Name
+  {90b6874f-b527-46ad-972c-57a207a8fe22}, ! UUID
+  {70f63cbc-3e8a-453d-924f-79a0add3344a}, ! Version UUID
+  1366307740,                             ! Creation Timestamp
+  1366307740,                             ! Version Timestamp
+  {2f044233-7be3-4a37-85f8-dd7a2a950f07}; ! Name of Object 1
+

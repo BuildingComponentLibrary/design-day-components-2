@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ba9296ea-3dbc-48a9-a231-ab2001c3dc09}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5d8db7d1-30c9-4920-9e17-9390814e4fde}, ! Handle
+  Salina Municipal Ap Ann Htg 99% Condns DB, ! Name
+  -13.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96785,                                  ! Barometric Pressure {Pa}
+  4.5,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7905a16b-5785-45a2-b728-f3eec699bffd}, ! Handle
+  Component Data 1,                       ! Name
+  {6027ae1a-a469-433f-9b69-c0619f1a243c}, ! UUID
+  {73e146a1-8c52-4a6a-9834-5259ace1818f}, ! Version UUID
+  1366307575,                             ! Creation Timestamp
+  1366307575,                             ! Version Timestamp
+  {5d8db7d1-30c9-4920-9e17-9390814e4fde}; ! Name of Object 1
+

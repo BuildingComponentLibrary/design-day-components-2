@@ -1,0 +1,36 @@
+
+OS:Version,
+  {27c2b99a-038d-48ab-a8eb-a55fd4161eb7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6ea06ead-5077-408d-a14d-2e9cc2ceed6c}, ! Handle
+  Millville Municipal Ap Ann Htg 99.6% Condns DB, ! Name
+  -12.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a46fe028-5235-4109-aa92-3310b15f9b08}, ! Handle
+  Component Data 1,                       ! Name
+  {8ae0f6dd-e12a-4ae3-991e-8a52b43e3422}, ! UUID
+  {99290122-7c01-4804-b2cb-7a746383b052}, ! Version UUID
+  1366309317,                             ! Creation Timestamp
+  1366309317,                             ! Version Timestamp
+  {6ea06ead-5077-408d-a14d-2e9cc2ceed6c}; ! Name of Object 1
+

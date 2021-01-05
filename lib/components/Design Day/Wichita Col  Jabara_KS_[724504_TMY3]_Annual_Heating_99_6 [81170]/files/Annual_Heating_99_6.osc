@@ -1,0 +1,36 @@
+
+OS:Version,
+  {82ae479b-bc20-49ab-98d8-d146401f98c0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d231e7d4-e30c-49ec-8506-7d54d40a6189}, ! Handle
+  Wichita Col  Jabara Ann Htg 99.6% Condns DB, ! Name
+  -14,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96230,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0c051aa1-65e9-4d70-962a-c04c126525dc}, ! Handle
+  Component Data 1,                       ! Name
+  {89f5719e-4ef8-496d-9a31-3904f1874bc7}, ! UUID
+  {2a8f2f09-f0ed-417a-af1d-f53599c17557}, ! Version UUID
+  1366307594,                             ! Creation Timestamp
+  1366307594,                             ! Version Timestamp
+  {d231e7d4-e30c-49ec-8506-7d54d40a6189}; ! Name of Object 1
+

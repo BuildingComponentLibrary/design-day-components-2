@@ -1,0 +1,36 @@
+
+OS:Version,
+  {af6ea8e3-c202-4126-b4bb-96a4af647a62}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8a14c8d4-03b3-4476-8a29-8fbbdcb13994}, ! Handle
+  Travis Field Afb Ann Htg 99% Condns DB, ! Name
+  1.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101109,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {987b2c96-c695-4a1a-a127-42b679194e4c}, ! Handle
+  Component Data 1,                       ! Name
+  {3c909bac-8945-4499-a099-5bad55dcedaa}, ! UUID
+  {a1fcc6b8-dba4-457c-a31f-b2f8005737a2}, ! Version UUID
+  1366306425,                             ! Creation Timestamp
+  1366306425,                             ! Version Timestamp
+  {8a14c8d4-03b3-4476-8a29-8fbbdcb13994}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5002c3ad-3415-4eb7-bf27-c1f32573e7f9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0bbff8ab-3a5d-49ad-8cd8-f405078c4f15}, ! Handle
+  Tonopah Airport Ann Htg 99.6% Condns DB, ! Name
+  -12.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82960,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2987e748-c773-4167-aead-8557cd47fb5c}, ! Handle
+  Component Data 1,                       ! Name
+  {376bd19b-358f-440d-afcd-bf43fa480ad4}, ! UUID
+  {849e9d9f-9ebb-404c-918d-1a43054d5912}, ! Version UUID
+  1366309553,                             ! Creation Timestamp
+  1366309553,                             ! Version Timestamp
+  {0bbff8ab-3a5d-49ad-8cd8-f405078c4f15}; ! Name of Object 1
+

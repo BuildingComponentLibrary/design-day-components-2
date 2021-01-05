@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a30bedda-cc54-445e-9b03-3a36006c4897}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b3fa7a53-5488-44e6-bf91-b5998eb88d71}, ! Handle
+  OLYMPIA Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  7.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100594,                                 ! Barometric Pressure {Pa}
+  9.3,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9d279146-31b1-4f21-a266-3096a12ad0b2}, ! Handle
+  Component Data 1,                       ! Name
+  {86e6a4aa-5c87-4d9b-b9ba-f6f8e26d519f}, ! UUID
+  {54097d50-d010-4301-ae0d-a9f56eb0bf26}, ! Version UUID
+  1366311303,                             ! Creation Timestamp
+  1366311303,                             ! Version Timestamp
+  {b3fa7a53-5488-44e6-bf91-b5998eb88d71}; ! Name of Object 1
+

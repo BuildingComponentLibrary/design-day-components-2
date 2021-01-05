@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ce487bcb-c505-4ecb-9fc4-a499ad086b95}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c42f768c-383c-413b-8d26-70f27e5026d6}, ! Handle
+  Traverse City Ann Htg 99.6% Condns DB,  ! Name
+  -18,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99063,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  190,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e0df640a-885f-4c9c-b595-51f83a18a371}, ! Handle
+  Component Data 1,                       ! Name
+  {77377592-2c1c-4a50-87c8-88a30f818219}, ! UUID
+  {c94fb076-8076-40dc-bd23-5a1c30f7ce02}, ! Version UUID
+  1366308119,                             ! Creation Timestamp
+  1366308119,                             ! Version Timestamp
+  {c42f768c-383c-413b-8d26-70f27e5026d6}; ! Name of Object 1
+

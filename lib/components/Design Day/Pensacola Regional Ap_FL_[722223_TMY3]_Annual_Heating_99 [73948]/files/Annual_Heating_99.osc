@@ -1,0 +1,36 @@
+
+OS:Version,
+  {072b5d6a-bdb4-4c99-8caa-0452cc85d0b2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e6beeef2-1dc7-4465-82ca-6bcc55823655}, ! Handle
+  Pensacola Regional Ap Ann Htg 99% Condns DB, ! Name
+  0.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.7,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100917,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ed83e46a-d70c-4ad1-b745-8e99de783abf}, ! Handle
+  Component Data 1,                       ! Name
+  {3b8954e2-101f-4977-9105-f674b0798833}, ! UUID
+  {e389c571-b8ce-45b0-beb3-c21d00f34df9}, ! Version UUID
+  1366306904,                             ! Creation Timestamp
+  1366306904,                             ! Version Timestamp
+  {e6beeef2-1dc7-4465-82ca-6bcc55823655}; ! Name of Object 1
+

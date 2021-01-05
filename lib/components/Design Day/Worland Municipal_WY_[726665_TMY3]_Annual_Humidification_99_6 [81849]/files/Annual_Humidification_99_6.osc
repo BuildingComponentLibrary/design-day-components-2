@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a4267721-2a25-429e-93ad-262c1d4a3565}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f04c2441-c138-40cf-835e-faae85a94e4d}, ! Handle
+  Worland Municipal Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -27.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -31.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86715,                                  ! Barometric Pressure {Pa}
+  1.4,                                    ! Wind Speed {m/s}
+  210,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c84130d3-c278-44b7-a27a-489c7f4da409}, ! Handle
+  Component Data 1,                       ! Name
+  {150d3fda-a569-49ce-8df0-0a6141094aa9}, ! UUID
+  {6de110e6-a51f-4dfa-947a-bd48ead7c08b}, ! Version UUID
+  1366311791,                             ! Creation Timestamp
+  1366311791,                             ! Version Timestamp
+  {f04c2441-c138-40cf-835e-faae85a94e4d}; ! Name of Object 1
+

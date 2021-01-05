@@ -1,0 +1,36 @@
+
+OS:Version,
+  {74f7eef6-a3b0-4c9c-aed4-6f02b2bc91bb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4ae6a430-0eed-468d-9eb9-5db8f1c70b1b}, ! Handle
+  Olympia Airport Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -3.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100570,                                 ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f9ba6dce-8327-46b2-9433-58acc4237bcb}, ! Handle
+  Component Data 1,                       ! Name
+  {907f5274-5e63-41ad-a2dd-97ac3b6bd571}, ! UUID
+  {f2aed630-b00e-43cc-a93d-ba81da89ba54}, ! Version UUID
+  1366311314,                             ! Creation Timestamp
+  1366311314,                             ! Version Timestamp
+  {4ae6a430-0eed-468d-9eb9-5db8f1c70b1b}; ! Name of Object 1
+

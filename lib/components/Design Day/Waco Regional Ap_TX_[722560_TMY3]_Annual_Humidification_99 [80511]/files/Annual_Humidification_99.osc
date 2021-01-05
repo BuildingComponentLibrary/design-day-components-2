@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2eba186c-40af-4515-9fde-bb2bafbe652f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eaa7bc3d-af0d-4cad-a6de-a4c307ab87c8}, ! Handle
+  Waco Regional Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  1.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99512,                                  ! Barometric Pressure {Pa}
+  5.1,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fe2f0649-48c7-4e47-91bf-89f1d8de250b}, ! Handle
+  Component Data 1,                       ! Name
+  {f2d3b1f3-88e8-4668-af39-aa74f9e1563d}, ! UUID
+  {32b85ab0-a4f3-470e-88e2-4624b0c45994}, ! Version UUID
+  1366310924,                             ! Creation Timestamp
+  1366310924,                             ! Version Timestamp
+  {eaa7bc3d-af0d-4cad-a6de-a4c307ab87c8}; ! Name of Object 1
+

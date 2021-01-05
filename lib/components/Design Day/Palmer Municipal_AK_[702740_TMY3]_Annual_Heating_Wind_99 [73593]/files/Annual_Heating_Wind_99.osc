@@ -1,0 +1,36 @@
+
+OS:Version,
+  {258e61b6-98dc-4ff3-9095-fc843c1721a8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9fd7acc5-72b5-4d6f-b309-822eef39147c}, ! Handle
+  Palmer Municipal Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -3.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100475,                                 ! Barometric Pressure {Pa}
+  15.7,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {93712af2-94b8-4117-b22b-aa1f2334ee52}, ! Handle
+  Component Data 1,                       ! Name
+  {3e87d0a3-b56b-4888-8be8-fcd99a2325cc}, ! UUID
+  {234fb039-cb8b-406c-8c75-0759f3084015}, ! Version UUID
+  1366305474,                             ! Creation Timestamp
+  1366305474,                             ! Version Timestamp
+  {9fd7acc5-72b5-4d6f-b309-822eef39147c}; ! Name of Object 1
+

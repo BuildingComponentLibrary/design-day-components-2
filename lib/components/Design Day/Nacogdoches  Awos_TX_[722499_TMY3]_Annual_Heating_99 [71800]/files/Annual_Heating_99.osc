@@ -1,0 +1,36 @@
+
+OS:Version,
+  {823d381b-f27d-4dd4-a80d-640ca0e08de0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {05aa83f4-0d5a-4ecd-829c-f91af4f631ff}, ! Handle
+  Nacogdoches  Awos Ann Htg 99% Condns DB, ! Name
+  -2.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100034,                                 ! Barometric Pressure {Pa}
+  0.9,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {64a85014-d998-4e06-a7b1-1d6d39dd2a22}, ! Handle
+  Component Data 1,                       ! Name
+  {f32ed1f3-6cb9-41a3-8275-361300bfa4eb}, ! UUID
+  {feb1967d-2cb8-4af3-a7e2-37d82a9174db}, ! Version UUID
+  1366310839,                             ! Creation Timestamp
+  1366310839,                             ! Version Timestamp
+  {05aa83f4-0d5a-4ecd-829c-f91af4f631ff}; ! Name of Object 1
+

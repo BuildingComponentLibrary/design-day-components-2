@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ecfb4f54-3ebf-47dd-9a3a-4155c819dc89}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {389e37cb-634e-4f96-bee2-65d0d2afca0d}, ! Handle
+  NEW_ORLEANS Ann Htg 99% Condns DB,      ! Name
+  3.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  6.5,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {58640982-0aed-45cf-a680-605321592e22}, ! Handle
+  Component Data 1,                       ! Name
+  {b9120026-a325-440d-bc58-d8bee7c95922}, ! UUID
+  {4f58272f-7d03-4bcd-abda-734b4836218e}, ! Version UUID
+  1366307746,                             ! Creation Timestamp
+  1366307746,                             ! Version Timestamp
+  {389e37cb-634e-4f96-bee2-65d0d2afca0d}; ! Name of Object 1
+

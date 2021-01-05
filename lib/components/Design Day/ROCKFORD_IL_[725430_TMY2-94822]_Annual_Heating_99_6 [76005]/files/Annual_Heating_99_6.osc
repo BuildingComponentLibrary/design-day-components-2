@@ -1,0 +1,36 @@
+
+OS:Version,
+  {533e4781-3409-4298-b3c8-1510925483dd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {76557021-b4f9-4877-a0f4-482a7ba4e4fc}, ! Handle
+  ROCKFORD Ann Htg 99.6% Condns DB,       ! Name
+  -22.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98698,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dcb32eb8-f70b-4f09-b311-a8a4f46b5ec0}, ! Handle
+  Component Data 1,                       ! Name
+  {2b933631-7d1a-4f6c-ad67-84ea76177920}, ! UUID
+  {2c4fe948-d253-4f97-a2b4-c97ae6514496}, ! Version UUID
+  1366307395,                             ! Creation Timestamp
+  1366307395,                             ! Version Timestamp
+  {76557021-b4f9-4877-a0f4-482a7ba4e4fc}; ! Name of Object 1
+

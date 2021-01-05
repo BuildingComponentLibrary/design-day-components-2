@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0e8dfacc-3772-40ce-8340-51b279c053e1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a120de3b-9685-46bb-b427-9363c696fd8d}, ! Handle
+  Warner Robins Afb Ann Htg 99% Condns DB, ! Name
+  -2.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100225,                                 ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {998ad4b0-7085-4d65-9aa9-13b6aa58101d}, ! Handle
+  Component Data 1,                       ! Name
+  {5d91e2a1-c944-4687-aa1e-dd20c875b174}, ! UUID
+  {cd856b66-b8c8-48b3-976b-287094c5e188}, ! Version UUID
+  1366307065,                             ! Creation Timestamp
+  1366307065,                             ! Version Timestamp
+  {a120de3b-9685-46bb-b427-9363c696fd8d}; ! Name of Object 1
+

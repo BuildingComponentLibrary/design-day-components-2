@@ -1,0 +1,36 @@
+
+OS:Version,
+  {97efa126-5312-4c97-b966-4d67885cb132}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cb2160f7-592c-415f-bfb3-075686d9a6a0}, ! Handle
+  Savannah Intl Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  12.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  12.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101157,                                 ! Barometric Pressure {Pa}
+  10.1,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b7cba29d-b3bd-4b3d-b5ee-5924ed10478e}, ! Handle
+  Component Data 1,                       ! Name
+  {06eee673-e74e-436c-9302-ccd607677a60}, ! UUID
+  {261067b3-4415-4567-ba06-e52fac949d84}, ! Version UUID
+  1366307055,                             ! Creation Timestamp
+  1366307055,                             ! Version Timestamp
+  {cb2160f7-592c-415f-bfb3-075686d9a6a0}; ! Name of Object 1
+

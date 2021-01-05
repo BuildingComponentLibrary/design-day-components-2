@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a41bed74-9436-4e8b-8378-511e05586199}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2c3a0a54-7010-484b-b0a3-b58ecad0a4e8}, ! Handle
+  New River Mcaf Ann Htg 99% Condns DB,   ! Name
+  -2.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2e0caf5a-b12e-4ca4-8679-21ba954c4042}, ! Handle
+  Component Data 1,                       ! Name
+  {72c95de2-b980-4867-86a5-f17e89e6ba33}, ! UUID
+  {4652fede-8b86-4312-9b6f-60687149e7d9}, ! Version UUID
+  1366308955,                             ! Creation Timestamp
+  1366308955,                             ! Version Timestamp
+  {2c3a0a54-7010-484b-b0a3-b58ecad0a4e8}; ! Name of Object 1
+

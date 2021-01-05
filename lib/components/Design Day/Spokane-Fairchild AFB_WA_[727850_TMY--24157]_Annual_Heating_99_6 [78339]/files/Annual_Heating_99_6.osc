@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9937e527-8e1f-4fa5-9047-8b4af18b7619}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d4b37714-fbdf-4636-91e4-67d8bc988f6b}, ! Handle
+  Spokane/Fairchild AFB Ann Htg 99.6% Condns DB, ! Name
+  -16.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92634,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {84c64383-06d3-4172-9fa9-0a3de4c30a29}, ! Handle
+  Component Data 1,                       ! Name
+  {0be46a05-1214-4b59-9733-90efe6187f82}, ! UUID
+  {dbbfa832-dde5-439d-806f-218adcb77747}, ! Version UUID
+  1366311388,                             ! Creation Timestamp
+  1366311388,                             ! Version Timestamp
+  {d4b37714-fbdf-4636-91e4-67d8bc988f6b}; ! Name of Object 1
+

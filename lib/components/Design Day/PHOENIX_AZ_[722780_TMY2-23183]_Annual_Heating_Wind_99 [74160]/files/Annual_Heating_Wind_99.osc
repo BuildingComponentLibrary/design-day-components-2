@@ -1,0 +1,36 @@
+
+OS:Version,
+  {29bc4ae0-e189-4c91-8014-eea29e48db8a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9e98ceb2-dbe9-404f-9eca-85d26f313ec3}, ! Handle
+  PHOENIX Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  15.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  15.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97318,                                  ! Barometric Pressure {Pa}
+  7.3,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {feb78107-ba8d-4542-ba77-d269ea661efa}, ! Handle
+  Component Data 1,                       ! Name
+  {ee3f62ed-d739-4380-8981-fbaaa97b2b77}, ! UUID
+  {f40605e1-16a4-4d39-9432-1c6f7ba2fded}, ! Version UUID
+  1366306297,                             ! Creation Timestamp
+  1366306297,                             ! Version Timestamp
+  {9e98ceb2-dbe9-404f-9eca-85d26f313ec3}; ! Name of Object 1
+

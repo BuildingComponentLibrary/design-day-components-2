@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f35682d2-b3f9-430b-8f47-212c5e56cec7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6a79f93d-d341-40e0-b8cf-09b9b98fb0bb}, ! Handle
+  Tacoma Narrows Ann Htg 99% Condns DB,   ! Name
+  0.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100237,                                 ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fdac661e-5d5d-4fe3-8142-5ae1e875b241}, ! Handle
+  Component Data 1,                       ! Name
+  {75975c7d-d317-49c3-8aa5-8b5d13f9d056}, ! UUID
+  {7626a3d3-ef5b-4a3e-803c-4db38d8e8c47}, ! Version UUID
+  1366311410,                             ! Creation Timestamp
+  1366311410,                             ! Version Timestamp
+  {6a79f93d-d341-40e0-b8cf-09b9b98fb0bb}; ! Name of Object 1
+

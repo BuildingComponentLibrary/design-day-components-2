@@ -1,0 +1,40 @@
+
+OS:Version,
+  {185842b0-c37d-48a0-8cac-4e0fc1fcfc30}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ffbef056-7c14-4eb5-bcf9-e45705f499d9}, ! Handle
+  San Antonio Kelly Field Afb Ann Clg 1% Condns Enth=>MDB, ! Name
+  30.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  11.7,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  81200,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98851,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  8,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.451,                                  ! ASHRAE Taub {dimensionless}
+  2.14;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {a38a7149-84f3-473d-8780-0a3d2b552a01}, ! Handle
+  Component Data 1,                       ! Name
+  {af370dff-0c3d-4ba9-841e-a56047ffe5ae}, ! UUID
+  {6a302d62-b2bf-43e1-ad02-dc099ba703ea}, ! Version UUID
+  1366310883,                             ! Creation Timestamp
+  1366310883,                             ! Version Timestamp
+  {ffbef056-7c14-4eb5-bcf9-e45705f499d9}; ! Name of Object 1
+

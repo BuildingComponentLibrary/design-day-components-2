@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bbe2aa4c-dda3-4d5b-bda4-554662487427}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c46a6c60-7641-47f6-bde3-44d817dc2950}, ! Handle
+  Somerset Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  11.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  11.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97971,                                  ! Barometric Pressure {Pa}
+  10,                                     ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dc9b7fb3-a782-44d3-b7c3-3aa55bd05a92}, ! Handle
+  Component Data 1,                       ! Name
+  {9c736642-d453-45db-bd97-9443206f6c8b}, ! UUID
+  {4fd424c6-e088-439a-9658-1cfcd154916f}, ! Version UUID
+  1366307686,                             ! Creation Timestamp
+  1366307686,                             ! Version Timestamp
+  {c46a6c60-7641-47f6-bde3-44d817dc2950}; ! Name of Object 1
+

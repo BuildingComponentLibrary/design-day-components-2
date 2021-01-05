@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0c84536f-68c0-4b3b-930f-c747dfd16326}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f4562d43-9b67-4f24-a460-4aa79e32ab3e}, ! Handle
+  Sioux Falls Ann Htg 99% Condns DB,      ! Name
+  -22.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96207,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {488b118c-f9b4-41c6-9e92-faf9be268735}, ! Handle
+  Component Data 1,                       ! Name
+  {b57bb609-630f-4530-b532-2db87a042c7d}, ! UUID
+  {bc3afe7e-cecd-496b-8da0-668a89e3242f}, ! Version UUID
+  1366310453,                             ! Creation Timestamp
+  1366310453,                             ! Version Timestamp
+  {f4562d43-9b67-4f24-a460-4aa79e32ab3e}; ! Name of Object 1
+

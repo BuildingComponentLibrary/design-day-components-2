@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ea55d77e-4be9-4d56-8372-f7986fa5279c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d6afd1eb-33a9-40f6-8126-43bfe42dc798}, ! Handle
+  Marathon Airport Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  13.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6f66d187-0f0c-48a2-8048-106dff46052f}, ! Handle
+  Component Data 1,                       ! Name
+  {3e74b9f2-29a1-4011-9e2e-6f1df3b76721}, ! UUID
+  {50e6434c-1b25-44b6-9e95-95fd6063e50f}, ! Version UUID
+  1366306846,                             ! Creation Timestamp
+  1366306846,                             ! Version Timestamp
+  {d6afd1eb-33a9-40f6-8126-43bfe42dc798}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2d22d775-d1c5-4504-a7cc-a0417663c24e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6f223f1b-2ebf-4eb8-81ef-14a2a0c2891a}, ! Handle
+  Whidbey Island Nas Ann Htg 99% Condns DB, ! Name
+  -2.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {09545033-18fc-4874-91cc-4e95629413ce}, ! Handle
+  Component Data 1,                       ! Name
+  {2283fea3-ed05-4082-81cb-873786ec2778}, ! UUID
+  {5dd819c9-8214-4cfe-823e-a6acddf5687e}, ! Version UUID
+  1366311435,                             ! Creation Timestamp
+  1366311435,                             ! Version Timestamp
+  {6f223f1b-2ebf-4eb8-81ef-14a2a0c2891a}; ! Name of Object 1
+

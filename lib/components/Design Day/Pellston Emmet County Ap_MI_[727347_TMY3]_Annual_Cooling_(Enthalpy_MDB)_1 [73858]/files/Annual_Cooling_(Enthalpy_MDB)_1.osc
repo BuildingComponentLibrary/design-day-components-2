@@ -1,0 +1,40 @@
+
+OS:Version,
+  {4622540d-ef05-4995-8032-0f0c9e87e266}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fc87c5e9-3426-40b3-8546-c69905a2e050}, ! Handle
+  Pellston Emmet County Ap Ann Clg 1% Condns Enth=>MDB, ! Name
+  27.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  13.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  66200,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98733,                                  ! Barometric Pressure {Pa}
+  5.6,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.414,                                  ! ASHRAE Taub {dimensionless}
+  2.197;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {9be6abfc-cb11-412a-8222-30f1cc084d10}, ! Handle
+  Component Data 1,                       ! Name
+  {7650e6fb-7f53-481a-9f91-164aee9407c0}, ! UUID
+  {0b27bdd3-ec98-47b8-9868-c39c6b64b081}, ! Version UUID
+  1366308089,                             ! Creation Timestamp
+  1366308089,                             ! Version Timestamp
+  {fc87c5e9-3426-40b3-8546-c69905a2e050}; ! Name of Object 1
+

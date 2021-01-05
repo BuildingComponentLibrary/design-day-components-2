@@ -1,0 +1,36 @@
+
+OS:Version,
+  {defa1077-4b2c-497f-b472-cf486e76a627}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cbb95c81-0674-47fa-a404-f20e516fa85c}, ! Handle
+  Phillips Price Co Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -5.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96046,                                  ! Barometric Pressure {Pa}
+  9,                                      ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a89c871e-f278-496f-b172-df3eaf21fbe9}, ! Handle
+  Component Data 1,                       ! Name
+  {29e337c6-eda9-4a37-8b89-a1d86ca82b7e}, ! UUID
+  {fe7e81b2-a567-4b39-b2c6-c23115c34b84}, ! Version UUID
+  1366311574,                             ! Creation Timestamp
+  1366311574,                             ! Version Timestamp
+  {cbb95c81-0674-47fa-a404-f20e516fa85c}; ! Name of Object 1
+

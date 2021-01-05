@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a1d401a1-6088-4ba0-a30e-342c65906ad2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {134ea81c-0382-4919-9189-d5957ae5c063}, ! Handle
+  Naval Air Station Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -17,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -28.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  2,                                      ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f4593504-4eda-4659-a26d-0f8681f8dc15}, ! Handle
+  Component Data 1,                       ! Name
+  {9e7be009-f26c-4a96-ace8-e2aa5310f6ed}, ! UUID
+  {837bea07-a263-43cc-90d0-822630826485}, ! Version UUID
+  1366307882,                             ! Creation Timestamp
+  1366307882,                             ! Version Timestamp
+  {134ea81c-0382-4919-9189-d5957ae5c063}; ! Name of Object 1
+

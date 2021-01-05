@@ -1,0 +1,36 @@
+
+OS:Version,
+  {635b6e4c-6666-432f-9358-83981d5f0562}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c6b096dc-07bc-4892-8e13-7b0265834cba}, ! Handle
+  Valparaiso Hurlburt Ann Htg 99% Condns DB, ! Name
+  0.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101181,                                 ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {15753601-14dc-4c69-8e02-e401a9acdc67}, ! Handle
+  Component Data 1,                       ! Name
+  {9e40bf09-8b24-4207-adbf-cedfbb2ab97b}, ! UUID
+  {89a69e38-e085-4786-97bc-99b96f722bf1}, ! Version UUID
+  1366306805,                             ! Creation Timestamp
+  1366306805,                             ! Version Timestamp
+  {c6b096dc-07bc-4892-8e13-7b0265834cba}; ! Name of Object 1
+

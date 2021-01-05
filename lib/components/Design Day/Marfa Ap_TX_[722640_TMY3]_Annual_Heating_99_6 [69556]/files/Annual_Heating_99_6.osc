@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c4b48882-0aec-4d25-8d0a-99ffae28e58c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {407baf84-22bc-4536-8b14-70d78abb7cbc}, ! Handle
+  Marfa Ap Ann Htg 99.6% Condns DB,       ! Name
+  -9.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84836,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {50e6721f-a74b-4d63-8324-3a5b919ceb9c}, ! Handle
+  Component Data 1,                       ! Name
+  {59b66681-0e28-4842-bebd-03367d56c4f7}, ! UUID
+  {86988c54-b07b-4540-ae8f-7561bcb7e558}, ! Version UUID
+  1366310814,                             ! Creation Timestamp
+  1366310814,                             ! Version Timestamp
+  {407baf84-22bc-4536-8b14-70d78abb7cbc}; ! Name of Object 1
+

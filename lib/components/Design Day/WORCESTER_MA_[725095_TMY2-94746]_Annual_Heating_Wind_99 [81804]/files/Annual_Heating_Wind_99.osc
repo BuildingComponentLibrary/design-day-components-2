@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8a463d73-1787-4e4c-8394-d389f8b46a75}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d63c5131-8613-48ae-962a-0bb79e0bb9b9}, ! Handle
+  WORCESTER Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -4.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97761,                                  ! Barometric Pressure {Pa}
+  12.4,                                   ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9ca206d6-24bd-49b7-aae7-82b952e4bbdb}, ! Handle
+  Component Data 1,                       ! Name
+  {3a425522-e4fe-47b0-85c7-5bf381e498f0}, ! UUID
+  {de3db349-10da-4db8-ae24-4179758e8be2}, ! Version UUID
+  1366307826,                             ! Creation Timestamp
+  1366307826,                             ! Version Timestamp
+  {d63c5131-8613-48ae-962a-0bb79e0bb9b9}; ! Name of Object 1
+

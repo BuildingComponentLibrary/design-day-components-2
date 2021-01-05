@@ -1,0 +1,36 @@
+
+OS:Version,
+  {65eca712-f39a-4e0e-9758-4fbeda19e8f6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {53618fad-0577-42d2-b452-f292609ff44e}, ! Handle
+  Sacramento Metropolitan Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  12.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  12.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {df43d5dd-ff09-4f24-a1c4-2eab96b2b69c}, ! Handle
+  Component Data 1,                       ! Name
+  {f16a2efd-9fa4-4d29-bc2f-b899a0621a43}, ! UUID
+  {93aaf4b5-8f5f-400a-810e-04162fb098cd}, ! Version UUID
+  1366306567,                             ! Creation Timestamp
+  1366306567,                             ! Version Timestamp
+  {53618fad-0577-42d2-b452-f292609ff44e}; ! Name of Object 1
+

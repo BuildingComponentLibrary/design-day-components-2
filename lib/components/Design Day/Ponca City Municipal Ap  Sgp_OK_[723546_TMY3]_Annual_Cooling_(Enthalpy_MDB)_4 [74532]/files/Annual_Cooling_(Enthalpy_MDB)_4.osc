@@ -1,0 +1,40 @@
+
+OS:Version,
+  {c0b9d228-c371-4940-9766-af31a9f035f8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0b7d06a7-a57f-499e-a210-ce02ee34c896}, ! Handle
+  Ponca City Municipal Ap  Sgp Ann Clg .4% Condns Enth=>MDB, ! Name
+  33.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  11.4,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  82900,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97563,                                  ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  170,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.432,                                  ! ASHRAE Taub {dimensionless}
+  2.176;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {c63a0e5b-17ba-4432-8387-f9710847937c}, ! Handle
+  Component Data 1,                       ! Name
+  {4601f39c-91e6-405b-8104-7912a13329b2}, ! UUID
+  {50457531-0d37-4fe0-bf08-7c8a919ca1d2}, ! Version UUID
+  1366309942,                             ! Creation Timestamp
+  1366309942,                             ! Version Timestamp
+  {0b7d06a7-a57f-499e-a210-ce02ee34c896}; ! Name of Object 1
+

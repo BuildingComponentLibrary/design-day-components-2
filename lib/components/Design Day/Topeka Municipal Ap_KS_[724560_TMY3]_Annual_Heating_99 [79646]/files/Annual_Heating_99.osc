@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2dfc6007-14a7-4628-9d9b-26fc1b0429f9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d24afe9f-6b50-4500-9a6c-3106dc847794}, ! Handle
+  Topeka Municipal Ap Ann Htg 99% Condns DB, ! Name
+  -14,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98135,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8a7390c3-47e3-47a5-bcc1-1a46d1c8d75f}, ! Handle
+  Component Data 1,                       ! Name
+  {236e394e-a6d3-4464-8627-b89d504608b1}, ! UUID
+  {98b6991a-2765-4417-8757-a3760b0f075e}, ! Version UUID
+  1366307586,                             ! Creation Timestamp
+  1366307586,                             ! Version Timestamp
+  {d24afe9f-6b50-4500-9a6c-3106dc847794}; ! Name of Object 1
+

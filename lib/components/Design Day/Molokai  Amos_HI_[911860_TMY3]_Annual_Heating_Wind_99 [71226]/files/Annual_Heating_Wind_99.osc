@@ -1,0 +1,36 @@
+
+OS:Version,
+  {12c09bfe-1dbe-49eb-aa54-13e4a69345d0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {01306ac7-eb0c-4eca-9f05-973e8a042f88}, ! Handle
+  Molokai  Amos Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  23.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  23.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99690,                                  ! Barometric Pressure {Pa}
+  10.6,                                   ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ecaaa6eb-421a-419c-a899-484d082b1e5c}, ! Handle
+  Component Data 1,                       ! Name
+  {c8604423-a021-418e-a17f-0741aefe9882}, ! UUID
+  {cde7125e-b333-4b07-8345-7c224d0a7132}, ! Version UUID
+  1366307124,                             ! Creation Timestamp
+  1366307124,                             ! Version Timestamp
+  {01306ac7-eb0c-4eca-9f05-973e8a042f88}; ! Name of Object 1
+

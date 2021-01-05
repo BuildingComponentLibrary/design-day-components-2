@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3fe0fde2-15e2-41c3-97b0-b46f9a08d819}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ec599c7d-bcf4-4ec1-be09-aabfc32b3d6f}, ! Handle
+  Providence T F Green State Ar Ann Htg 99% Condns DB, ! Name
+  -11.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101133,                                 ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0d8bd199-02f5-4b96-b4fd-675406ce2c86}, ! Handle
+  Component Data 1,                       ! Name
+  {0cd36b1a-3d27-4d8c-a794-a5bb8885d839}, ! UUID
+  {96a79d06-4860-496a-9a8d-ed2b1910595e}, ! Version UUID
+  1366310301,                             ! Creation Timestamp
+  1366310301,                             ! Version Timestamp
+  {ec599c7d-bcf4-4ec1-be09-aabfc32b3d6f}; ! Name of Object 1
+

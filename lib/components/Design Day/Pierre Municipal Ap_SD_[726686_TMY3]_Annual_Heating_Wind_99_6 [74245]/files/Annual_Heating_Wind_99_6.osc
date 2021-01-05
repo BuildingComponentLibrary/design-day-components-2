@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b9357796-d471-4fc7-89ef-66c38b6bf8db}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b724a016-9193-4455-9e63-d76d861697ec}, ! Handle
+  Pierre Municipal Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -9.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95141,                                  ! Barometric Pressure {Pa}
+  15,                                     ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e58159cb-569e-4fe4-8aeb-d0de78e368c9}, ! Handle
+  Component Data 1,                       ! Name
+  {aad20965-d713-47f0-8bd2-6ea88eec76e3}, ! UUID
+  {e9197e16-d9e3-4395-9cd8-1a52425231c9}, ! Version UUID
+  1366310435,                             ! Creation Timestamp
+  1366310435,                             ! Version Timestamp
+  {b724a016-9193-4455-9e63-d76d861697ec}; ! Name of Object 1
+

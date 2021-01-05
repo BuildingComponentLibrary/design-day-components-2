@@ -1,0 +1,36 @@
+
+OS:Version,
+  {825fa6af-6580-46ee-9c4f-734400720b8a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c729ce49-73f4-4599-9774-6145e3294d77}, ! Handle
+  Oceana Nas Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  5.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101229,                                 ! Barometric Pressure {Pa}
+  11.1,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d5bdb5e9-0a93-40c7-a3ab-b25cdbdbe1b8}, ! Handle
+  Component Data 1,                       ! Name
+  {3631e87a-56c5-4732-b3be-6d89b327d644}, ! UUID
+  {ba3b64bd-225e-43ae-a431-c988aabb6feb}, ! Version UUID
+  1366311144,                             ! Creation Timestamp
+  1366311144,                             ! Version Timestamp
+  {c729ce49-73f4-4599-9774-6145e3294d77}; ! Name of Object 1
+

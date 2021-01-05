@@ -1,0 +1,36 @@
+
+OS:Version,
+  {50382046-f238-4e35-ba94-1c8fe4fb8a37}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {08f54150-5f45-4bca-ac18-f4e50f50597a}, ! Handle
+  Norwood Memorial Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -13.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6ce9de1e-df00-4fb4-9525-6465e98283d1}, ! Handle
+  Component Data 1,                       ! Name
+  {67dbf63b-54eb-4389-93ba-99f53f856f05}, ! UUID
+  {32ab74a8-3d7f-471e-a8dd-c02048cf97e3}, ! Version UUID
+  1366307810,                             ! Creation Timestamp
+  1366307810,                             ! Version Timestamp
+  {08f54150-5f45-4bca-ac18-f4e50f50597a}; ! Name of Object 1
+

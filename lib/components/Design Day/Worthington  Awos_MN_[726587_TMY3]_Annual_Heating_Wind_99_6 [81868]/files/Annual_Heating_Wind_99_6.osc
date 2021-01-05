@@ -1,0 +1,36 @@
+
+OS:Version,
+  {68930066-622c-4434-abdf-2aa5b1171c77}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fd34d1ac-0db3-4569-abdc-645f945aca24}, ! Handle
+  Worthington  Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -11.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95690,                                  ! Barometric Pressure {Pa}
+  17,                                     ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {323ea8e3-0709-4106-b725-73b3ab0f69dc}, ! Handle
+  Component Data 1,                       ! Name
+  {c4eb52f3-9128-46a2-96f4-209d9906e21c}, ! UUID
+  {5561a385-f906-434d-9fd3-0d98e68ed336}, ! Version UUID
+  1366308468,                             ! Creation Timestamp
+  1366308468,                             ! Version Timestamp
+  {fd34d1ac-0db3-4569-abdc-645f945aca24}; ! Name of Object 1
+
