@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f09b5924-f872-412d-9075-212a63ab514c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ae4cdd80-5ca2-4f65-8908-84c606f12141}, ! Handle
+  Zanesville Municipal Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  1,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98147,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {938ab919-b104-4488-aa66-5d3202accfee}, ! Handle
+  Component Data 1,                       ! Name
+  {547df476-c9e0-4948-a0ca-da7bd02ef61e}, ! UUID
+  {83667f31-49b1-4964-81ff-bcc98b53d29b}, ! Version UUID
+  1366309873,                             ! Creation Timestamp
+  1366309873,                             ! Version Timestamp
+  {ae4cdd80-5ca2-4f65-8908-84c606f12141}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f3266480-6521-4558-add7-fb1fb63a7d3f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {33aefe0c-682b-4a47-8fdb-45cbe5ad08a5}, ! Handle
+  Youngstown Ann Htg 99% Condns DB,       ! Name
+  -13.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97063,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ea1659f2-0198-456d-84f4-46e5fe5c8119}, ! Handle
+  Component Data 1,                       ! Name
+  {749a0a21-35dd-4463-9e12-0ca725c8aeed}, ! UUID
+  {85673b3e-3867-45db-936b-5a1943391871}, ! Version UUID
+  1366309863,                             ! Creation Timestamp
+  1366309863,                             ! Version Timestamp
+  {33aefe0c-682b-4a47-8fdb-45cbe5ad08a5}; ! Name of Object 1
+
