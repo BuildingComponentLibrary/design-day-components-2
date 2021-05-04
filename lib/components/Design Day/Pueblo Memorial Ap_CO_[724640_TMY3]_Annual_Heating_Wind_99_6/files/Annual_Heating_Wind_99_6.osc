@@ -1,0 +1,36 @@
+
+OS:Version,
+  {11cb63ad-534f-491a-9ada-e7b0f80e4489}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f45dc706-5975-47ba-9b5a-0dd7ffa6bcd0}, ! Handle
+  Pueblo Memorial Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  8.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  8.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85306,                                  ! Barometric Pressure {Pa}
+  14.3,                                   ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {473ee6bf-8671-426d-84ce-235f131b2272}, ! Handle
+  Component Data 1,                       ! Name
+  {82661ae4-b938-4cf3-964c-e370b28fcf4c}, ! UUID
+  {dc8d8750-c77e-4256-b71a-64d62a4f361d}, ! Version UUID
+  1366306731,                             ! Creation Timestamp
+  1366306731,                             ! Version Timestamp
+  {f45dc706-5975-47ba-9b5a-0dd7ffa6bcd0}; ! Name of Object 1
+

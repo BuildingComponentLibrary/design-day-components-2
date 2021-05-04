@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f5396edd-302c-49f9-89d4-60839caff4c4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cbbe7283-f3a6-488d-9784-03843e8fe978}, ! Handle
+  Sand Point Ann Htg 99% Condns DB,       ! Name
+  -8.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  10.1,                                   ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {97eab40b-b128-4f1c-a086-70cc72e71946}, ! Handle
+  Component Data 1,                       ! Name
+  {ace6f34f-8cfc-4cd3-9d0f-443e2fa8f6e8}, ! UUID
+  {813dc1ad-e9f6-486b-9050-8255c5577d08}, ! Version UUID
+  1366305520,                             ! Creation Timestamp
+  1366305520,                             ! Version Timestamp
+  {cbbe7283-f3a6-488d-9784-03843e8fe978}; ! Name of Object 1
+

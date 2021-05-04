@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Seattle Seattle Tacoma Intl A_WA_USA Annual Cooling (DB=>MWB) 2%, MaxDB=25.5°C MWB=17°C
+ SizingPeriod:DesignDay,
+  Seattle Seattle Tacoma Intl A Ann Clg 2% Condns DB=>MWB,     !- Name
+          8,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       25.5,      !- Maximum Dry-Bulb Temperature {C}
+       10.4,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+         17,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     99868.,      !- Barometric Pressure {Pa}
+        4.2,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        350,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.352,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.561;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

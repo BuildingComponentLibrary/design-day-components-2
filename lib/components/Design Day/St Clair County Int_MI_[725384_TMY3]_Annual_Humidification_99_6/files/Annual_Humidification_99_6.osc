@@ -1,0 +1,36 @@
+
+OS:Version,
+  {666c8946-b50a-4ec6-b436-50913c353d3f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {58b69051-aefc-4845-9477-135276f8445d}, ! Handle
+  St Clair County Int Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -16.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98969,                                  ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f6df2ce7-b08b-4fcc-af84-1feb94d0db1f}, ! Handle
+  Component Data 1,                       ! Name
+  {6b6ca821-362a-41fe-91b0-0c77b08fafda}, ! UUID
+  {14fbf098-c5e3-49de-b363-7294658dbd06}, ! Version UUID
+  1366308116,                             ! Creation Timestamp
+  1366308116,                             ! Version Timestamp
+  {58b69051-aefc-4845-9477-135276f8445d}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7d7347dc-e570-486c-a174-91c918abde72}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {96ff6ba4-b70c-43df-8adb-cef88fa83cb2}, ! Handle
+  Moline/Davenport IA Ann Htg 99.6% Condns DB, ! Name
+  -21.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99169,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f8a23e54-5d64-4f0d-896e-bedc29e494c5}, ! Handle
+  Component Data 1,                       ! Name
+  {d4771492-e812-4590-94ea-84e25b0a6499}, ! UUID
+  {03102bfa-88cf-481c-8a22-82aec58f2048}, ! Version UUID
+  1366307363,                             ! Creation Timestamp
+  1366307363,                             ! Version Timestamp
+  {96ff6ba4-b70c-43df-8adb-cef88fa83cb2}; ! Name of Object 1
+

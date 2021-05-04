@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ea495a77-ed4f-417b-b7b6-abdf1489e731}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {690f0fb7-2931-4239-9f41-37aab284cee6}, ! Handle
+  Rockland Knox Awos Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -4.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101121,                                 ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {258fa3e8-ed86-41a9-9ee5-44546df931ad}, ! Handle
+  Component Data 1,                       ! Name
+  {40e6b46b-14b7-46f5-9e9a-52c31723e3bf}, ! UUID
+  {f824eba1-c7ad-41ba-bb88-39282f842dad}, ! Version UUID
+  1366307921,                             ! Creation Timestamp
+  1366307921,                             ! Version Timestamp
+  {690f0fb7-2931-4239-9f41-37aab284cee6}; ! Name of Object 1
+

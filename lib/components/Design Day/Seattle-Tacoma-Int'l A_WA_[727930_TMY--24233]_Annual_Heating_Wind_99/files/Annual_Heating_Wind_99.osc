@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ac9bf414-477f-4b0d-b50d-87921725fa15}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1e7031c0-3b30-4061-8ea5-0f5f87da787e}, ! Handle
+  Seattle-Tacoma/Int'l A Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  7,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99690,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {43921119-c8cd-42c3-bf43-1733adc85b3c}, ! Handle
+  Component Data 1,                       ! Name
+  {6ab01943-c775-4db9-a176-272f09f895df}, ! UUID
+  {2f2279b0-746d-4072-bd7e-7066875ed81d}, ! Version UUID
+  1366311358,                             ! Creation Timestamp
+  1366311358,                             ! Version Timestamp
+  {1e7031c0-3b30-4061-8ea5-0f5f87da787e}; ! Name of Object 1
+

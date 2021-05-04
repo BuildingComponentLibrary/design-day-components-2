@@ -1,0 +1,36 @@
+
+OS:Version,
+  {40423426-800c-45ea-abcb-13151838c0e7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c719fff4-28e5-4498-9188-330602d6a9e9}, ! Handle
+  Saint Mary S  Awos Ann Htg 99% Condns DB, ! Name
+  -28.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -28.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100189,                                 ! Barometric Pressure {Pa}
+  2.9,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5ad2df47-1c44-4222-96fe-589234f0e912}, ! Handle
+  Component Data 1,                       ! Name
+  {019ecb3d-747b-44ba-bedb-a3e18880eb0a}, ! UUID
+  {433a1eb1-8e08-4434-a759-4dc37c2b5217}, ! Version UUID
+  1366305512,                             ! Creation Timestamp
+  1366305512,                             ! Version Timestamp
+  {c719fff4-28e5-4498-9188-330602d6a9e9}; ! Name of Object 1
+

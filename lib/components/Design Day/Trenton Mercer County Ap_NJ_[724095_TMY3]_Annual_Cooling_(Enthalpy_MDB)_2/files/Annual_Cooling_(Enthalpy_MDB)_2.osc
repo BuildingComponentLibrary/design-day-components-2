@@ -1,0 +1,40 @@
+
+OS:Version,
+  {261958b9-6b70-486b-898a-f4856cb5cd16}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1c4d2c57-52e1-4974-85ce-f1fce94385f6}, ! Handle
+  Trenton Mercer County Ap Ann Clg 2% Condns Enth=>MDB, ! Name
+  28.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  10.5,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  71100,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100547,                                 ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.527,                                  ! ASHRAE Taub {dimensionless}
+  1.83;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {47368a2a-1f6f-4b17-8604-bf5ab4b25240}, ! Handle
+  Component Data 1,                       ! Name
+  {78e6a5fa-47ce-4984-b82d-ca04cbf35c76}, ! UUID
+  {073cd10e-15f6-464b-919c-eac2daf38994}, ! Version UUID
+  1366309353,                             ! Creation Timestamp
+  1366309353,                             ! Version Timestamp
+  {1c4d2c57-52e1-4974-85ce-f1fce94385f6}; ! Name of Object 1
+

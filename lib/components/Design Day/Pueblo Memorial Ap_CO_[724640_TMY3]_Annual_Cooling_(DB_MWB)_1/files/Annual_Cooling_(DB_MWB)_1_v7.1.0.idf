@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Pueblo Memorial Ap_CO_USA Annual Cooling (DB=>MWB) 1%, MaxDB=35.4°C MWB=16.9°C
+ SizingPeriod:DesignDay,
+  Pueblo Memorial Ap Ann Clg 1% Condns DB=>MWB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       35.4,      !- Maximum Dry-Bulb Temperature {C}
+         18,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       16.9,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     85306.,      !- Barometric Pressure {Pa}
+        5.1,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        120,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.435,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      1.969;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

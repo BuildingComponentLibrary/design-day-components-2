@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c95dfc82-54e4-47ea-8a8e-63aa2d06fc0a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {73981aa3-7c66-419d-842f-128cb0237476}, ! Handle
+  Stampede Pass Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -7.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87651,                                  ! Barometric Pressure {Pa}
+  12.6,                                   ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {63d381b5-ab84-4ee5-9f9f-30786e925c26}, ! Handle
+  Component Data 1,                       ! Name
+  {a939ed16-14c7-446a-bc35-e64c547f216a}, ! UUID
+  {9faa5f36-5b85-4a15-9766-3e1198da0b0b}, ! Version UUID
+  1366311400,                             ! Creation Timestamp
+  1366311400,                             ! Version Timestamp
+  {73981aa3-7c66-419d-842f-128cb0237476}; ! Name of Object 1
+

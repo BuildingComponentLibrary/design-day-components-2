@@ -1,0 +1,36 @@
+
+OS:Version,
+  {32f966c7-9023-4a59-95cd-138c3317e778}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {51417b97-fbe6-41be-823c-e4683f0bc330}, ! Handle
+  Marshall Ryan Awos Ann Htg 99% Condns DB, ! Name
+  -22.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97086,                                  ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {174b476a-e245-4682-8638-8d38f4b5ef7c}, ! Handle
+  Component Data 1,                       ! Name
+  {77448103-0465-4f0a-8f4a-ee2543fb51d5}, ! UUID
+  {79085630-e622-4fdd-a05c-948ab8dd1182}, ! Version UUID
+  1366308298,                             ! Creation Timestamp
+  1366308298,                             ! Version Timestamp
+  {51417b97-fbe6-41be-823c-e4683f0bc330}; ! Name of Object 1
+

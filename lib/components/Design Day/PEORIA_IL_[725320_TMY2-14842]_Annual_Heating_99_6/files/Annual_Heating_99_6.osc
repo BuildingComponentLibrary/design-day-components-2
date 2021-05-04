@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1cec07d6-319b-4f7f-8d8a-4336063fc106}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ed83c541-f2bf-4542-9e8b-2a8b2283de83}, ! Handle
+  PEORIA Ann Htg 99.6% Condns DB,         ! Name
+  -19.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98957,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e8b8323f-100f-4aca-935e-3d1a272e185b}, ! Handle
+  Component Data 1,                       ! Name
+  {94b2cf22-63ca-4b96-98df-108d35b59a2d}, ! UUID
+  {78688420-4b22-416e-bb8e-1d7d2f6c60ff}, ! Version UUID
+  1366307383,                             ! Creation Timestamp
+  1366307383,                             ! Version Timestamp
+  {ed83c541-f2bf-4542-9e8b-2a8b2283de83}; ! Name of Object 1
+

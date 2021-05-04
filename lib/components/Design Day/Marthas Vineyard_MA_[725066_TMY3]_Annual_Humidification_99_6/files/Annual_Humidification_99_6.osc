@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e2068f1b-efce-4770-9ecf-e9629b802c0a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e92a6065-d1b7-4f01-8955-1edf5123a2a9}, ! Handle
+  Marthas Vineyard Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -10,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e5abbce0-991b-4529-a78d-c49e35bf91eb}, ! Handle
+  Component Data 1,                       ! Name
+  {e7b6d323-185f-49b4-9641-ce6703598309}, ! UUID
+  {cbd8c39e-455c-4a10-9419-931beaba4e35}, ! Version UUID
+  1366307801,                             ! Creation Timestamp
+  1366307801,                             ! Version Timestamp
+  {e92a6065-d1b7-4f01-8955-1edf5123a2a9}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ed907022-bb91-4b6b-93e1-3f3c1696d1dd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b949f26d-661a-4fef-8ad1-dba4d672850b}, ! Handle
+  Southern Pines Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -0.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99643,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4a542c71-c9a1-4734-a0c4-332194d82a5a}, ! Handle
+  Component Data 1,                       ! Name
+  {a9faa906-653a-4c13-994b-9fa1f30ce42e}, ! UUID
+  {0c32d9ed-0530-4323-9491-36f22209be0e}, ! Version UUID
+  1366308978,                             ! Creation Timestamp
+  1366308978,                             ! Version Timestamp
+  {b949f26d-661a-4fef-8ad1-dba4d672850b}; ! Name of Object 1
+

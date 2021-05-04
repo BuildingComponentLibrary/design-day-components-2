@@ -1,0 +1,36 @@
+
+OS:Version,
+  {20fdef2a-04f3-420b-8bd4-8e53b6b852dc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1c082ec2-80e0-456b-a26d-1cbe39b70968}, ! Handle
+  Taos Muni Apt Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -11.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -23.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  77919,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7907a014-e170-4126-8fd5-075d2e704e0e}, ! Handle
+  Component Data 1,                       ! Name
+  {b3795360-acea-406e-9a1a-c1b9b25d0176}, ! UUID
+  {1561c1da-f000-42e1-9093-80a0f3121f6e}, ! Version UUID
+  1366309438,                             ! Creation Timestamp
+  1366309438,                             ! Version Timestamp
+  {1c082ec2-80e0-456b-a26d-1cbe39b70968}; ! Name of Object 1
+

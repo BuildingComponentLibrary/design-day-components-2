@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b36bcf31-e533-45bd-ab32-127f684b2287}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {83ca0dbc-f4dc-41fb-a50a-ad8a3955bed3}, ! Handle
+  Traverse City Cherry Capital Ann Htg 99% Condns DB, ! Name
+  -15.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99087,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  190,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c74529d5-90c3-43c0-b612-b26fe0b58da2}, ! Handle
+  Component Data 1,                       ! Name
+  {6ef01951-ac47-4ce9-97da-3dcbf69f1cae}, ! UUID
+  {18130d62-71a7-4aba-8881-86d17a2225ec}, ! Version UUID
+  1366308124,                             ! Creation Timestamp
+  1366308124,                             ! Version Timestamp
+  {83ca0dbc-f4dc-41fb-a50a-ad8a3955bed3}; ! Name of Object 1
+

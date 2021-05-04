@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c4c40b54-6f69-46d8-b912-b329aefae20f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {63af7c25-7605-44ee-a466-5bf22308e2ca}, ! Handle
+  Newport News Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -2.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101169,                                 ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {615dafce-984f-4039-873a-f677fd7ceb2f}, ! Handle
+  Component Data 1,                       ! Name
+  {8dadc981-6218-48aa-bc76-b15fb20e36b8}, ! UUID
+  {324b39e8-56eb-425d-8a14-8e1d1a8b337d}, ! Version UUID
+  1366311116,                             ! Creation Timestamp
+  1366311116,                             ! Version Timestamp
+  {63af7c25-7605-44ee-a466-5bf22308e2ca}; ! Name of Object 1
+

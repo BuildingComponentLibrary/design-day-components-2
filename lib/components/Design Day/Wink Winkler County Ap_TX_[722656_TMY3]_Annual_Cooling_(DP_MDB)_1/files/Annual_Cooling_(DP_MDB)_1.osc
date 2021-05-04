@@ -1,0 +1,40 @@
+
+OS:Version,
+  {c17a157f-f6ea-4e89-b2d0-d7cf8243dfdb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cfb75fdb-cf0c-403d-a75c-573781b300da}, ! Handle
+  Wink Winkler County Ap Ann Clg 1% Condns DP=>MDB, ! Name
+  24.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  14,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  20,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91455,                                  ! Barometric Pressure {Pa}
+  4.4,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.461,                                  ! ASHRAE Taub {dimensionless}
+  1.952;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {85728785-b088-4989-9372-eace7d30f08a}, ! Handle
+  Component Data 1,                       ! Name
+  {968275dd-21d1-4ba6-9bff-30082677daab}, ! UUID
+  {c82d6405-e0ea-4a9d-b103-12b89c35abc8}, ! Version UUID
+  1366310941,                             ! Creation Timestamp
+  1366310941,                             ! Version Timestamp
+  {cfb75fdb-cf0c-403d-a75c-573781b300da}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a0a32245-140b-4806-9d20-e9111031a73a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cb31233c-4d0e-4232-9a48-fad04200f70d}, ! Handle
+  Sumter Shaw Afb Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  0,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100439,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {54813486-39a8-4ebd-8467-aae3fb3d2687}, ! Handle
+  Component Data 1,                       ! Name
+  {28f08fa9-b9f6-4df0-b0c9-78239abe5974}, ! UUID
+  {1277f066-aec6-4d88-a06d-245ca540180b}, ! Version UUID
+  1366310379,                             ! Creation Timestamp
+  1366310379,                             ! Version Timestamp
+  {cb31233c-4d0e-4232-9a48-fad04200f70d}; ! Name of Object 1
+

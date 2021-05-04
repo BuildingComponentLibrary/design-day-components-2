@@ -1,0 +1,36 @@
+
+OS:Version,
+  {41009f94-2722-4fc5-95e8-3167857c0121}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {89d65556-c126-46d6-ba8e-4f4b89fc7f60}, ! Handle
+  PORT_ARTHUR Ann Htg 99.6% Condns DB,    ! Name
+  -0.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4beb98bf-ac9c-465a-8fb0-36702d337292}, ! Handle
+  Component Data 1,                       ! Name
+  {6fcfefac-674e-4bfc-bcab-02550f356a0a}, ! UUID
+  {2c1bbebc-bd88-4ad5-95f5-ac17ed4b5124}, ! Version UUID
+  1366310593,                             ! Creation Timestamp
+  1366310593,                             ! Version Timestamp
+  {89d65556-c126-46d6-ba8e-4f4b89fc7f60}; ! Name of Object 1
+

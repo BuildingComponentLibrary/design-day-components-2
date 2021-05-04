@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3e125f22-bcd3-4e94-8a50-c6890a0167da}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {589acdee-1c08-4c8a-b53a-818cead45446}, ! Handle
+  Ponca City Municipal Ap  Sgp Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  2,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97563,                                  ! Barometric Pressure {Pa}
+  10.1,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2abfee2e-fd5c-4da2-9ae8-176d217f9307}, ! Handle
+  Component Data 1,                       ! Name
+  {635a7e12-c057-4a31-b550-6d8fceb63364}, ! UUID
+  {4cb3bdce-8e05-4943-b373-f6ab7ac29303}, ! Version UUID
+  1366309935,                             ! Creation Timestamp
+  1366309935,                             ! Version Timestamp
+  {589acdee-1c08-4c8a-b53a-818cead45446}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bb3c0c65-0ce4-4e39-84f7-2fc11fa528ee}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {002db481-d29f-48c1-95f1-265dc2640e99}, ! Handle
+  Winston Salem Reynolds Ap Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -3.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97819,                                  ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c5feab86-af36-4683-a7ec-d4c32df60e53}, ! Handle
+  Component Data 1,                       ! Name
+  {84e126d3-9c52-4737-889f-e00bba847420}, ! UUID
+  {a2bdee59-67e9-4858-ac46-b5444f0f6b50}, ! Version UUID
+  1366308993,                             ! Creation Timestamp
+  1366308993,                             ! Version Timestamp
+  {002db481-d29f-48c1-95f1-265dc2640e99}; ! Name of Object 1
+

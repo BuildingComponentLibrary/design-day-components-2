@@ -1,0 +1,36 @@
+
+OS:Version,
+  {36ab6914-cb41-4ae0-98c1-f1602e67d822}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ba0d0d83-0268-4443-a4e3-4ec4e427f7a8}, ! Handle
+  Nenana Municipal Ap Ann Htg 99% Condns DB, ! Name
+  -42.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -42.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100022,                                 ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {96be7066-cfc9-4c31-a553-59a0809a63ad}, ! Handle
+  Component Data 1,                       ! Name
+  {cccb3d3b-0165-4045-8443-980d92b602f8}, ! UUID
+  {03e46bc9-db17-41a9-862e-24e05523639f}, ! Version UUID
+  1366305440,                             ! Creation Timestamp
+  1366305440,                             ! Version Timestamp
+  {ba0d0d83-0268-4443-a4e3-4ec4e427f7a8}; ! Name of Object 1
+

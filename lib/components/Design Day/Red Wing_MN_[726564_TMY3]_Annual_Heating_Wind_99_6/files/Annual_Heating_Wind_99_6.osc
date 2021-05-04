@@ -1,0 +1,36 @@
+
+OS:Version,
+  {59d88965-7938-4b7c-b389-dc490a21cd3d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c8213062-bcf6-4043-9ddc-54ae925ed939}, ! Handle
+  Red Wing Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -12.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98487,                                  ! Barometric Pressure {Pa}
+  14.6,                                   ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {172ffdb1-c82d-4196-91b9-0e3bada332d2}, ! Handle
+  Component Data 1,                       ! Name
+  {0815f9c7-272d-4ded-ab6c-db5543e9753b}, ! UUID
+  {f16e6cef-37e1-4e1d-bc50-0d5f80eff892}, ! Version UUID
+  1366308374,                             ! Creation Timestamp
+  1366308374,                             ! Version Timestamp
+  {c8213062-bcf6-4043-9ddc-54ae925ed939}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c772c777-9c74-432a-9b45-7abaf58721e0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {067a01bf-955e-408f-8e0b-ecd2851ac169}, ! Handle
+  STERLING Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100344,                                 ! Barometric Pressure {Pa}
+  10.3,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a3807f96-04ca-4969-a009-e64b592a4ce0}, ! Handle
+  Component Data 1,                       ! Name
+  {ae0d11f9-bc43-42fb-a290-0991c5e2a0b6}, ! UUID
+  {fa6631bc-9de5-440e-9841-df11175962ae}, ! Version UUID
+  1366311202,                             ! Creation Timestamp
+  1366311202,                             ! Version Timestamp
+  {067a01bf-955e-408f-8e0b-ecd2851ac169}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0d1b3bf7-90d6-404c-9d68-b69cce74a4fd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6204176d-b013-41fa-bd78-65004c5487ae}, ! Handle
+  Saint George  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91014,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {904c557f-7fd5-4105-83f1-7d22c9999470}, ! Handle
+  Component Data 1,                       ! Name
+  {879a9276-6599-4065-8215-10ba3c34be0f}, ! UUID
+  {31c500f1-2a6c-4124-8884-7aaa16db9f50}, ! Version UUID
+  1366310982,                             ! Creation Timestamp
+  1366310982,                             ! Version Timestamp
+  {6204176d-b013-41fa-bd78-65004c5487ae}; ! Name of Object 1
+

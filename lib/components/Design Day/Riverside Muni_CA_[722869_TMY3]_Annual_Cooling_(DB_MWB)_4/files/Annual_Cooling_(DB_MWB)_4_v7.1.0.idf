@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Riverside Muni_CA_USA Annual Cooling (DB=>MWB) .4%, MaxDB=37.6°C MWB=21.3°C
+ SizingPeriod:DesignDay,
+  Riverside Muni Ann Clg .4% Condns DB=>MWB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       37.6,      !- Maximum Dry-Bulb Temperature {C}
+       16.4,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       21.3,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     98287.,      !- Barometric Pressure {Pa}
+        4.7,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        270,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.461,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      1.976;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3894d6bc-0ec4-4339-a90d-2631665176cc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {78f300f7-90e9-4b4f-94f6-2eb8c98952aa}, ! Handle
+  Tulsa International Airport Ann Htg 99.6% Condns DB, ! Name
+  -11.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98969,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {adc8231f-7a0f-48d1-b451-1fd84e3f8dbf}, ! Handle
+  Component Data 1,                       ! Name
+  {e46446f3-c437-4e39-b841-0523a0777851}, ! UUID
+  {c33c4324-c5ad-4821-8137-d59458def5fd}, ! Version UUID
+  1366309957,                             ! Creation Timestamp
+  1366309957,                             ! Version Timestamp
+  {78f300f7-90e9-4b4f-94f6-2eb8c98952aa}; ! Name of Object 1
+

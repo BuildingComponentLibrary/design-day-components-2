@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9ea0629c-38c1-42b6-98c1-79638d29d2cd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4abd6e10-b969-42af-863f-b25ed1907edc}, ! Handle
+  Sacramento Executive Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  11.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  11.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  10.6,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {caf3073e-6861-4a70-9448-671d1012ed0d}, ! Handle
+  Component Data 1,                       ! Name
+  {59821f3d-bb2d-4758-8add-4a89935ec7fa}, ! UUID
+  {18617fdd-ecd6-4ab7-843c-f8c8d28d0e1d}, ! Version UUID
+  1366306563,                             ! Creation Timestamp
+  1366306563,                             ! Version Timestamp
+  {4abd6e10-b969-42af-863f-b25ed1907edc}; ! Name of Object 1
+

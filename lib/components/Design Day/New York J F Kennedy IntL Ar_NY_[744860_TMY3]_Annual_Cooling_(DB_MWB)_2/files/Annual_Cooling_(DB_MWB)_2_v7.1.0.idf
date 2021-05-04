@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! New York J F Kennedy IntL Ar_NY_USA Annual Cooling (DB=>MWB) 2%, MaxDB=28.7°C MWB=21.9°C
+ SizingPeriod:DesignDay,
+  New York J F Kennedy IntL Ar Ann Clg 2% Condns DB=>MWB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       28.7,      !- Maximum Dry-Bulb Temperature {C}
+        7.4,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       21.9,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+    101265.,      !- Barometric Pressure {Pa}
+        5.6,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        230,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.541,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      1.800;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

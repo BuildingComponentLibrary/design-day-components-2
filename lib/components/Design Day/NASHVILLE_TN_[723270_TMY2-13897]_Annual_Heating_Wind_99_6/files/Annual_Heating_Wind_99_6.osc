@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7be348b5-3168-4487-94c5-bda92b1ae0b7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5c8a9795-62a6-4603-b4e8-e3519008803b}, ! Handle
+  NASHVILLE Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  9.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  9.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99181,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6e5183f9-835f-44e9-8216-8502b2a25f81}, ! Handle
+  Component Data 1,                       ! Name
+  {f39de4c5-1485-473d-967e-ae91c85cde25}, ! UUID
+  {85add167-5857-4fda-9997-2bad6baf25fc}, ! Version UUID
+  1366310532,                             ! Creation Timestamp
+  1366310532,                             ! Version Timestamp
+  {5c8a9795-62a6-4603-b4e8-e3519008803b}; ! Name of Object 1
+

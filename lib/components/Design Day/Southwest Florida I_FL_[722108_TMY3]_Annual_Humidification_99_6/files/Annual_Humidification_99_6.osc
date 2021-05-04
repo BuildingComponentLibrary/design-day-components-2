@@ -1,0 +1,36 @@
+
+OS:Version,
+  {24314a34-13e8-42a4-88ea-044133850aa4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1bf39449-729a-425f-a1b4-79a57d4d3b62}, ! Handle
+  Southwest Florida I Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  10.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101217,                                 ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0cf3f09b-e1f7-45ef-bf7f-82d409bb29cc}, ! Handle
+  Component Data 1,                       ! Name
+  {b810f62f-3a88-43df-96d8-ba8f158da0b3}, ! UUID
+  {5439582d-a520-4b2b-88be-9972c5b22dda}, ! Version UUID
+  1366306911,                             ! Creation Timestamp
+  1366306911,                             ! Version Timestamp
+  {1bf39449-729a-425f-a1b4-79a57d4d3b62}; ! Name of Object 1
+

@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Marathon Airport_FL_USA Annual Cooling (WB=>MDB) .4%, MDB=31.7°C WB=28°C
+ SizingPeriod:DesignDay,
+  Marathon Airport Ann Clg .4% Condns WB=>MDB,     !- Name
+          8,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       31.7,      !- Maximum Dry-Bulb Temperature {C}
+        5.5,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+         28,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+    101301.,      !- Barometric Pressure {Pa}
+        3.2,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        110,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.467,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.161;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

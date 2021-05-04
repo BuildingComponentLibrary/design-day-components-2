@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5886d225-c058-46f5-a098-5494b008f262}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6bd74d89-5977-4eb0-829e-654cc9d73d62}, ! Handle
+  Milwaukee Mitchell Intl Ap Ann Htg 99.6% Condns DB, ! Name
+  -20,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98886,                                  ! Barometric Pressure {Pa}
+  5.7,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2d5cded9-1e7d-4ed2-9f3a-8622acc3e345}, ! Handle
+  Component Data 1,                       ! Name
+  {5fdaac44-96ec-46be-9ed4-828c55d21cfb}, ! UUID
+  {2200fe07-28ec-4f5a-878d-4167b0616272}, ! Version UUID
+  1366311555,                             ! Creation Timestamp
+  1366311555,                             ! Version Timestamp
+  {6bd74d89-5977-4eb0-829e-654cc9d73d62}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {73565643-fc0d-4ffc-8bf4-9cdaf9592292}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3a8a7689-5430-4024-91ac-da5c9eab7611}, ! Handle
+  Watertown Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -2.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100165,                                 ! Barometric Pressure {Pa}
+  11.3,                                   ! Wind Speed {m/s}
+  80,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dcdf2da9-4d1b-468c-bf08-65eb73d361ff}, ! Handle
+  Component Data 1,                       ! Name
+  {817900fd-294c-45f0-bd8c-59986db054a6}, ! UUID
+  {38fb3638-f0df-43b4-bcd6-83ae572db623}, ! Version UUID
+  1366309748,                             ! Creation Timestamp
+  1366309748,                             ! Version Timestamp
+  {3a8a7689-5430-4024-91ac-da5c9eab7611}; ! Name of Object 1
+

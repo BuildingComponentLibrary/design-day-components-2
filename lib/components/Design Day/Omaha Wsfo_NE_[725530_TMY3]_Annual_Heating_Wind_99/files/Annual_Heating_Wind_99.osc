@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9a9355c4-c772-44b0-bdb7-939876c48db0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {45f8f08a-a251-47b4-a0e1-268043e35270}, ! Handle
+  Omaha Wsfo Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -6,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96623,                                  ! Barometric Pressure {Pa}
+  10.9,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {88c54895-3292-4705-ace3-cd0ce1ab3eef}, ! Handle
+  Component Data 1,                       ! Name
+  {d01f658a-ac81-4884-bd88-3b063b4dbb82}, ! UUID
+  {d164c636-5b5e-4684-abe6-57023636e0d5}, ! Version UUID
+  1366309180,                             ! Creation Timestamp
+  1366309180,                             ! Version Timestamp
+  {45f8f08a-a251-47b4-a0e1-268043e35270}; ! Name of Object 1
+

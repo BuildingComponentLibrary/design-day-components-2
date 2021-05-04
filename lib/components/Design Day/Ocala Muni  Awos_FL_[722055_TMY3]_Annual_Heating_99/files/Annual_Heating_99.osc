@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3305ec6c-f960-4087-9d7d-cbb855c432c9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5b085c85-af8b-41e4-8c1e-9df0f71a7ca9}, ! Handle
+  Ocala Muni  Awos Ann Htg 99% Condns DB, ! Name
+  1.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101001,                                 ! Barometric Pressure {Pa}
+  0.9,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {222c6c88-4be0-4de2-b7ac-e71540a404d2}, ! Handle
+  Component Data 1,                       ! Name
+  {f544fbb8-6cde-4e25-8c7b-d6362294c53c}, ! UUID
+  {ec2dfa83-04f5-4c3e-88cd-594292f7c955}, ! Version UUID
+  1366306880,                             ! Creation Timestamp
+  1366306880,                             ! Version Timestamp
+  {5b085c85-af8b-41e4-8c1e-9df0f71a7ca9}; ! Name of Object 1
+

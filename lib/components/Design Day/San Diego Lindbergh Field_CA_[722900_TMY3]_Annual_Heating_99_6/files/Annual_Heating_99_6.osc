@@ -1,0 +1,36 @@
+
+OS:Version,
+  {29b1ab96-2b94-4693-90bb-389497b8306b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b69ef576-0c84-465c-ad7a-d5f5862d8947}, ! Handle
+  San Diego Lindbergh Field Ann Htg 99.6% Condns DB, ! Name
+  7.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101277,                                 ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cfdb10f9-1448-42b1-a12c-e0a9873d1d4f}, ! Handle
+  Component Data 1,                       ! Name
+  {a78caff1-6909-42c3-881e-3770b7ec468a}, ! UUID
+  {034f3a78-c756-4230-a598-a6f5ec72183d}, ! Version UUID
+  1366306574,                             ! Creation Timestamp
+  1366306574,                             ! Version Timestamp
+  {b69ef576-0c84-465c-ad7a-d5f5862d8947}; ! Name of Object 1
+

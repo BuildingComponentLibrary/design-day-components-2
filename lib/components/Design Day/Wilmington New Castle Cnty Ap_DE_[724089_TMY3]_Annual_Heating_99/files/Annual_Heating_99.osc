@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ccde9749-4cae-48f6-acd0-1bf4306758dc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e771d5d0-28c7-4fe6-8f35-9f12a6d554d5}, ! Handle
+  Wilmington New Castle Cnty Ap Ann Htg 99% Condns DB, ! Name
+  -8.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101049,                                 ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1c4f0182-c4a6-454d-ba1e-3047fe5d5a42}, ! Handle
+  Component Data 1,                       ! Name
+  {1708da13-5730-4d95-81e4-45d5e9fc8050}, ! UUID
+  {743e09a5-ecd8-42eb-9210-366044a83336}, ! Version UUID
+  1366306775,                             ! Creation Timestamp
+  1366306775,                             ! Version Timestamp
+  {e771d5d0-28c7-4fe6-8f35-9f12a6d554d5}; ! Name of Object 1
+

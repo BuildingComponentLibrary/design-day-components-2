@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0d050b87-db62-44b6-90eb-71e2f4b09090}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c208e15a-d784-4bec-8364-77ba8d6a0260}, ! Handle
+  Wichita Falls/Sheppard Ann Htg 99% Condns DB, ! Name
+  -6,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97609,                                  ! Barometric Pressure {Pa}
+  5.7,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cad94897-b4f0-4cd1-95dc-243770bc3663}, ! Handle
+  Component Data 1,                       ! Name
+  {2af75d1c-28da-4bfa-9f06-c06734c38805}, ! UUID
+  {a0ffe7dd-a792-4a30-a6ba-6617cd2666b1}, ! Version UUID
+  1366310931,                             ! Creation Timestamp
+  1366310931,                             ! Version Timestamp
+  {c208e15a-d784-4bec-8364-77ba8d6a0260}; ! Name of Object 1
+

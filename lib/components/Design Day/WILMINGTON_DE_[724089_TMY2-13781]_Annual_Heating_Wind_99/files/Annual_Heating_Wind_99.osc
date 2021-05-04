@@ -1,0 +1,36 @@
+
+OS:Version,
+  {424f29a3-cc51-40bc-8bac-d5a11e0754bd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {753e7c98-daca-4b74-af99-24e11eb6b343}, ! Handle
+  WILMINGTON Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -0.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101037,                                 ! Barometric Pressure {Pa}
+  11.6,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8c74ad4e-aa3c-441b-8c01-dae2f40ee755}, ! Handle
+  Component Data 1,                       ! Name
+  {f46e664c-b8d1-4436-843c-291bf2cec7b8}, ! UUID
+  {3633ed11-c9b1-49ba-872a-8291541f9b1c}, ! Version UUID
+  1366306778,                             ! Creation Timestamp
+  1366306778,                             ! Version Timestamp
+  {753e7c98-daca-4b74-af99-24e11eb6b343}; ! Name of Object 1
+

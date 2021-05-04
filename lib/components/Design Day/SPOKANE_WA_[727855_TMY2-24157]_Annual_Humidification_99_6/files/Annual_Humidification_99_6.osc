@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0b7f32f9-ee48-4981-bea4-b9d4f976b342}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cbf990f6-5d7e-4714-ad88-a7750dd3432e}, ! Handle
+  SPOKANE Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -14.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92958,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {927f695e-0ca0-4914-8920-e212803abe87}, ! Handle
+  Component Data 1,                       ! Name
+  {38d159e4-8bbb-4768-9379-7d69823a41eb}, ! UUID
+  {657ab352-11fc-473b-a900-0c71abae13da}, ! Version UUID
+  1366311384,                             ! Creation Timestamp
+  1366311384,                             ! Version Timestamp
+  {cbf990f6-5d7e-4714-ad88-a7750dd3432e}; ! Name of Object 1
+

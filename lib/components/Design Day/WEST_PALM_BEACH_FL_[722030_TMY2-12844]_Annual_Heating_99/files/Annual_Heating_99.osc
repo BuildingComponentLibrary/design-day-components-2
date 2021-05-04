@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6b34704a-bdba-422e-b3f0-844408704f6b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ed2f350e-cd2c-4918-aa77-0b7dd71fcbe4}, ! Handle
+  WEST_PALM Ann Htg 99% Condns DB,        ! Name
+  9,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  9,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c0635626-19e8-4fe6-b260-5e3b11240129}, ! Handle
+  Component Data 1,                       ! Name
+  {0a9d94a5-7081-437b-aeb9-dd34988ba921}, ! UUID
+  {6c46f355-b766-425b-9c11-2c4a68e756a6}, ! Version UUID
+  1366306948,                             ! Creation Timestamp
+  1366306948,                             ! Version Timestamp
+  {ed2f350e-cd2c-4918-aa77-0b7dd71fcbe4}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {58ad4d2e-735e-41bc-9dbd-e9c981eb52a9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {870a84cb-c40a-4ca3-890e-1afbab99e539}, ! Handle
+  MONTGOMERY Ann Htg 99.6% Condns DB,     ! Name
+  -4.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100582,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a3770d5b-972b-4659-9cce-c094021b47f3}, ! Handle
+  Component Data 1,                       ! Name
+  {39729eab-3304-4a73-be0f-0322a69a375b}, ! UUID
+  {618ddcf5-3a9d-4ddd-bba5-c5941583b925}, ! Version UUID
+  1366305931,                             ! Creation Timestamp
+  1366305931,                             ! Version Timestamp
+  {870a84cb-c40a-4ca3-890e-1afbab99e539}; ! Name of Object 1
+

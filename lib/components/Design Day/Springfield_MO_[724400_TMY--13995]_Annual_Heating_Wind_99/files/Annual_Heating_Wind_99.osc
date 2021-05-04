@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f3b9dfa2-a07b-47f7-91bb-4c7b2856cb6e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {da794cf2-35ac-4aed-bc46-0349d651a04c}, ! Handle
+  Springfield Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  3,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96761,                                  ! Barometric Pressure {Pa}
+  10.7,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9d49cbd7-b06b-47de-8838-22dcc0e9ea72}, ! Handle
+  Component Data 1,                       ! Name
+  {496be634-83fe-4b39-b6d9-6e5074cdda3f}, ! UUID
+  {c60ba91c-dc77-4fae-ae2b-bb81cd30e691}, ! Version UUID
+  1366308564,                             ! Creation Timestamp
+  1366308564,                             ! Version Timestamp
+  {da794cf2-35ac-4aed-bc46-0349d651a04c}; ! Name of Object 1
+

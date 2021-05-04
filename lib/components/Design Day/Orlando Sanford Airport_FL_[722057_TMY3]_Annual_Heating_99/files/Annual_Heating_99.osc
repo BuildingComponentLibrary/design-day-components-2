@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e98d52b0-5248-4182-9964-32dc6bc5485b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8712bcd1-9dc8-4e9c-92e7-19e818a4c074}, ! Handle
+  Orlando Sanford Airport Ann Htg 99% Condns DB, ! Name
+  5.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.7,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101121,                                 ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c2c29982-58f0-4be4-80b7-78b605746e25}, ! Handle
+  Component Data 1,                       ! Name
+  {210f0bc9-2c11-4b10-a73e-04975c656a35}, ! UUID
+  {8589c5e5-6683-4f80-a83b-eee1eff01824}, ! Version UUID
+  1366306883,                             ! Creation Timestamp
+  1366306883,                             ! Version Timestamp
+  {8712bcd1-9dc8-4e9c-92e7-19e818a4c074}; ! Name of Object 1
+

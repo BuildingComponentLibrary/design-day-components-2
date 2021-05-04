@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f2357d69-ddc6-4806-a66e-51928932ed2f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {26336afe-5a70-4f37-bad5-f8e811f69fa7}, ! Handle
+  Oxnard/Point Mugu NF Ann Htg 99% Condns DB, ! Name
+  5.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {79f77925-4953-44f2-a003-7ab6aeef49ca}, ! Handle
+  Component Data 1,                       ! Name
+  {b7169e50-1a62-4a98-befe-ec5d3a9f4576}, ! UUID
+  {346bca26-73d7-4ab2-a16d-00dda534c2dd}, ! Version UUID
+  1366306535,                             ! Creation Timestamp
+  1366306535,                             ! Version Timestamp
+  {26336afe-5a70-4f37-bad5-f8e811f69fa7}; ! Name of Object 1
+

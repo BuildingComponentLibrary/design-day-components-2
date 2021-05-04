@@ -1,0 +1,36 @@
+
+OS:Version,
+  {06c578a6-b338-4c8b-a39a-931e4ed188b7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {442a2420-9a65-4991-a34a-260ab75a2434}, ! Handle
+  San Diego Miramar Nas Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  12.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99654,                                  ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7b7a59ee-2561-4b8a-98ea-78aa23a1fc9c}, ! Handle
+  Component Data 1,                       ! Name
+  {cdc88dde-afe0-40cf-9f69-cb553194a3be}, ! UUID
+  {9851667c-bf45-4378-8b12-cafb3b856173}, ! Version UUID
+  1366306577,                             ! Creation Timestamp
+  1366306577,                             ! Version Timestamp
+  {442a2420-9a65-4991-a34a-260ab75a2434}; ! Name of Object 1
+

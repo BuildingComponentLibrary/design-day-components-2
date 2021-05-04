@@ -1,0 +1,36 @@
+
+OS:Version,
+  {22dafbb0-93ee-40b1-955b-2b96fc5214b9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4f1318ea-429e-411c-9753-64219652c116}, ! Handle
+  Patuxent River NAS Ann Htg 99% Condns DB, ! Name
+  -6.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101157,                                 ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {98eae85e-068f-4b15-9493-b12b8c05e1ca}, ! Handle
+  Component Data 1,                       ! Name
+  {5b325ca0-0618-4f99-b2e9-59c916ecfde5}, ! UUID
+  {ad043bb8-54c7-4810-b0d5-227986e8002e}, ! Version UUID
+  1366307853,                             ! Creation Timestamp
+  1366307853,                             ! Version Timestamp
+  {4f1318ea-429e-411c-9753-64219652c116}; ! Name of Object 1
+

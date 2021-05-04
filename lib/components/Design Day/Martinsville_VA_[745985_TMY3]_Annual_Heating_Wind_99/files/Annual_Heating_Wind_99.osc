@@ -1,0 +1,36 @@
+
+OS:Version,
+  {fb19479f-9ac7-41d3-9e30-6ccd4d81f5ad}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {623a7269-70b8-4714-b100-b33b018cbbcb}, ! Handle
+  Martinsville Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  2.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97924,                                  ! Barometric Pressure {Pa}
+  8.6,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e91276f1-9e0c-49b4-b221-e02ddb27fc70}, ! Handle
+  Component Data 1,                       ! Name
+  {f0618356-8f16-4ab5-a52d-051b87a0d028}, ! UUID
+  {83f24fc2-0eb7-45c5-8867-46e3eac95012}, ! Version UUID
+  1366311105,                             ! Creation Timestamp
+  1366311105,                             ! Version Timestamp
+  {623a7269-70b8-4714-b100-b33b018cbbcb}; ! Name of Object 1
+

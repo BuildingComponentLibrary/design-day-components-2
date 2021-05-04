@@ -1,0 +1,36 @@
+
+OS:Version,
+  {80ff0c55-dd4f-438f-8eba-e3747443f1c4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {96e820ed-6977-48c3-8248-e465f9c5207f}, ! Handle
+  North Bend Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  12.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  12.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101277,                                 ! Barometric Pressure {Pa}
+  11.4,                                   ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0d5726d0-731b-4237-86cc-7511afec58f6}, ! Handle
+  Component Data 1,                       ! Name
+  {480fb7e0-0d6e-4398-b102-a8eb88fb969c}, ! UUID
+  {817a2e4c-371a-402e-930b-b8db7163bc9d}, ! Version UUID
+  1366310048,                             ! Creation Timestamp
+  1366310048,                             ! Version Timestamp
+  {96e820ed-6977-48c3-8248-e465f9c5207f}; ! Name of Object 1
+

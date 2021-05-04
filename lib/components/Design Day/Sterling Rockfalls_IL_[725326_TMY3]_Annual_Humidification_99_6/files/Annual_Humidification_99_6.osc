@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6332ee86-2c0d-4d01-9e31-db5356c1c945}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {558d8d7e-3a0c-4cad-ae58-9e9b2a62f2ec}, ! Handle
+  Sterling Rockfalls Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -20.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98981,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7816f05c-4ffe-44f0-9695-97bd31963ee9}, ! Handle
+  Component Data 1,                       ! Name
+  {529b395d-6112-4907-8fb9-47ee2c90f89f}, ! UUID
+  {1b07795e-fcfc-45d3-894f-6bc770acfb92}, ! Version UUID
+  1366307412,                             ! Creation Timestamp
+  1366307412,                             ! Version Timestamp
+  {558d8d7e-3a0c-4cad-ae58-9e9b2a62f2ec}; ! Name of Object 1
+

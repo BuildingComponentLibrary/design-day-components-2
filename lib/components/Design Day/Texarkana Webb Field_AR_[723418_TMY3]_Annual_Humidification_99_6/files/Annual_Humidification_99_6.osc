@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3c51b12e-8ccf-4115-8a77-3e23967a48ab}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f2276378-0630-4c37-a737-4244efc386e7}, ! Handle
+  Texarkana Webb Field Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -1.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100011,                                 ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {71c05d9f-f95d-4791-9c42-0e94a5783ae8}, ! Handle
+  Component Data 1,                       ! Name
+  {5539731c-bd27-47a9-90b4-2b765aecea45}, ! UUID
+  {60520419-745f-4831-a215-26b0da38a9ba}, ! Version UUID
+  1366306254,                             ! Creation Timestamp
+  1366306254,                             ! Version Timestamp
+  {f2276378-0630-4c37-a737-4244efc386e7}; ! Name of Object 1
+

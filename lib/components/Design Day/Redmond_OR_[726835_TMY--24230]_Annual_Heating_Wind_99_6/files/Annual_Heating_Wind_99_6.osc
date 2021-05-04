@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8b59a1c9-e1ea-455a-8e3d-e5d561eb4f27}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7973d228-2481-45f9-a69f-f155275ff54d}, ! Handle
+  Redmond Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  7.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90552,                                  ! Barometric Pressure {Pa}
+  11,                                     ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3f105ab1-aaac-4a3c-b921-34504e8b72aa}, ! Handle
+  Component Data 1,                       ! Name
+  {57d0fee8-afcf-439a-8584-fd17d2a49073}, ! UUID
+  {16ab2ec9-5caf-4278-a783-bdd9b0fc9087}, ! Version UUID
+  1366310092,                             ! Creation Timestamp
+  1366310092,                             ! Version Timestamp
+  {7973d228-2481-45f9-a69f-f155275ff54d}; ! Name of Object 1
+

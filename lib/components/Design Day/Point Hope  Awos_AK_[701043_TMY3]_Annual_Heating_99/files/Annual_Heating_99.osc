@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dc230d37-cd89-438a-a4f5-5fecdadee17a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c1a75ee0-bf46-4dd7-950e-d7ca6d9626f0}, ! Handle
+  Point Hope  Awos Ann Htg 99% Condns DB, ! Name
+  -32.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -32.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101277,                                 ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c48092e1-e9a0-47a5-bba9-8772fdef7d64}, ! Handle
+  Component Data 1,                       ! Name
+  {e169d1ab-3d45-457f-9366-c1f202740f0e}, ! UUID
+  {6abeeb49-a9b5-4874-90ff-f2aa1466ab2c}, ! Version UUID
+  1366305488,                             ! Creation Timestamp
+  1366305488,                             ! Version Timestamp
+  {c1a75ee0-bf46-4dd7-950e-d7ca6d9626f0}; ! Name of Object 1
+

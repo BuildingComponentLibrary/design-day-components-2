@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6a642264-bc42-4145-861e-479dcb73849e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {398baee5-5220-41cc-8354-7f401d794e87}, ! Handle
+  Seattle Boeing Field  Isis Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101085,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e509898e-f4dc-448e-9bc5-0817b7adb80e}, ! Handle
+  Component Data 1,                       ! Name
+  {e769bd7f-5b45-40b8-b09b-150af9f443e3}, ! UUID
+  {1b7cc7ca-8503-4141-9bd0-7bed06b3d65c}, ! Version UUID
+  1366311348,                             ! Creation Timestamp
+  1366311348,                             ! Version Timestamp
+  {398baee5-5220-41cc-8354-7f401d794e87}; ! Name of Object 1
+

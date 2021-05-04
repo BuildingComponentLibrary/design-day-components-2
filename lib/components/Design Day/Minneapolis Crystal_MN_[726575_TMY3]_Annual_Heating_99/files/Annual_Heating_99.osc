@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e45d5ddd-91ad-40b8-85b2-91fd444e6aa7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0ad8a3fe-856d-4b05-b295-a6cac93a881d}, ! Handle
+  Minneapolis Crystal Ann Htg 99% Condns DB, ! Name
+  -19.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98182,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ac5543ce-d49f-4405-a90a-b68c903d9ee0}, ! Handle
+  Component Data 1,                       ! Name
+  {429c693f-2dd0-4f11-a467-e3d38008b265}, ! UUID
+  {96273b7e-48d1-4bd3-9e82-776bb5c078b2}, ! Version UUID
+  1366308304,                             ! Creation Timestamp
+  1366308304,                             ! Version Timestamp
+  {0ad8a3fe-856d-4b05-b295-a6cac93a881d}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e9517a10-6e1f-474c-bbe5-f07621f780bc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {218ef13a-b61a-46a7-b322-3d625740be14}, ! Handle
+  St Louis/Int'l Airport Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -2,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99276,                                  ! Barometric Pressure {Pa}
+  11.6,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bd80544b-32dc-44e9-b3f3-464f2016e3d6}, ! Handle
+  Component Data 1,                       ! Name
+  {3726b178-2606-4061-8dcc-851257b53ad1}, ! UUID
+  {6dbfe518-6714-43cd-9836-422e5e01b8ac}, ! Version UUID
+  1366308578,                             ! Creation Timestamp
+  1366308578,                             ! Version Timestamp
+  {218ef13a-b61a-46a7-b322-3d625740be14}; ! Name of Object 1
+

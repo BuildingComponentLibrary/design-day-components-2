@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f60ad5d7-5c9d-4ed3-a537-8bb2e10b3727}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7ceb6083-4453-444a-ba30-ed8ed7aa2a5c}, ! Handle
+  Pawtucket  Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -6.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99726,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9a2debd1-a7bc-48ae-9354-8c743e507302}, ! Handle
+  Component Data 1,                       ! Name
+  {21c42e44-2061-44da-9856-f44f4051048a}, ! UUID
+  {85897020-023f-4c8f-90ed-bf57da81a604}, ! Version UUID
+  1366310292,                             ! Creation Timestamp
+  1366310292,                             ! Version Timestamp
+  {7ceb6083-4453-444a-ba30-ed8ed7aa2a5c}; ! Name of Object 1
+

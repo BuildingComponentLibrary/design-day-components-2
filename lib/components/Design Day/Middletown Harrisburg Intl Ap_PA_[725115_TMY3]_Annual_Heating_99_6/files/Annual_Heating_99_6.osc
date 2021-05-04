@@ -1,0 +1,36 @@
+
+OS:Version,
+  {69853f10-3498-4bbf-9314-e89fa5eb9c46}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a0fae305-be1a-4134-a02f-e4884c829b02}, ! Handle
+  Middletown Harrisburg Intl Ap Ann Htg 99.6% Condns DB, ! Name
+  -11.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100225,                                 ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {33968643-3200-49fa-8e2c-f1f866ca65dd}, ! Handle
+  Component Data 1,                       ! Name
+  {48476075-690a-4308-a2e6-830401807458}, ! UUID
+  {a3709629-eb0e-47b5-9b78-1815fbee7b22}, ! Version UUID
+  1366310195,                             ! Creation Timestamp
+  1366310195,                             ! Version Timestamp
+  {a0fae305-be1a-4134-a02f-e4884c829b02}; ! Name of Object 1
+

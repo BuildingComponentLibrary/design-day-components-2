@@ -1,0 +1,36 @@
+
+OS:Version,
+  {389512c5-93ab-4ee3-8dcc-114930213c69}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {05475371-89de-49c7-89b8-c87792c711ab}, ! Handle
+  Oxford  Awos Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -3.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98686,                                  ! Barometric Pressure {Pa}
+  9.5,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9ec96658-3ca0-484f-a4f0-e971e1ae0a17}, ! Handle
+  Component Data 1,                       ! Name
+  {07478f5e-54b5-419c-8af1-325bb7f77d71}, ! UUID
+  {84eb1e10-5b12-4c8d-b8de-171b180fe859}, ! Version UUID
+  1366306766,                             ! Creation Timestamp
+  1366306766,                             ! Version Timestamp
+  {05475371-89de-49c7-89b8-c87792c711ab}; ! Name of Object 1
+

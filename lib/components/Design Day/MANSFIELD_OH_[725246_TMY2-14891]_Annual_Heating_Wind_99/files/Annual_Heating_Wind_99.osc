@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1bd9fa6b-ab8f-4ed3-b2a4-e6aee0722baa}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {39407c31-a791-4108-93e7-172461835fdb}, ! Handle
+  MANSFIELD Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96669,                                  ! Barometric Pressure {Pa}
+  11.8,                                   ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3a0cb283-ca0f-4f65-8deb-3bf9733d4c1a}, ! Handle
+  Component Data 1,                       ! Name
+  {144e7660-bf54-4c6a-b7ff-0a84c52fcf6a}, ! UUID
+  {a0ea1bc0-5fcc-42d9-93ee-e692eb7af6ca}, ! Version UUID
+  1366309835,                             ! Creation Timestamp
+  1366309835,                             ! Version Timestamp
+  {39407c31-a791-4108-93e7-172461835fdb}; ! Name of Object 1
+

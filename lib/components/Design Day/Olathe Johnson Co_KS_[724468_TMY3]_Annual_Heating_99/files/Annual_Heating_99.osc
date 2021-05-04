@@ -1,0 +1,36 @@
+
+OS:Version,
+  {66db6963-298e-45b7-87b3-cc58669cd726}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b0216fe1-ed84-4562-8711-fa0f13137b2a}, ! Handle
+  Olathe Johnson Co Ann Htg 99% Condns DB, ! Name
+  -12.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97376,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1891590a-aabd-43dc-9b19-d56f1c56b3e2}, ! Handle
+  Component Data 1,                       ! Name
+  {3bf40045-b821-41f9-9352-613156964627}, ! UUID
+  {4e3b938d-9be8-4cb6-a413-c5643dcc0fc2}, ! Version UUID
+  1366307566,                             ! Creation Timestamp
+  1366307566,                             ! Version Timestamp
+  {b0216fe1-ed84-4562-8711-fa0f13137b2a}; ! Name of Object 1
+

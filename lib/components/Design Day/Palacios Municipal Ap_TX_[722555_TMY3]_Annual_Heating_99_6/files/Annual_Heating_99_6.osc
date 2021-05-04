@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d9b0d910-0db9-4e56-ab8a-701c36910c40}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cf83bc5e-c5cb-4076-801f-26662fd0fc57}, ! Handle
+  Palacios Municipal Ap Ann Htg 99.6% Condns DB, ! Name
+  0,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  5.7,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ea82f59c-68d9-4efe-940e-a0017c6e5611}, ! Handle
+  Component Data 1,                       ! Name
+  {ce9562a3-b608-428c-a7a2-3555e8fd45fb}, ! UUID
+  {7fe57bfc-120b-42bc-b573-6448cf299e8e}, ! Version UUID
+  1366310843,                             ! Creation Timestamp
+  1366310843,                             ! Version Timestamp
+  {cf83bc5e-c5cb-4076-801f-26662fd0fc57}; ! Name of Object 1
+

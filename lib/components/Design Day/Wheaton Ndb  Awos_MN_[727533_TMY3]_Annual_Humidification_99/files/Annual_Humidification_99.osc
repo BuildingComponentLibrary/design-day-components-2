@@ -1,0 +1,36 @@
+
+OS:Version,
+  {39306b60-0e83-4d33-b992-4245d22e88bb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {64ed978b-68cd-4eb4-a265-43c2385a2ea3}, ! Handle
+  Wheaton Ndb  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -24.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -30.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97621,                                  ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5e14f9e7-120e-44ec-82c5-a5c0364c45c3}, ! Handle
+  Component Data 1,                       ! Name
+  {fac8316c-8509-4309-87ff-d899ab308592}, ! UUID
+  {a931e6aa-b010-4bb4-bab9-b66957af3dd8}, ! Version UUID
+  1366308451,                             ! Creation Timestamp
+  1366308451,                             ! Version Timestamp
+  {64ed978b-68cd-4eb4-a265-43c2385a2ea3}; ! Name of Object 1
+

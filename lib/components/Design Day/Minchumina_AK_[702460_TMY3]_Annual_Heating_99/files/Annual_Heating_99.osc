@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9675a4fa-1124-4c45-be4f-7359992e830a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9b76c71c-77dc-47bc-ad01-1a77845bfb91}, ! Handle
+  Minchumina Ann Htg 99% Condns DB,       ! Name
+  -37.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -37.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98792,                                  ! Barometric Pressure {Pa}
+  0,                                      ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c61f251b-7fb6-4b8e-991c-c683145d76a1}, ! Handle
+  Component Data 1,                       ! Name
+  {8e3e5e8f-da53-4eaf-b0ee-b5af5ae7f415}, ! UUID
+  {ad454a77-16d7-46c2-acec-6ff76fef6b9d}, ! Version UUID
+  1366305434,                             ! Creation Timestamp
+  1366305434,                             ! Version Timestamp
+  {9b76c71c-77dc-47bc-ad01-1a77845bfb91}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {10955e72-fa2b-4071-b378-507fd4e2403f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {01d1185b-9f3b-45d8-9f35-789169f63b6d}, ! Handle
+  Manassas Muni Awos Ann Htg 99% Condns DB, ! Name
+  -8.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100618,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d394c946-ce33-46e6-a027-af8707c820d9}, ! Handle
+  Component Data 1,                       ! Name
+  {dd1da7e5-e970-4ba3-8289-435b9be64656}, ! UUID
+  {7eea6fb0-43f3-4d7d-974e-4d4a0107c8b8}, ! Version UUID
+  1366311094,                             ! Creation Timestamp
+  1366311094,                             ! Version Timestamp
+  {01d1185b-9f3b-45d8-9f35-789169f63b6d}; ! Name of Object 1
+

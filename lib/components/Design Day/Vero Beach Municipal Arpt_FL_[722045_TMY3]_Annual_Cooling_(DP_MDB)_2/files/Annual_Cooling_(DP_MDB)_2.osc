@@ -1,0 +1,40 @@
+
+OS:Version,
+  {2a28162a-e9b6-4f6b-bcfc-1a93df6a6f58}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {36ce17e7-4dbb-42c1-a6a8-04e7c9a75ac9}, ! Handle
+  Vero Beach Municipal Arpt Ann Clg 2% Condns DP=>MDB, ! Name
+  28.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  8.7,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  24.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.492,                                  ! ASHRAE Taub {dimensionless}
+  2.012;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {9b4c31e2-7a44-405f-a3be-54aec6893d0c}, ! Handle
+  Component Data 1,                       ! Name
+  {4f07cb07-c9a8-4cb1-8bba-2ea801ed44b3}, ! UUID
+  {ee8cd1b7-6fb4-448b-9abe-0c2cfd280601}, ! Version UUID
+  1366306946,                             ! Creation Timestamp
+  1366306946,                             ! Version Timestamp
+  {36ce17e7-4dbb-42c1-a6a8-04e7c9a75ac9}; ! Name of Object 1
+

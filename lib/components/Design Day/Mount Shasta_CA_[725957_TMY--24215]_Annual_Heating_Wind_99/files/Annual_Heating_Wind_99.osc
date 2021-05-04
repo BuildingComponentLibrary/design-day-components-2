@@ -1,0 +1,36 @@
+
+OS:Version,
+  {97b794fd-5bf6-439a-9c87-8247806b2bec}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {46d3d327-01b8-4239-bb5d-779385e1106e}, ! Handle
+  Mount Shasta Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  3.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  89038,                                  ! Barometric Pressure {Pa}
+  5.8,                                    ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f312bc89-4885-48a0-808d-6f971d458e28}, ! Handle
+  Component Data 1,                       ! Name
+  {76782d78-f9b3-4bb5-b011-3877e23057ce}, ! UUID
+  {d32048da-142f-47cc-b736-4d502a98f4a9}, ! Version UUID
+  1366306502,                             ! Creation Timestamp
+  1366306502,                             ! Version Timestamp
+  {46d3d327-01b8-4239-bb5d-779385e1106e}; ! Name of Object 1
+

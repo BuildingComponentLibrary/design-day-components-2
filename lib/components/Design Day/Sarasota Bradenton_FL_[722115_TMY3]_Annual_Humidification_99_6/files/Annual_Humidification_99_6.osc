@@ -1,0 +1,36 @@
+
+OS:Version,
+  {cf51abaa-bfe1-461f-a8cd-e530258425f6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cd74a8aa-e366-4bff-af19-d0550f7cab4a}, ! Handle
+  Sarasota Bradenton Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  9.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {24a5ff01-bb98-4532-a8b2-335c9bcdcc1e}, ! Handle
+  Component Data 1,                       ! Name
+  {c44dddf6-e376-40cb-b576-b3c17cda7576}, ! UUID
+  {a7237448-17d1-4c95-935a-698dcc4a0e89}, ! Version UUID
+  1366306908,                             ! Creation Timestamp
+  1366306908,                             ! Version Timestamp
+  {cd74a8aa-e366-4bff-af19-d0550f7cab4a}; ! Name of Object 1
+

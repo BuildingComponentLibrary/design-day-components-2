@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e31aa4cb-ed47-4e43-a2ff-ae1f36258014}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3d796911-3d5f-426d-92d8-404cb58fa8e8}, ! Handle
+  TOLEDO Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -5.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98816,                                  ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cc9f5aa0-fc7c-43a4-8dab-f0bf7c1ff1db}, ! Handle
+  Component Data 1,                       ! Name
+  {f3740efe-e440-4984-9602-1f092cd071c0}, ! UUID
+  {55bbbbda-87d5-4a4c-9bb3-433865228d29}, ! Version UUID
+  1366309844,                             ! Creation Timestamp
+  1366309844,                             ! Version Timestamp
+  {3d796911-3d5f-426d-92d8-404cb58fa8e8}; ! Name of Object 1
+

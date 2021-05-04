@@ -1,0 +1,36 @@
+
+OS:Version,
+  {38b4d11d-46dc-423c-8ee2-f7232d1616ab}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ce4bc183-74c3-4871-90bc-5186552ab3ab}, ! Handle
+  Prescott Love Field Ann Htg 99% Condns DB, ! Name
+  -6.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84173,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {71af5df6-333a-449d-8b20-f0bf7357bfbe}, ! Handle
+  Component Data 1,                       ! Name
+  {cf5c8aad-4071-4a38-b2fa-bdea22cc7bdb}, ! UUID
+  {67b5caed-d679-47d2-8e79-62cfbc7ea778}, ! Version UUID
+  1366306304,                             ! Creation Timestamp
+  1366306304,                             ! Version Timestamp
+  {ce4bc183-74c3-4871-90bc-5186552ab3ab}; ! Name of Object 1
+

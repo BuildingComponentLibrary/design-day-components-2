@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6d21375b-0771-4287-8f92-5f5ae2207eb5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1928f2b5-e7d8-4cd9-b7cb-b198e889dd21}, ! Handle
+  San Antonio Stinson Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  13,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  13,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99228,                                  ! Barometric Pressure {Pa}
+  9.4,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {411d5b76-387f-4053-85fa-5544959fe3e5}, ! Handle
+  Component Data 1,                       ! Name
+  {4feb4f4b-46ba-4aca-a767-7288c147c3fd}, ! UUID
+  {a3de79eb-1bcf-4459-bc86-2d837158dcf0}, ! Version UUID
+  1366310885,                             ! Creation Timestamp
+  1366310885,                             ! Version Timestamp
+  {1928f2b5-e7d8-4cd9-b7cb-b198e889dd21}; ! Name of Object 1
+

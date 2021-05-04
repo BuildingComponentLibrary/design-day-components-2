@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4b581b6c-d478-443f-a624-6aa1d2bf9887}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5d447790-f30f-4b6d-997b-02aa7685882f}, ! Handle
+  Rhinelander Oneida Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -21.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95381,                                  ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8088159f-a41c-4935-8129-19435e176195}, ! Handle
+  Component Data 1,                       ! Name
+  {daa8c52b-c51d-4856-868f-4b9d3ba650a3}, ! UUID
+  {bd567383-df08-4aa8-a859-ca6ec4942322}, ! Version UUID
+  1366308091,                             ! Creation Timestamp
+  1366308091,                             ! Version Timestamp
+  {5d447790-f30f-4b6d-997b-02aa7685882f}; ! Name of Object 1
+

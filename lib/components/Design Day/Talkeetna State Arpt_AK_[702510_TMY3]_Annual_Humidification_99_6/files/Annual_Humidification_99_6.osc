@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b166fc32-6ddf-45d9-9a60-f3087492de89}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d081e713-9e53-48b1-8893-8133d15979d6}, ! Handle
+  Talkeetna State Arpt Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -30.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -34.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100070,                                 ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cd7d7da6-90dd-4e1e-9094-bff3c65aa7a5}, ! Handle
+  Component Data 1,                       ! Name
+  {3d23112b-0812-4711-8bbb-9df3d067a7c7}, ! UUID
+  {d686ac22-f24c-4742-805e-10fd1543afed}, ! Version UUID
+  1366305587,                             ! Creation Timestamp
+  1366305587,                             ! Version Timestamp
+  {d081e713-9e53-48b1-8893-8133d15979d6}; ! Name of Object 1
+

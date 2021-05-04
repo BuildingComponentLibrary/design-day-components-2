@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2febc60c-ff15-4696-94f9-e791dbfbc8b5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8459020b-fb55-4d86-8121-e6cc4e19b20a}, ! Handle
+  Poplar Bluff Amos Ann Htg 99% Condns DB, ! Name
+  -9.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99583,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {327f207d-27c4-4224-bbcc-1da9119ad395}, ! Handle
+  Component Data 1,                       ! Name
+  {530798b1-5165-4a46-814e-f1081c21b2e7}, ! UUID
+  {8d80cd5c-300f-4e50-93a3-df948e327619}, ! Version UUID
+  1366308543,                             ! Creation Timestamp
+  1366308543,                             ! Version Timestamp
+  {8459020b-fb55-4d86-8121-e6cc4e19b20a}; ! Name of Object 1
+

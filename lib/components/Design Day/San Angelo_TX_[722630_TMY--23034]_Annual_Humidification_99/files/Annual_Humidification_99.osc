@@ -1,0 +1,36 @@
+
+OS:Version,
+  {17e3205e-57d1-4650-96dc-c3653f99859b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7fd50f7a-938d-4e6d-b34c-d0120e685e9b}, ! Handle
+  San Angelo Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  3.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94526,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {edf26a2e-e1aa-4421-9c60-ca776d73b253}, ! Handle
+  Component Data 1,                       ! Name
+  {41656078-a4f2-411c-96bb-6999bf91ac97}, ! UUID
+  {f2beb451-64e7-491c-95c7-55d56f82399f}, ! Version UUID
+  1366310867,                             ! Creation Timestamp
+  1366310867,                             ! Version Timestamp
+  {7fd50f7a-938d-4e6d-b34c-d0120e685e9b}; ! Name of Object 1
+

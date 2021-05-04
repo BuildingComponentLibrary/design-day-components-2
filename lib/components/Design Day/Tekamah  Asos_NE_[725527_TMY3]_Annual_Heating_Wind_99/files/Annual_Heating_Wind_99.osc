@@ -1,0 +1,36 @@
+
+OS:Version,
+  {05fd986b-958f-4595-9cf7-36ee96ede3b6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ca2a0fc1-b38b-4527-9216-1c1c301af320}, ! Handle
+  Tekamah  Asos Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -8,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97633,                                  ! Barometric Pressure {Pa}
+  13.5,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {658efffc-9d87-4485-891f-5f1d8a497747}, ! Handle
+  Component Data 1,                       ! Name
+  {e17bde19-50ad-4c96-b643-ece0cb98b2ff}, ! UUID
+  {751d6630-ae6c-406b-853e-ce67ac282560}, ! Version UUID
+  1366309206,                             ! Creation Timestamp
+  1366309206,                             ! Version Timestamp
+  {ca2a0fc1-b38b-4527-9216-1c1c301af320}; ! Name of Object 1
+

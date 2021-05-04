@@ -1,0 +1,36 @@
+
+OS:Version,
+  {45f4be2e-fdbe-4a03-a517-18c560026f19}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {534457f7-fca4-4107-b50c-fb9771225aad}, ! Handle
+  WATERLOO Ann Htg 99.6% Condns DB,       ! Name
+  -24.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98182,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fb9e70e6-e676-4570-a683-2960a3ef0386}, ! Handle
+  Component Data 1,                       ! Name
+  {0b0f5819-2ec8-43d7-a441-96ae8ec070f2}, ! UUID
+  {6d933ffa-827f-4694-a4cc-349fa7b9b6f6}, ! Version UUID
+  1366307250,                             ! Creation Timestamp
+  1366307250,                             ! Version Timestamp
+  {534457f7-fca4-4107-b50c-fb9771225aad}; ! Name of Object 1
+

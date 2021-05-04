@@ -1,0 +1,36 @@
+
+OS:Version,
+  {229dfca5-fbb8-41c8-82d5-57f8af49d653}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0576bb49-cd72-44ca-a60a-ad3b6396494f}, ! Handle
+  Port Arthur Jefferson County Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {34e32ae6-6605-4ab6-8668-d6382d14a1d2}, ! Handle
+  Component Data 1,                       ! Name
+  {6e916016-df5e-43f3-b86e-ab079028c47b}, ! UUID
+  {16c41639-083f-4014-b6f4-5e5a7d1b237c}, ! Version UUID
+  1366310855,                             ! Creation Timestamp
+  1366310855,                             ! Version Timestamp
+  {0576bb49-cd72-44ca-a60a-ad3b6396494f}; ! Name of Object 1
+

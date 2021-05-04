@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a7fd782c-840c-4897-9142-7a908e0fa78c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {879e7be0-3843-43b1-80dd-304ee88ba308}, ! Handle
+  Virginia Tech Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93756,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3964710f-01f5-42b8-85a7-b7c40eb932c0}, ! Handle
+  Component Data 1,                       ! Name
+  {24f67d3e-5818-4dbd-a862-e9149b17d5eb}, ! UUID
+  {6d813657-7a53-46ab-b081-5fae058770e7}, ! Version UUID
+  1366311022,                             ! Creation Timestamp
+  1366311022,                             ! Version Timestamp
+  {879e7be0-3843-43b1-80dd-304ee88ba308}; ! Name of Object 1
+

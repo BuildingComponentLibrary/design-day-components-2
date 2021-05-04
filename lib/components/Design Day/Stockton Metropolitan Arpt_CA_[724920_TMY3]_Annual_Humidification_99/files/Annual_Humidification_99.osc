@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b9226a36-24d3-45b3-9e8b-ef79655db1c3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b60b6a8d-a71c-44da-9445-b56316a6e05d}, ! Handle
+  Stockton Metropolitan Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  8.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  130,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a2d4d2e9-4074-43f4-bc7c-b90e249f5681}, ! Handle
+  Component Data 1,                       ! Name
+  {bf88bbc0-b0a4-4c18-aefb-865e2340065f}, ! UUID
+  {4165072f-7800-4e67-9ef7-485d060578d2}, ! Version UUID
+  1366306622,                             ! Creation Timestamp
+  1366306622,                             ! Version Timestamp
+  {b60b6a8d-a71c-44da-9445-b56316a6e05d}; ! Name of Object 1
+

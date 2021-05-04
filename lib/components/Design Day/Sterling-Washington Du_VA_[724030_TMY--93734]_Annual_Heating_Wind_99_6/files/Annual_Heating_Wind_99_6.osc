@@ -1,0 +1,36 @@
+
+OS:Version,
+  {596c9999-e495-40bd-b488-e926114bf111}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {97b7c12a-75dd-434d-8be8-27e560fd6148}, ! Handle
+  Sterling/Washington Du Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  0.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100153,                                 ! Barometric Pressure {Pa}
+  11.2,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {00b4aaf3-753a-4797-acf5-984bf0795c0a}, ! Handle
+  Component Data 1,                       ! Name
+  {fb6f09de-c9aa-4128-a986-2a90b7005d2e}, ! UUID
+  {783de1d9-a9aa-4baf-9100-cd3d3afd0f8e}, ! Version UUID
+  1366311207,                             ! Creation Timestamp
+  1366311207,                             ! Version Timestamp
+  {97b7c12a-75dd-434d-8be8-27e560fd6148}; ! Name of Object 1
+

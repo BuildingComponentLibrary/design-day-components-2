@@ -1,0 +1,36 @@
+
+OS:Version,
+  {68381e3c-3211-418a-a511-cc5cef735d1b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a8cc9e7e-f609-4049-a882-e70532166afc}, ! Handle
+  Riverside Muni Ann Htg 99% Condns DB,   ! Name
+  2.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98287,                                  ! Barometric Pressure {Pa}
+  0.9,                                    ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {89c567c2-b2a5-46db-be7c-5ae4e035f8ed}, ! Handle
+  Component Data 1,                       ! Name
+  {9712fa8a-a9bb-4432-a045-e52892692a14}, ! UUID
+  {960f6fc6-3628-46fd-80fa-01e156413e42}, ! Version UUID
+  1366306556,                             ! Creation Timestamp
+  1366306556,                             ! Version Timestamp
+  {a8cc9e7e-f609-4049-a882-e70532166afc}; ! Name of Object 1
+

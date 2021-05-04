@@ -1,0 +1,36 @@
+
+OS:Version,
+  {05f54abd-f293-4835-8560-644e46c3390b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {414403bd-b455-4e6e-b8b5-9c1efc62600d}, ! Handle
+  Redding Municipal Arpt Ann Htg 99.6% Condns DB, ! Name
+  -2,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99500,                                  ! Barometric Pressure {Pa}
+  1,                                      ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {71af7005-c5c3-4aa3-b09b-f680ff97dc7a}, ! Handle
+  Component Data 1,                       ! Name
+  {2ef38253-07c0-48db-be28-c8fb650a519d}, ! UUID
+  {38b3cda5-38a3-4b36-ad08-21c342601b6c}, ! Version UUID
+  1366306553,                             ! Creation Timestamp
+  1366306553,                             ! Version Timestamp
+  {414403bd-b455-4e6e-b8b5-9c1efc62600d}; ! Name of Object 1
+

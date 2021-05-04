@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7108d57b-080e-4237-ba09-bb79fd9c5b61}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d1222bec-3134-4946-b715-10467502d137}, ! Handle
+  Stillwater Rgnl Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -8,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97679,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {de6307db-0fe7-4c82-b606-27d0b111c2c5}, ! Handle
+  Component Data 1,                       ! Name
+  {1797a094-2ab4-4d1b-8c61-cbd19a095c61}, ! UUID
+  {3d4e4791-ee18-4301-9465-02b0c7e8ae0e}, ! Version UUID
+  1366309944,                             ! Creation Timestamp
+  1366309944,                             ! Version Timestamp
+  {d1222bec-3134-4946-b715-10467502d137}; ! Name of Object 1
+

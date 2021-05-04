@@ -1,0 +1,36 @@
+
+OS:Version,
+  {db85f188-625d-4246-95bd-e503c248dc09}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4b351f6b-0f87-43da-92bd-bdfbcb37f36a}, ! Handle
+  Tuscaloosa Municipal Ap Ann Htg 99.6% Condns DB, ! Name
+  -6.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100714,                                 ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {297395c5-bfe7-4819-99e5-92ab692dcc9f}, ! Handle
+  Component Data 1,                       ! Name
+  {6276f784-1709-415d-8c7b-8cfccc314d75}, ! UUID
+  {27db0192-541b-43ac-858c-575d5bcf0344}, ! Version UUID
+  1366306017,                             ! Creation Timestamp
+  1366306017,                             ! Version Timestamp
+  {4b351f6b-0f87-43da-92bd-bdfbcb37f36a}; ! Name of Object 1
+

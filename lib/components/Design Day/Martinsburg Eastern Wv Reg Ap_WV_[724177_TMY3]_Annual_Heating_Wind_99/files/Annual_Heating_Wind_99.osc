@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3e12d210-2355-4728-ac28-36cfc5cf9896}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {49276ba9-90a0-449a-a075-5bd6b70e8efd}, ! Handle
+  Martinsburg Eastern Wv Reg Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99394,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c07afe7d-d81e-4ba0-81ef-7ac5af8199ad}, ! Handle
+  Component Data 1,                       ! Name
+  {c192ecf7-924a-4ba2-9d13-65869624363b}, ! UUID
+  {cb30f8aa-e426-43c3-adfc-62ef2c0ac803}, ! Version UUID
+  1366311664,                             ! Creation Timestamp
+  1366311664,                             ! Version Timestamp
+  {49276ba9-90a0-449a-a075-5bd6b70e8efd}; ! Name of Object 1
+

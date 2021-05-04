@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0cda730d-42b7-4b5a-8801-e896f0302820}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {efd62d13-b428-46b3-8403-06479a7baf32}, ! Handle
+  Sioux City Sioux Gateway Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -19.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97388,                                  ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3dd28805-9f67-4c5d-9492-287635885a1a}, ! Handle
+  Component Data 1,                       ! Name
+  {9f639f6c-3a95-47e5-9083-c122eae7b910}, ! UUID
+  {53fbf917-2c57-45cc-8359-0c268318c6af}, ! Version UUID
+  1366307235,                             ! Creation Timestamp
+  1366307235,                             ! Version Timestamp
+  {efd62d13-b428-46b3-8403-06479a7baf32}; ! Name of Object 1
+

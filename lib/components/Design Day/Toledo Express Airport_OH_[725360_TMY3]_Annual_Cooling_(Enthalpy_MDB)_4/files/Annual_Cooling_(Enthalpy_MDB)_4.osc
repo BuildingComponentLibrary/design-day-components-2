@@ -1,0 +1,40 @@
+
+OS:Version,
+  {9bd03837-c616-44e1-92b8-ce5336a7b634}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7099211b-15b5-4266-8a4b-e79484c63fb9}, ! Handle
+  Toledo Express Airport Ann Clg .4% Condns Enth=>MDB, ! Name
+  30.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  11.5,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  77500,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98898,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.45,                                   ! ASHRAE Taub {dimensionless}
+  2.065;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {a5545a70-f7ee-4b72-879c-3ef7177ad975}, ! Handle
+  Component Data 1,                       ! Name
+  {3b1ed48d-b808-4867-b047-a92e48422834}, ! UUID
+  {0e0561d9-d64e-40d9-92f2-32040fc85f4e}, ! Version UUID
+  1366309857,                             ! Creation Timestamp
+  1366309857,                             ! Version Timestamp
+  {7099211b-15b5-4266-8a4b-e79484c63fb9}; ! Name of Object 1
+

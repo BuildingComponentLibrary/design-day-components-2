@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ea4b060a-f112-44d6-a8d5-3c9fff2eef55}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6cf729ba-9fb7-452b-82b8-9c504878c6b7}, ! Handle
+  Reading Spaatz Field Ann Htg 99.6% Condns DB, ! Name
+  -12.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100082,                                 ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ab1bf4b4-4184-4d4a-b4a5-b678661a59d7}, ! Handle
+  Component Data 1,                       ! Name
+  {4ba818e0-fe52-4bab-bd3a-8410f705a7d1}, ! UUID
+  {16e881ca-a21d-44e2-bd14-eae8e060124d}, ! Version UUID
+  1366310249,                             ! Creation Timestamp
+  1366310249,                             ! Version Timestamp
+  {6cf729ba-9fb7-452b-82b8-9c504878c6b7}; ! Name of Object 1
+

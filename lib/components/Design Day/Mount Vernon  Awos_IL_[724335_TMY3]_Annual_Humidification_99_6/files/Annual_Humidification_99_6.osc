@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2a5c181a-41fc-4158-9cd3-60fb6758cb91}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {104cf978-71ed-476e-9409-5bbede2e6d12}, ! Handle
+  Mount Vernon  Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -14.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99583,                                  ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {714a370c-b349-43cc-b8c3-1c4337007d46}, ! Handle
+  Component Data 1,                       ! Name
+  {1f06a903-9114-4476-b780-eaabcfd0fb6e}, ! UUID
+  {58585bdf-b7d7-4e80-a0fd-6fbee82ffaf4}, ! Version UUID
+  1366307376,                             ! Creation Timestamp
+  1366307376,                             ! Version Timestamp
+  {104cf978-71ed-476e-9409-5bbede2e6d12}; ! Name of Object 1
+

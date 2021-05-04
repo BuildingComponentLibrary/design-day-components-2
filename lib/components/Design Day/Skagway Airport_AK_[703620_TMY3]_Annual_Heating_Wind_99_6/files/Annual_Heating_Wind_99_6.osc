@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ed6af191-9d7f-46ca-b91d-7adc6c02d3f1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ccc43381-db0f-4d9f-acd7-0de0d3d9878a}, ! Handle
+  Skagway Airport Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -4.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101217,                                 ! Barometric Pressure {Pa}
+  17.8,                                   ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1ea28740-05bc-4c28-af20-6b41f110d598}, ! Handle
+  Component Data 1,                       ! Name
+  {e272ba9e-fcf3-4ebe-b314-7ee4f089b1c2}, ! UUID
+  {157e126a-6305-4217-9c15-59abe5469d67}, ! Version UUID
+  1366305558,                             ! Creation Timestamp
+  1366305558,                             ! Version Timestamp
+  {ccc43381-db0f-4d9f-acd7-0de0d3d9878a}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dd97afd8-7b7e-4825-99fd-63cd84e17bdc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7788730b-1382-48da-9f13-c04538ac525f}, ! Handle
+  Phoenix Sky Harbor Intl Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  17,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97342,                                  ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {48d2bb31-31e5-43af-9349-7eb5c1e04e2b}, ! Handle
+  Component Data 1,                       ! Name
+  {7d94e064-71ca-4bf4-a52e-959571c2a23c}, ! UUID
+  {4fdbab24-830d-4489-9f23-ec4dccb55d0d}, ! Version UUID
+  1366306294,                             ! Creation Timestamp
+  1366306294,                             ! Version Timestamp
+  {7788730b-1382-48da-9f13-c04538ac525f}; ! Name of Object 1
+

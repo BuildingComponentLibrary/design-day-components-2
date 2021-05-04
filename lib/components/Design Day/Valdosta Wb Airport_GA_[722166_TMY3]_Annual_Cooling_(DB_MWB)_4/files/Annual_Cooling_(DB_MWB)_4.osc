@@ -1,0 +1,40 @@
+
+OS:Version,
+  {7c51aef1-92f0-49bb-aaec-799784ce23d7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5d23a084-ac69-405c-9b5b-44363f04665b}, ! Handle
+  Valdosta Wb Airport Ann Clg .4% Condns DB=>MWB, ! Name
+  35.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  10.8,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  25.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100594,                                 ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.546,                                  ! ASHRAE Taub {dimensionless}
+  1.837;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {1a4d8c65-3641-41d6-9ff9-fd723122dbf4}, ! Handle
+  Component Data 1,                       ! Name
+  {74cba600-223e-491a-8aa8-e8cfac06fa77}, ! UUID
+  {58698b90-a7c0-4343-8fe2-ab911214b212}, ! Version UUID
+  1366307063,                             ! Creation Timestamp
+  1366307063,                             ! Version Timestamp
+  {5d23a084-ac69-405c-9b5b-44363f04665b}; ! Name of Object 1
+

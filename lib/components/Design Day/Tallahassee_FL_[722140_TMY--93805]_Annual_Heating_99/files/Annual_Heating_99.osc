@@ -1,0 +1,36 @@
+
+OS:Version,
+  {320c70f4-a532-4381-937b-e751ce3c6333}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3996c90f-4c16-4b27-8b9c-07f2b63d6274}, ! Handle
+  Tallahassee Ann Htg 99% Condns DB,      ! Name
+  -1.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2a63822a-fb8b-4f27-871b-42b6be38cd84}, ! Handle
+  Component Data 1,                       ! Name
+  {ee294e02-9d48-40eb-930a-538c7c566309}, ! UUID
+  {2e1f641f-d15e-42eb-9372-7fe0f456e42f}, ! Version UUID
+  1366306923,                             ! Creation Timestamp
+  1366306923,                             ! Version Timestamp
+  {3996c90f-4c16-4b27-8b9c-07f2b63d6274}; ! Name of Object 1
+

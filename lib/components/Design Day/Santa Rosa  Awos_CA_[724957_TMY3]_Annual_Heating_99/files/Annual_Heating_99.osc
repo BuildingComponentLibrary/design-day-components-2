@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a070cf56-e0e7-4dab-8677-5507626173c2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {847dc3e4-c704-4610-a8bd-cade49007fe7}, ! Handle
+  Santa Rosa  Awos Ann Htg 99% Condns DB, ! Name
+  -0.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100869,                                 ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {10fba611-ff2a-4b7e-9490-94cae68f00ee}, ! Handle
+  Component Data 1,                       ! Name
+  {6b07c217-6921-49ca-a88a-91bec841e0ff}, ! UUID
+  {09cf75a9-0971-4193-9c3f-cace496c2763}, ! Version UUID
+  1366306618,                             ! Creation Timestamp
+  1366306618,                             ! Version Timestamp
+  {847dc3e4-c704-4610-a8bd-cade49007fe7}; ! Name of Object 1
+

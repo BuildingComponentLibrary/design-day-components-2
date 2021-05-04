@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d29722e1-447d-4411-a632-f4e3509450d8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1e045c70-7df1-4d4c-b675-8640d8c685b5}, ! Handle
+  SALT_LAKE Ann Htg 99% Condns DB,        ! Name
+  -9.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86779,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8382a3cc-31dc-4edc-b1e1-2edbc4f5fa61}, ! Handle
+  Component Data 1,                       ! Name
+  {100482d6-24d5-4fb1-a843-4e09273b8659}, ! UUID
+  {f2f36abf-c996-43f8-85af-0f63514d540b}, ! Version UUID
+  1366310987,                             ! Creation Timestamp
+  1366310987,                             ! Version Timestamp
+  {1e045c70-7df1-4d4c-b675-8640d8c685b5}; ! Name of Object 1
+

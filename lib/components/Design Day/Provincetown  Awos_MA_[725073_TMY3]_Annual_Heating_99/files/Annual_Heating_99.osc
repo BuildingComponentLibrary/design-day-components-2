@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a55f6a90-a53b-4443-a686-b8d633b7fe27}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ae2c5623-351f-4934-ab21-8d61f1681284}, ! Handle
+  Provincetown  Awos Ann Htg 99% Condns DB, ! Name
+  -8,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  7.7,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0911eddb-173a-4030-8ddb-68c89e1154a7}, ! Handle
+  Component Data 1,                       ! Name
+  {d92cc76c-6de0-4d41-ab87-61d095fc705d}, ! UUID
+  {b4b12944-cf92-447c-8d63-5c45b65d6631}, ! Version UUID
+  1366307821,                             ! Creation Timestamp
+  1366307821,                             ! Version Timestamp
+  {ae2c5623-351f-4934-ab21-8d61f1681284}; ! Name of Object 1
+

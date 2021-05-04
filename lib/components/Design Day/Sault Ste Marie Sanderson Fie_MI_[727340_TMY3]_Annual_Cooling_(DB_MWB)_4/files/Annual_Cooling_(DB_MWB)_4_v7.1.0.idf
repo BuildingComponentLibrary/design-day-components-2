@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Sault Ste Marie Sanderson Fie_MI_USA Annual Cooling (DB=>MWB) .4%, MaxDB=28.7°C MWB=21.1°C
+ SizingPeriod:DesignDay,
+  Sault Ste Marie Sanderson Fie Ann Clg .4% Condns DB=>MWB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       28.7,      !- Maximum Dry-Bulb Temperature {C}
+       11.7,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       21.1,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     98722.,      !- Barometric Pressure {Pa}
+        4.2,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        220,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.412,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.194;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

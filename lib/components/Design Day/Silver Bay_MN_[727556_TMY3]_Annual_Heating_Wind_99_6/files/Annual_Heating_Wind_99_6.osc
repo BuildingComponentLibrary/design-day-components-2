@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7610717a-cb41-49e4-9337-8e0e5dcf3247}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ef45db2e-bafa-41ca-b281-60f45fdca996}, ! Handle
+  Silver Bay Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -5.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97411,                                  ! Barometric Pressure {Pa}
+  8.4,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f533f509-140e-40b9-bd8e-0d9a8c9b6df5}, ! Handle
+  Component Data 1,                       ! Name
+  {d0abcfc9-6731-45fc-afbd-5a6514969de5}, ! UUID
+  {de9f262a-9770-4d30-82bd-c6281dcaee19}, ! Version UUID
+  1366308415,                             ! Creation Timestamp
+  1366308415,                             ! Version Timestamp
+  {ef45db2e-bafa-41ca-b281-60f45fdca996}; ! Name of Object 1
+

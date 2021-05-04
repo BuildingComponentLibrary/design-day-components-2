@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2863b545-b478-456e-b0ef-210cc8f5bebd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e1c95e83-cc03-4d35-8946-836028fcaa3e}, ! Handle
+  New Orleans/Lakefront Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  13.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  13.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  10.6,                                   ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9d6ae313-0115-412d-a57d-87a5a2650226}, ! Handle
+  Component Data 1,                       ! Name
+  {ce181ebf-20a9-4111-975e-d60f89f2d08c}, ! UUID
+  {2fbd948d-9f5a-4332-89ea-16e09e888a99}, ! Version UUID
+  1366307750,                             ! Creation Timestamp
+  1366307750,                             ! Version Timestamp
+  {e1c95e83-cc03-4d35-8946-836028fcaa3e}; ! Name of Object 1
+

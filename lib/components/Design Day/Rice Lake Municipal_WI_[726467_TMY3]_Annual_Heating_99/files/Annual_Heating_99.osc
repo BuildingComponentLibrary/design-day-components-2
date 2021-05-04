@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4acbc8f6-00b1-46f6-96c1-41069bcb0848}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fd89e70c-dec5-40f2-8599-218e3d94354f}, ! Handle
+  Rice Lake Municipal Ann Htg 99% Condns DB, ! Name
+  -22,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97225,                                  ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2a890a41-0b06-49db-90f5-fbb4912da46c}, ! Handle
+  Component Data 1,                       ! Name
+  {3b39353d-7fbe-4747-a847-c7a0b687ac7c}, ! UUID
+  {4d244c84-3c15-4680-87f4-16e2d0d1c611}, ! Version UUID
+  1366311580,                             ! Creation Timestamp
+  1366311580,                             ! Version Timestamp
+  {fd89e70c-dec5-40f2-8599-218e3d94354f}; ! Name of Object 1
+

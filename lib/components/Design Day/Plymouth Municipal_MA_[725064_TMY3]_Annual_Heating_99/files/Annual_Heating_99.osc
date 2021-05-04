@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ff12bf7d-7684-4cb3-bc6e-52dcdf629870}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d2f7a021-d5e9-48fd-bb6f-43ca10751375}, ! Handle
+  Plymouth Municipal Ann Htg 99% Condns DB, ! Name
+  -12.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fbd38bfd-11b3-4ba6-b6a1-49171c0313e6}, ! Handle
+  Component Data 1,                       ! Name
+  {f381a6ee-7193-42fa-a460-cc854d09a691}, ! UUID
+  {336f88e5-8460-4fd9-9c7e-8a84f062ebc2}, ! Version UUID
+  1366307817,                             ! Creation Timestamp
+  1366307817,                             ! Version Timestamp
+  {d2f7a021-d5e9-48fd-bb6f-43ca10751375}; ! Name of Object 1
+

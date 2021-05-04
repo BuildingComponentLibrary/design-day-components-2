@@ -1,0 +1,36 @@
+
+OS:Version,
+  {405b483b-a84e-4586-ad03-54633ce3f6d5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {700e7eb9-ce91-48ae-a11e-b4a4693d929e}, ! Handle
+  Massena Ap Ann Htg 99.6% Condns DB,     ! Name
+  -25.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100547,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {eaad964b-847b-4abd-89de-b4cfed10d450}, ! Handle
+  Component Data 1,                       ! Name
+  {09e6f9fb-8f97-4433-85fd-acbee437b955}, ! UUID
+  {7f94ac10-0e0e-42ad-8a4a-1832cfb123b4}, ! Version UUID
+  1366309653,                             ! Creation Timestamp
+  1366309653,                             ! Version Timestamp
+  {700e7eb9-ce91-48ae-a11e-b4a4693d929e}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1f186f09-6794-4e10-bd48-ceaa1068dea2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8ed8a3fd-fd8c-430a-b75f-1b5eeceeb099}, ! Handle
+  Pocatello Ann Htg 99.6% Condns DB,      ! Name
+  -20.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85966,                                  ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {514f330a-d6bc-4b92-adec-1298a93534f1}, ! Handle
+  Component Data 1,                       ! Name
+  {dcea8f5f-be12-43f6-97ce-341a0a631b35}, ! UUID
+  {61371e78-ab37-4bd0-865a-8f9097678912}, ! Version UUID
+  1366307302,                             ! Creation Timestamp
+  1366307302,                             ! Version Timestamp
+  {8ed8a3fd-fd8c-430a-b75f-1b5eeceeb099}; ! Name of Object 1
+

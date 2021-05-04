@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8d15d853-21d8-41e0-93f6-251117115820}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {49aa3ed8-baf8-413b-9965-451b8b20ad48}, ! Handle
+  Tulsa Ann Hum_n 99.6% Condns DP=>MCDB,  ! Name
+  -9.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98875,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0fa73252-4f5e-4cee-8155-d8fd4a42c0b9}, ! Handle
+  Component Data 1,                       ! Name
+  {dc212b88-76c4-4614-8c5e-4b4838869ac4}, ! UUID
+  {7ecb7539-6a54-437f-a30b-f8958a212504}, ! Version UUID
+  1366309953,                             ! Creation Timestamp
+  1366309953,                             ! Version Timestamp
+  {49aa3ed8-baf8-413b-9965-451b8b20ad48}; ! Name of Object 1
+

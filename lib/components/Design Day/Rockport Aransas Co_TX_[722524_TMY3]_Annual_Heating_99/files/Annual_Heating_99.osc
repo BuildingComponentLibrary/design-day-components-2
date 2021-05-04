@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ba17f620-9264-461b-a5df-d86c04e940b0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4c6133ba-cc1d-411c-ac67-bb5bd1fff093}, ! Handle
+  Rockport Aransas Co Ann Htg 99% Condns DB, ! Name
+  3.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101229,                                 ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {98a87023-3075-45c1-ad3d-0522691416fc}, ! Handle
+  Component Data 1,                       ! Name
+  {7c53e3cd-eb61-440f-b0b7-2f73a86905f0}, ! UUID
+  {e6954dda-e4ca-4ba2-a390-ad9be18561ea}, ! Version UUID
+  1366310863,                             ! Creation Timestamp
+  1366310863,                             ! Version Timestamp
+  {4c6133ba-cc1d-411c-ac67-bb5bd1fff093}; ! Name of Object 1
+

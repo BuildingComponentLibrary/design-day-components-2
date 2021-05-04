@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a16609ab-55f5-4153-a947-066d85464177}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3ba60588-61d0-49fd-a302-660b113f4131}, ! Handle
+  Thief River Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -25.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -32.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97307,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  210,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {61228cdb-5078-48bd-ad8c-958f075c54bc}, ! Handle
+  Component Data 1,                       ! Name
+  {9b3e52e2-2d37-4219-979f-0ff3dfb09f09}, ! UUID
+  {c86c2172-f29f-4fce-8853-3e68f5a11653}, ! Version UUID
+  1366308440,                             ! Creation Timestamp
+  1366308440,                             ! Version Timestamp
+  {3ba60588-61d0-49fd-a302-660b113f4131}; ! Name of Object 1
+

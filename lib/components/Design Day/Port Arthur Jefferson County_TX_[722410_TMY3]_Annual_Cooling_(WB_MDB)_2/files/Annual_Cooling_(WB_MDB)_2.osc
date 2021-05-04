@@ -1,0 +1,40 @@
+
+OS:Version,
+  {fc056575-25ef-4fd5-aad2-124c40b739ed}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {281cf040-5dab-4f56-a684-ec55793171dd}, ! Handle
+  Port Arthur Jefferson County Ann Clg 2% Condns WB=>MDB, ! Name
+  30.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  8.9,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  26.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.515,                                  ! ASHRAE Taub {dimensionless}
+  1.943;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {28ed6731-8e19-47a0-8ffa-c30866828dca}, ! Handle
+  Component Data 1,                       ! Name
+  {1143218a-0c28-4e9d-adac-aa53dc3cc8d2}, ! UUID
+  {9f846cae-a445-4aa4-a932-73f1d74f8c13}, ! Version UUID
+  1366310856,                             ! Creation Timestamp
+  1366310856,                             ! Version Timestamp
+  {281cf040-5dab-4f56-a684-ec55793171dd}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e8adc182-2a74-46b3-9abc-cb171f2f1aae}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1a948107-9ed3-470e-b673-f65bfee76b0d}, ! Handle
+  New York City/La Guard Ann Htg 99% Condns DB, ! Name
+  -8.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  7.5,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {68e5b72b-d326-401f-bd16-2eaa2727edf6}, ! Handle
+  Component Data 1,                       ! Name
+  {e1f2e49e-e7e5-4237-8403-98f92cf13e86}, ! UUID
+  {3a70d268-f819-4d1b-843d-c0622ecf1cbd}, ! Version UUID
+  1366309668,                             ! Creation Timestamp
+  1366309668,                             ! Version Timestamp
+  {1a948107-9ed3-470e-b673-f65bfee76b0d}; ! Name of Object 1
+

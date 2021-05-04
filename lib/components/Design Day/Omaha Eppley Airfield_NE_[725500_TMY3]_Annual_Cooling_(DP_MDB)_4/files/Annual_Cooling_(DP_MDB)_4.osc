@@ -1,0 +1,40 @@
+
+OS:Version,
+  {b5a25d4c-4274-4f5b-846d-5af7458559cb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ebcfec73-846f-49ba-b1bd-ef0c45eccb71}, ! Handle
+  Omaha Eppley Airfield Ann Clg .4% Condns DP=>MDB, ! Name
+  29.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  11,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  24.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97784,                                  ! Barometric Pressure {Pa}
+  6.1,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.421,                                  ! ASHRAE Taub {dimensionless}
+  2.196;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {620da0c8-881b-45f0-82e3-8233a5f62b90}, ! Handle
+  Component Data 1,                       ! Name
+  {3d0745d1-deb5-4a7c-840f-800df3f71bb2}, ! UUID
+  {a770cfc7-1b7e-487f-9444-46478e4e0c28}, ! Version UUID
+  1366309174,                             ! Creation Timestamp
+  1366309174,                             ! Version Timestamp
+  {ebcfec73-846f-49ba-b1bd-ef0c45eccb71}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dd6b476a-31f9-4052-ae8e-93f4dbf867f2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d9121078-3fdd-42f7-b666-5cdd268d829b}, ! Handle
+  Portland Ann Htg 99% Condns DB,         ! Name
+  -15.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101097,                                 ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d06fc09c-a354-4c8d-a9b4-e7b7fff009f1}, ! Handle
+  Component Data 1,                       ! Name
+  {4f465397-c38e-4ff1-a738-df9259e3c77d}, ! UUID
+  {a48c4e40-20a0-443f-84c6-a5e9c354e13e}, ! Version UUID
+  1366307910,                             ! Creation Timestamp
+  1366307910,                             ! Version Timestamp
+  {d9121078-3fdd-42f7-b666-5cdd268d829b}; ! Name of Object 1
+

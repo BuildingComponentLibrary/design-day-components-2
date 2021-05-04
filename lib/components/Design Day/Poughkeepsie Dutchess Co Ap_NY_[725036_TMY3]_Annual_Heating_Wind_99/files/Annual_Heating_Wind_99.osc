@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f6eb3473-b82b-4ef3-bb57-22c41e3d2ec1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {39160ea4-7647-4b00-8036-aa2d46d4114a}, ! Handle
+  Poughkeepsie Dutchess Co Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -3.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100762,                                 ! Barometric Pressure {Pa}
+  8.4,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4cc24374-db11-4e05-a87e-a87190137504}, ! Handle
+  Component Data 1,                       ! Name
+  {b022b622-b984-47db-bc24-d7a4b2263712}, ! UUID
+  {57dff638-29d5-42e3-99a4-c33b31068460}, ! Version UUID
+  1366309703,                             ! Creation Timestamp
+  1366309703,                             ! Version Timestamp
+  {39160ea4-7647-4b00-8036-aa2d46d4114a}; ! Name of Object 1
+

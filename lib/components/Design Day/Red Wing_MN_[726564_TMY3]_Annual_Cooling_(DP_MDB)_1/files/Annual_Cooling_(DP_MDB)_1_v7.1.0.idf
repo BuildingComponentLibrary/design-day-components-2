@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Red Wing_MN_USA Annual Cooling (DP=>MDB) 1%, MDB=27.1°C DP=22.8°C HR=0.0180
+ SizingPeriod:DesignDay,
+  Red Wing Ann Clg 1% Condns DP=>MDB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       27.1,      !- Maximum Dry-Bulb Temperature {C}
+       11.2,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Dewpoint,     !- Humidity Condition Type
+       22.8,      !- Dewpoint at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     98487.,      !- Barometric Pressure {Pa}
+        4.4,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        190,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.413,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.205;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

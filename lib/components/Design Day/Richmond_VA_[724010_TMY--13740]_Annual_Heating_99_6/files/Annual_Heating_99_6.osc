@@ -1,0 +1,36 @@
+
+OS:Version,
+  {078c6296-bdf5-4072-aa10-73c3387ee5d0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {486f889e-f7a9-4e8c-886e-13235b6afe10}, ! Handle
+  Richmond Ann Htg 99.6% Condns DB,       ! Name
+  -8.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100678,                                 ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {40fc66ed-b48a-4685-8925-37bdbdaeb9a5}, ! Handle
+  Component Data 1,                       ! Name
+  {0826230d-e556-4ee5-bc8c-07586ef8b552}, ! UUID
+  {7382ad15-5ef9-48d5-9aca-9027e926f813}, ! Version UUID
+  1366311167,                             ! Creation Timestamp
+  1366311167,                             ! Version Timestamp
+  {486f889e-f7a9-4e8c-886e-13235b6afe10}; ! Name of Object 1
+

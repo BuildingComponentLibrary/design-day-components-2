@@ -1,0 +1,40 @@
+
+OS:Version,
+  {039737a3-08c1-4b8d-add7-9064cbf677d1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {89044afd-e476-464f-bf8c-b0db7caef0f6}, ! Handle
+  Martinsburg Eastern Wv Reg Ap Ann Clg .4% Condns DP=>MDB, ! Name
+  27.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  11.6,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  23.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99394,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.53,                                   ! ASHRAE Taub {dimensionless}
+  1.809;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {481d1244-0696-4d51-a003-0008d723cf3f}, ! Handle
+  Component Data 1,                       ! Name
+  {7af3cae0-ebb8-4bf1-a2e3-292e3a85515f}, ! UUID
+  {1d2abbbc-31ad-4190-a083-c449d31d8a28}, ! Version UUID
+  1366311666,                             ! Creation Timestamp
+  1366311666,                             ! Version Timestamp
+  {89044afd-e476-464f-bf8c-b0db7caef0f6}; ! Name of Object 1
+

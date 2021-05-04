@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b53870da-1bee-45b2-8a56-795642996452}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {254c33b4-ebc8-4722-bdbb-39702d0522ad}, ! Handle
+  Palm Springs Thermal Ap Ann Htg 99.6% Condns DB, ! Name
+  -0.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101734,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {42e2f64d-e0a2-4cb1-b43f-9318a5e1a88d}, ! Handle
+  Component Data 1,                       ! Name
+  {d5afc9f9-98ca-4fd6-9996-bddfd59b895b}, ! UUID
+  {a7ecd857-621b-46b6-814a-6cbfd470bc1c}, ! Version UUID
+  1366306527,                             ! Creation Timestamp
+  1366306527,                             ! Version Timestamp
+  {254c33b4-ebc8-4722-bdbb-39702d0522ad}; ! Name of Object 1
+

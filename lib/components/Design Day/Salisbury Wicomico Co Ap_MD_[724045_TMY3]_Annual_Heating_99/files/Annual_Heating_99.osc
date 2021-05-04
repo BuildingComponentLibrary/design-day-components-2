@@ -1,0 +1,36 @@
+
+OS:Version,
+  {252c5f6d-718b-4eb1-92f0-8877f37732ba}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b6004ff1-d643-43e7-90e8-3b874b03d853}, ! Handle
+  Salisbury Wicomico Co Ap Ann Htg 99% Condns DB, ! Name
+  -7.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4b231f09-02f0-40cd-bd86-901e1080ef4b}, ! Handle
+  Component Data 1,                       ! Name
+  {9c3ac208-2c13-413a-a681-c3c00daf96c5}, ! UUID
+  {4b6e043d-5730-412a-9800-3889891a6771}, ! Version UUID
+  1366307860,                             ! Creation Timestamp
+  1366307860,                             ! Version Timestamp
+  {b6004ff1-d643-43e7-90e8-3b874b03d853}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {516e7b0f-3fe0-4aef-be15-e05572fb9755}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2b10aa12-0441-409d-846e-1ff21f993c7f}, ! Handle
+  Quillayute State Airport Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100666,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c95f92bb-9a85-48cc-9c5a-1a2dfc773a3f}, ! Handle
+  Component Data 1,                       ! Name
+  {1287d1e1-ea0e-48a0-ba9b-741f81097639}, ! UUID
+  {915e5831-e7ee-4344-aa94-910befb18814}, ! Version UUID
+  1366311341,                             ! Creation Timestamp
+  1366311341,                             ! Version Timestamp
+  {2b10aa12-0441-409d-846e-1ff21f993c7f}; ! Name of Object 1
+

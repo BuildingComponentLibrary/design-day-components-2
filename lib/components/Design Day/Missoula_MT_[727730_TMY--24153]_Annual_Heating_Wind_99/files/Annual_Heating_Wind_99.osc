@@ -1,0 +1,36 @@
+
+OS:Version,
+  {348da6ac-96df-4ce4-ad2b-12eb0626584c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e0ffe28f-e773-4e97-bf85-4f43cb93295b}, ! Handle
+  Missoula Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -8.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90180,                                  ! Barometric Pressure {Pa}
+  10,                                     ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1c6e7163-da1a-4a2f-a21c-70229facaec4}, ! Handle
+  Component Data 1,                       ! Name
+  {19048f30-4de5-4abf-9641-fe3467afa1a0}, ! UUID
+  {9bd37dd0-b002-426a-8df1-310832632873}, ! Version UUID
+  1366308844,                             ! Creation Timestamp
+  1366308844,                             ! Version Timestamp
+  {e0ffe28f-e773-4e97-bf85-4f43cb93295b}; ! Name of Object 1
+

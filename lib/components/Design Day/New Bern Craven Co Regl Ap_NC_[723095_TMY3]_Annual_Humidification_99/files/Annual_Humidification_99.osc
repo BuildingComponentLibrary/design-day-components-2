@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8115d685-bec0-446b-afc6-92c2586712b2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ff221fc5-1ae0-49fe-972f-d22276525280}, ! Handle
+  New Bern Craven Co Regl Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f83187fd-a9d0-4e6a-ae7f-adf7a4ebb569}, ! Handle
+  Component Data 1,                       ! Name
+  {e123d8aa-b616-4faf-b7a7-f2d3983781f1}, ! UUID
+  {d5230a3e-6916-4a31-ba46-a5903e46b36d}, ! Version UUID
+  1366308951,                             ! Creation Timestamp
+  1366308951,                             ! Version Timestamp
+  {ff221fc5-1ae0-49fe-972f-d22276525280}; ! Name of Object 1
+

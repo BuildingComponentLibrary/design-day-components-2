@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4b91be47-fda4-4eaa-a760-0ba8acb63489}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ed3c1d31-e005-4389-92c7-a462105d3605}, ! Handle
+  Topeka Forbes Field Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  1,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97481,                                  ! Barometric Pressure {Pa}
+  12.6,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {07625b81-041a-425e-b402-ded3ae3ff306}, ! Handle
+  Component Data 1,                       ! Name
+  {0714aaa3-6c0e-4e29-8508-a242d840fb75}, ! UUID
+  {11bc52c6-d1bd-4cb8-84a3-0dca0649a1b2}, ! Version UUID
+  1366307579,                             ! Creation Timestamp
+  1366307579,                             ! Version Timestamp
+  {ed3c1d31-e005-4389-92c7-a462105d3605}; ! Name of Object 1
+

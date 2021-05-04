@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c40f5d3b-a046-4d87-865d-f402c63113cd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b9ef582a-46fa-4929-9c12-aa2f052e3375}, ! Handle
+  Wendover Usaf Auxiliary Field Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86747,                                  ! Barometric Pressure {Pa}
+  11.6,                                   ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1738b6c3-93ed-4dcf-80bc-29896a95847e}, ! Handle
+  Component Data 1,                       ! Name
+  {e04386bd-6595-4b95-b9f5-83613db6e3ef}, ! UUID
+  {f03a5dcc-21ca-4368-ba27-7154981992f0}, ! Version UUID
+  1366311008,                             ! Creation Timestamp
+  1366311008,                             ! Version Timestamp
+  {b9ef582a-46fa-4929-9c12-aa2f052e3375}; ! Name of Object 1
+

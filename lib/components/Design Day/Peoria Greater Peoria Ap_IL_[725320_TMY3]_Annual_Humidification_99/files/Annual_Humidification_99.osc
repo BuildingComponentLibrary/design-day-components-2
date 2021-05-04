@@ -1,0 +1,36 @@
+
+OS:Version,
+  {51779c80-85ab-466d-8523-e309a575009b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7adfa156-6442-443c-8fff-479688a5bb8d}, ! Handle
+  Peoria Greater Peoria Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -16,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98957,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {58f04c9f-c5e1-4e40-b9cc-686e61fa9298}, ! Handle
+  Component Data 1,                       ! Name
+  {f961b282-35b5-4521-a738-2f2507328cb3}, ! UUID
+  {752361f1-ddc3-412b-b67d-62d1fc7ffd65}, ! Version UUID
+  1366307380,                             ! Creation Timestamp
+  1366307380,                             ! Version Timestamp
+  {7adfa156-6442-443c-8fff-479688a5bb8d}; ! Name of Object 1
+

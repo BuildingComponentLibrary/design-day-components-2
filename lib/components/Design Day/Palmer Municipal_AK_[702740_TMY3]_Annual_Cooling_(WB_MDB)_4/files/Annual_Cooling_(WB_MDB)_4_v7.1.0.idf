@@ -1,0 +1,32 @@
+
+Version,
+  7.1;                                    ! Version Identifier 
+
+ ! Palmer Municipal_AK_USA Annual Cooling (WB=>MDB) .4%, MDB=22.9°C WB=16.4°C
+ SizingPeriod:DesignDay,
+  Palmer Municipal Ann Clg .4% Condns WB=>MDB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+       22.9,      !- Maximum Dry-Bulb Temperature {C}
+        8.6,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       16.4,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+    100475.,      !- Barometric Pressure {Pa}
+        3.5,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        140,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.409,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.079;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+

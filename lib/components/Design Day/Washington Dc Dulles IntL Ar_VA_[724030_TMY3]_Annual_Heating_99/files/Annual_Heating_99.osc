@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c48bebf6-5534-48b6-bbae-a3077c491be0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3a047f11-229a-4bb4-b588-bab1a18530e5}, ! Handle
+  Washington Dc Dulles IntL Ar Ann Htg 99% Condns DB, ! Name
+  -9,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100344,                                 ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {82ee033b-668a-44f5-900c-78dac294661f}, ! Handle
+  Component Data 1,                       ! Name
+  {e5b940cb-27fd-4ae6-a513-ef63d5432166}, ! UUID
+  {45ba401d-03f3-42be-9d47-cf63feccef0a}, ! Version UUID
+  1366311217,                             ! Creation Timestamp
+  1366311217,                             ! Version Timestamp
+  {3a047f11-229a-4bb4-b588-bab1a18530e5}; ! Name of Object 1
+

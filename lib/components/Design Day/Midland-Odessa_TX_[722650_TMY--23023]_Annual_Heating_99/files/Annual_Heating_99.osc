@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b8c7eb97-854b-46d6-b661-12686a4a4da9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f61e9496-ab01-451e-99f3-48ef5976ee4f}, ! Handle
+  Midland/Odessa Ann Htg 99% Condns DB,   ! Name
+  -4.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91279,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a2e2692c-3d23-4cb3-a042-d7ffe283f8cf}, ! Handle
+  Component Data 1,                       ! Name
+  {34819b6e-99bf-4bd6-8002-55d1890571a9}, ! UUID
+  {e43bbc33-31f1-43ca-9e9c-050a078bab16}, ! Version UUID
+  1366310830,                             ! Creation Timestamp
+  1366310830,                             ! Version Timestamp
+  {f61e9496-ab01-451e-99f3-48ef5976ee4f}; ! Name of Object 1
+

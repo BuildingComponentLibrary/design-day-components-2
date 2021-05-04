@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e2d0d5dc-606b-4c0e-8a0e-401238b61ca3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {30b9b272-f5da-4165-a189-5bf18bdfaf18}, ! Handle
+  Paducah Barkley Regional Ap Ann Htg 99% Condns DB, ! Name
+  -9.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99844,                                  ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {480ec553-fffb-466a-9a39-fe44cd6c0825}, ! Handle
+  Component Data 1,                       ! Name
+  {ca564159-d9ce-40eb-8988-a0d8da915946}, ! UUID
+  {ff8561ac-60ab-4495-8fff-0bd58dfbae9b}, ! Version UUID
+  1366307678,                             ! Creation Timestamp
+  1366307678,                             ! Version Timestamp
+  {30b9b272-f5da-4165-a189-5bf18bdfaf18}; ! Name of Object 1
+

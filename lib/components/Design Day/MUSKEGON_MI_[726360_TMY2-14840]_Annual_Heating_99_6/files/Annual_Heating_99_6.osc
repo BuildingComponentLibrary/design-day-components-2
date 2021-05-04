@@ -1,0 +1,36 @@
+
+OS:Version,
+  {42d46611-8b92-4b81-b074-881583b09770}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b5c6c8c7-2323-4581-a737-467a516e6abf}, ! Handle
+  MUSKEGON Ann Htg 99.6% Condns DB,       ! Name
+  -15.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99051,                                  ! Barometric Pressure {Pa}
+  4.5,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bf348f48-7216-4774-8f80-92ac0a80944d}, ! Handle
+  Component Data 1,                       ! Name
+  {a4f9bd6d-9b12-4d04-b947-0ade835d8866}, ! UUID
+  {109daee2-237f-4e1d-ab26-5f00f9457a74}, ! Version UUID
+  1366308071,                             ! Creation Timestamp
+  1366308071,                             ! Version Timestamp
+  {b5c6c8c7-2323-4581-a737-467a516e6abf}; ! Name of Object 1
+

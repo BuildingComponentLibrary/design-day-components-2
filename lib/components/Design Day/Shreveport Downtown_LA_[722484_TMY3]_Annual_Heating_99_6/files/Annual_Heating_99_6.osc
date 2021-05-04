@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8301cc64-6013-43d1-b60a-4724176ea001}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {08437331-5c64-430b-9e7b-e93f42d1e6c8}, ! Handle
+  Shreveport Downtown Ann Htg 99.6% Condns DB, ! Name
+  -2.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100666,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8a6d803d-b322-4c93-a058-fb55dcff0e3c}, ! Handle
+  Component Data 1,                       ! Name
+  {5d3e9736-e9d6-4655-8ece-66b63d43223e}, ! UUID
+  {6d4745b0-c904-4d36-b698-121eed964183}, ! Version UUID
+  1366307765,                             ! Creation Timestamp
+  1366307765,                             ! Version Timestamp
+  {08437331-5c64-430b-9e7b-e93f42d1e6c8}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bf31f62b-fd55-4349-b2ab-8613f1d43635}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eaf3f599-74de-4fba-bd18-70fdfc25aa48}, ! Handle
+  Ukiah Municipal Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  6.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99075,                                  ! Barometric Pressure {Pa}
+  0.2,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {db7ef75f-b51b-4f15-a69a-6eac314335d2}, ! Handle
+  Component Data 1,                       ! Name
+  {e43a7f3c-ccdf-44ac-9041-dd2bf095270e}, ! UUID
+  {d16b405e-4f64-4042-ae4e-cc3d1b30f27d}, ! Version UUID
+  1366306628,                             ! Creation Timestamp
+  1366306628,                             ! Version Timestamp
+  {eaf3f599-74de-4fba-bd18-70fdfc25aa48}; ! Name of Object 1
+

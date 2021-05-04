@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3ea41288-7ab6-4c27-a8ab-d05158ee1134}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ae32f514-f2ab-42e7-8730-cabaa7ed86d9}, ! Handle
+  North Bend Muni Airport Ann Htg 99.6% Condns DB, ! Name
+  -0.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d1cf5578-583f-4964-be7a-8352299049c5}, ! Handle
+  Component Data 1,                       ! Name
+  {7059471c-66c3-4b51-91d6-e4f6533872c5}, ! UUID
+  {2ecd6e42-23db-4ed1-a97a-0ff7172735cf}, ! Version UUID
+  1366310053,                             ! Creation Timestamp
+  1366310053,                             ! Version Timestamp
+  {ae32f514-f2ab-42e7-8730-cabaa7ed86d9}; ! Name of Object 1
+

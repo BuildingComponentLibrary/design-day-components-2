@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ac392ef4-de38-4e46-9848-943d1eed88db}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cd259adc-e156-414d-9523-75545d70ef95}, ! Handle
+  Mcconnell Afb Ann Htg 99.6% Condns DB,  ! Name
+  -14.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96449,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0691706a-7d31-4c54-ba70-3d4340468220}, ! Handle
+  Component Data 1,                       ! Name
+  {e8d6512a-cdff-410d-9813-84a508fd7540}, ! UUID
+  {b1c80cd1-de47-4129-92e7-c23f4de88209}, ! Version UUID
+  1366307598,                             ! Creation Timestamp
+  1366307598,                             ! Version Timestamp
+  {cd259adc-e156-414d-9523-75545d70ef95}; ! Name of Object 1
+
